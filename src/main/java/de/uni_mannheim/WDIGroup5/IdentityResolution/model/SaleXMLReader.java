@@ -1,4 +1,14 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.model;
 
-public class SaleXMLReader {
+import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
+import org.w3c.dom.Node;
+
+public class SaleXMLReader extends XMLMatchableReader<Sale, Attribute> {
+
+
+    @Override
+    public Sale createModelFromElement(Node node, String s) {
+        return null;
+    }
 }
