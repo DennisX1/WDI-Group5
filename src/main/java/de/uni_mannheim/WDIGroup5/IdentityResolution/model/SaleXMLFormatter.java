@@ -8,11 +8,11 @@ public class SaleXMLFormatter extends XMLFormatter<Sale> {
 
     @Override
     public Element createRootElement(Document document) {
-        return null;
+        return document.createElement("Sale");
     }
 
     @Override
-    public Element createElementFromRecord(Sale sale, Document document) {
+    public Element createElementFromRecord(Sale record, Document document) {
         return null;
     }
 }

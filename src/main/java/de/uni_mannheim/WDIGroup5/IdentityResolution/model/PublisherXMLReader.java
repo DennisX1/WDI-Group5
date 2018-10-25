@@ -9,7 +9,19 @@ public class PublisherXMLReader extends XMLMatchableReader<Publisher, Attribute>
 
 
     @Override
-    public Publisher createModelFromElement(Node node, String s) {
-        return null;
+    public Publisher createModelFromElement(Node node, String provenanceInfo) {
+
+        String id = getValueFromChildElement(node, "ID");
+
+        Publisher publisher = new Publisher(id,provenanceInfo);
+
+        //fill String attributes
+        publisher.setPublisherName(getValueFromChildElement(node,"PublisherName"));
+        publisher.setHeadQuarters(getValueFromChildElement(node,"HeadQuarters"));
+        publisher.setNotableGamesPublished(getValueFromChildElement(node,"NotableGamesPublished"));
+        publisher.setNotes(getValueFromChildElement(node,"Notes"));
+
+
+        return publisher;
     }
 }

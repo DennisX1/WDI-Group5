@@ -8,6 +8,7 @@ import java.util.List;
 public class Game implements Matchable {
 
 protected String id;
+protected String provenance;
 private String gameTitle;
 private List <Publisher> publisherList;
 private String genre;
@@ -19,8 +20,9 @@ private List <Sale> salesList;
 
 
 
-    public Game (String identifier){
+    public Game (String identifier, String provenance){
         this.id = id;
+        this.provenance = provenance;
 
     }
 

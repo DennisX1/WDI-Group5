@@ -12,13 +12,14 @@ public class Sale extends AbstractRecord<Attribute> implements Serializable {
     private double price;
 
 
-
+    public Sale(String identifier, String provenance) {
+        super(identifier, provenance);
+    }
 
     @Override
     public boolean hasValue(Attribute attribute) {
         return false;
     }
-
 
 
     public double getJapanSales() {

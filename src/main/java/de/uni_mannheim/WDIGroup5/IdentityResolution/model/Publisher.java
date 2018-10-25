@@ -14,6 +14,10 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
     private String notes;
 
 
+    public Publisher(String identifier, String provenance){
+        super(identifier, provenance);
+    }
+
 
     @Override
     public boolean hasValue(Attribute attribute) {

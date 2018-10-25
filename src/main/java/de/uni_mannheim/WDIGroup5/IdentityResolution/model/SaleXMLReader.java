@@ -8,7 +8,12 @@ public class SaleXMLReader extends XMLMatchableReader<Sale, Attribute> {
 
 
     @Override
-    public Sale createModelFromElement(Node node, String s) {
+    public Sale createModelFromElement(Node node, String provenanceInfo) {
+        String id = getValueFromChildElement(node,"ID");
+
+        Sale sale = new Sale(id,provenanceInfo);
+
+
         return null;
     }
 }
