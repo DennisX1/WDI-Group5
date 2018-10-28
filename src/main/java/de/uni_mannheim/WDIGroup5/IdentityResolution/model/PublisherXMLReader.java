@@ -11,7 +11,7 @@ public class PublisherXMLReader extends XMLMatchableReader<Publisher, Attribute>
     @Override
     public Publisher createModelFromElement(Node node, String provenanceInfo) {
 
-        String id = getValueFromChildElement(node, "ID");
+        String id = getValueFromChildElement(node.getParentNode(), "ID");
 
         Publisher publisher = new Publisher(id,provenanceInfo);
 
@@ -20,8 +20,16 @@ public class PublisherXMLReader extends XMLMatchableReader<Publisher, Attribute>
         publisher.setHeadQuarters(getValueFromChildElement(node,"HeadQuarters"));
         publisher.setNotableGamesPublished(getValueFromChildElement(node,"NotableGamesPublished"));
         publisher.setNotes(getValueFromChildElement(node,"Notes"));
-
-
+        
+        
+        /*
+         * 
+         */
+        String establishedString = getValueFromChildElement(node, "Established");
+        int established = new Integer (establishedString);
+        
+        publisher.setEstablished(established);
+        
         return publisher;
     }
 }

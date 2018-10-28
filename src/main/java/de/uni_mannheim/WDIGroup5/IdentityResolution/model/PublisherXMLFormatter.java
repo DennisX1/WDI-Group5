@@ -23,7 +23,7 @@ public class PublisherXMLFormatter extends XMLFormatter<Publisher> {
         publisher.appendChild(createTextElement("Notes",record.getNotes(),document));
 
         //double
-        publisher.appendChild(createTextElement("Established", ((Double) record.getEstablished()).toString(),document));
+        publisher.appendChild(createTextElement("Established", ((Integer) record.getEstablished()).toString(),document));
 
         return publisher;
     }

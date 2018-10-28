@@ -2,7 +2,8 @@ package de.uni_mannheim.WDIGroup5.IdentityResolution.model;
 
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 
-import java.time.LocalDateTime;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class Game implements Matchable {
@@ -10,11 +11,17 @@ public class Game implements Matchable {
 protected String id;
 protected String provenance;
 private String gameTitle;
-private List <Publisher> publisherList;
 private String genre;
 private String platform;
-private LocalDateTime releaseDate;
+private Date releaseDate;
+private List <Publisher> publisherList;
 private List <Sale> salesList;
+
+/*
+ * This is the main class, we also use the invocation of the GameXMLReader to load and parse the data
+ * GameXMLReader invocates the other readers to create a full game entity of all datasets
+ * Afterwards we start comparing specific attributes!
+ */
 
 
 
@@ -81,11 +88,11 @@ private List <Sale> salesList;
         this.platform = platform;
     }
 
-    public LocalDateTime getReleaseDate() {
+    public Date getReleaseDate() {
         return releaseDate;
     }
 
-    public void setReleaseDate(LocalDateTime releaseDate) {
+    public void setReleaseDate(Date releaseDate) {
         this.releaseDate = releaseDate;
     }
 

@@ -9,7 +9,7 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
 
     private String publisherName;
     private String headQuarters;
-    private double established;
+    private int established;
     private String notableGamesPublished;
     private String notes;
 
@@ -43,11 +43,11 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
         this.headQuarters = headQuarters;
     }
 
-    public double getEstablished() {
+    public int getEstablished() {
         return established;
     }
 
-    public void setEstablished(double established) {
+    public void setEstablished(int established) {
         this.established = established;
     }
 
