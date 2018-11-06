@@ -46,15 +46,23 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         
         
         //Get the publisher Data
-        List<Publisher> publisher = getObjectListFromChildElement(node, "Game",
+        List <Publisher> publisherList;
+        Publisher publisher;
+        
+        publisherList = getObjectListFromChildElement(node.getFirstChild(), "Game",
 				"Publisher", new PublisherXMLReader(), provenanceInfo);
-		game.setPublisherList(publisher);
+		game.setPublisher(publisherList.get(0));
         
 
 		//Get Sales DAta
-		List<Sale> sales = getObjectListFromChildElement(node, "Game",
+		List<Sale> salesList = getObjectListFromChildElement(node, "Game",
 					"Sales", new SaleXMLReader(), provenanceInfo);
-		game.setSalesList(sales);
+		Sale sales = salesList.get(0);
+		game.setSales(sales);
+		
+		
+		
+		game.setSales(sales);
 
 
 
