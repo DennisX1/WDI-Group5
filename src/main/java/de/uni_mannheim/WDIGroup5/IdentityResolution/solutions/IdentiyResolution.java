@@ -41,8 +41,8 @@ public class IdentiyResolution {
 	    {
 		
 		System.out.println("*\n*\tLoading datasets\n*");
-		//HashedDataSet<Game, Attribute> dataPublisher = new HashedDataSet<>();
-		//new GameXMLReader().loadFromXML(new File("data/input/publisher.xml"), "/Games/Game", dataPublisher);
+		HashedDataSet<Game, Attribute> dataPublisher = new HashedDataSet<>();
+		new GameXMLReader().loadFromXML(new File("data/input/publisher.xml"), "/Games/Game", dataPublisher);
 		HashedDataSet<Game, Attribute> dataTop1000JapanSales = new HashedDataSet<>();
 		new GameXMLReader().loadFromXML(new File("data/input/top1000.xml"), "/Games/Game", dataTop1000JapanSales);
 		HashedDataSet<Game, Attribute> dataVgaGames = new HashedDataSet<>();
@@ -56,22 +56,22 @@ public class IdentiyResolution {
 		// load the gold standard (test set)
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTestTopGamelist = new MatchingGoldStandard();
-		gsTestTopGamelist.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/gold_standard_top1000_DS1_test.csv"));
+		gsTestTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_test.csv"));
 
 		MatchingGoldStandard gsTestTopPublisher = new MatchingGoldStandard();
-		gsTestTopPublisher.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/gold_standard_top1000_publisher_test.csv"));
+		gsTestTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_test.csv"));
 		
 		MatchingGoldStandard gsTestTopVga = new MatchingGoldStandard();
-		gsTestTopVga.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/gold_standard_top1000_vga_test.csv"));
+		gsTestTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_test.csv"));
 		
 		MatchingGoldStandard gsTestGamelistVga = new MatchingGoldStandard();
-		gsTestGamelistVga.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/GS_gamelist_vga_testing.csv"));
+		gsTestGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_testing.csv"));
 		
 		MatchingGoldStandard gsTestPublisherGamelist = new MatchingGoldStandard();
-		gsTestPublisherGamelist.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/GS_publisher_gamelist_testing.csv"));
+		gsTestPublisherGamelist.loadFromCSVFile(new File("data/goldstandard/GS_publisher_gamelist_testing.csv"));
 		
 		MatchingGoldStandard gsTestVgaPublisher = new MatchingGoldStandard();
-		gsTestVgaPublisher.loadFromCSVFile(new File("/IdentityRes/data/goldstandard/GS_vga_publisher_testing.csv"));
+		gsTestVgaPublisher.loadFromCSVFile(new File("data/goldstandard/GS_vga_publisher_testing.csv"));
 		
 		
 		// create a matching rule
@@ -111,8 +111,8 @@ public class IdentiyResolution {
 		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 		
 		
-		System.out.println("*\n*\tStandard Blocker: by platform\n*");
-		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+		System.out.println("*\n*\tStandard Blocker: by publisher\n*");
+		blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
 		
 		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
 

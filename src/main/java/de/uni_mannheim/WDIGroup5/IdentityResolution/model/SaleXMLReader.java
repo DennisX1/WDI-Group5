@@ -9,23 +9,43 @@ public class SaleXMLReader extends XMLMatchableReader<Sale, Attribute> {
 
     @Override
     public Sale createModelFromElement(Node salesNode, String provenanceInfo) {
-        String id = getValueFromChildElement(salesNode.getParentNode(),"ID");
+        String id = getValueFromChildElement(salesNode.getParentNode().getParentNode(),"ID");
 
         Sale sale = new Sale(id,provenanceInfo);
                 
-        String firstWeekSalesString = getValueFromChildElement(salesNode, "FirstWeekSales");
-        Double firstWeekSales = new Double(firstWeekSalesString);
+        String firstWeekSalesString = getValueFromChildElement(salesNode.getParentNode(), "FirstWeekSales");
+        if(!(firstWeekSalesString == null || firstWeekSalesString.equals("N/A"))) {
+            Double firstWeekSales = new Double(firstWeekSalesString);
+            sale.setFirstWeekSales(firstWeekSales);
+
+        }
+        else {
+        	Double firstWeekSales = 0.00;
+            sale.setFirstWeekSales(firstWeekSales);
+        }
         
-        String japanSalesString = getValueFromChildElement(salesNode, "JapanSales");
-        Double japanSales = new Double(japanSalesString);
         
-        String priceString = getValueFromChildElement(salesNode, "Price");
-        Double price = new Double(priceString);
-        
-        
-        sale.setFirstWeekSales(firstWeekSales);
-        sale.setJapanSales(japanSales);
-        sale.setPrice(price);
+        String japanSalesString = getValueFromChildElement(salesNode.getParentNode(), "JapanSales");
+        if(!(japanSalesString == null || japanSalesString.equals("N/A"))) {
+            Double japanSales = new Double(japanSalesString);
+            sale.setJapanSales(japanSales);
+
+        }
+        else {
+        	Double japanSales = 0.00;
+            sale.setJapanSales(japanSales);
+        }
+        String priceString = getValueFromChildElement(salesNode.getParentNode(), "Price");
+        if(!(priceString == null || priceString.equals("N/A"))) {
+            Double price = new Double(priceString);
+            sale.setPrice(price);
+
+        }
+        else {
+        	Double price = 0.00;
+            sale.setPrice(price);
+        }
+       
 
         return sale;
     }
