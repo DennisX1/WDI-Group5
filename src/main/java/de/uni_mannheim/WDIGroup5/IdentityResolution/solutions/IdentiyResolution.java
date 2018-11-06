@@ -41,8 +41,8 @@ public class IdentiyResolution {
 	    {
 		
 		System.out.println("*\n*\tLoading datasets\n*");
-		HashedDataSet<Game, Attribute> dataPublisher = new HashedDataSet<>();
-		new GameXMLReader().loadFromXML(new File("data/input/publisher.xml"), "/Games/Game", dataPublisher);
+		//HashedDataSet<Game, Attribute> dataPublisher = new HashedDataSet<>();
+		//new GameXMLReader().loadFromXML(new File("data/input/publisher.xml"), "/Games/Game", dataPublisher);
 		HashedDataSet<Game, Attribute> dataTop1000JapanSales = new HashedDataSet<>();
 		new GameXMLReader().loadFromXML(new File("data/input/top1000.xml"), "/Games/Game", dataTop1000JapanSales);
 		HashedDataSet<Game, Attribute> dataVgaGames = new HashedDataSet<>();
