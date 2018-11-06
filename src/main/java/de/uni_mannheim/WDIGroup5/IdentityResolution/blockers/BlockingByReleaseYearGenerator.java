@@ -10,32 +10,15 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-
-public class BlockingByPublisherName extends RecordBlockingKeyGenerator<Game, Attribute> {
-
-
-	private static final long serialVersionUID = 1L;
-
-
-	/* (non-Javadoc)
-	 * @see de.uni_mannheim.informatik.wdi.matching.blocking.generators.BlockingKeyGenerator#generateBlockingKeys(de.uni_mannheim.informatik.wdi.model.Matchable, de.uni_mannheim.informatik.wdi.model.Result, de.uni_mannheim.informatik.wdi.processing.DatasetIterator)
-	 */
+public class BlockingByReleaseYearGenerator extends RecordBlockingKeyGenerator<Game, Attribute>  {
+	
+	@SuppressWarnings("deprecation")
+	//SimpleDateFormat df = new SimpleDateFormat("yyyy");
+	//year = df.format(date);
 	@Override
 	public void generateBlockingKeys(Game record, Processable<Correspondence<Attribute, Matchable>> correspondences,
 			DataIterator<Pair<String, Game>> resultCollector) {
-
-	/*
-		String[] tokens  = record.getTitle().split(" ");
-
-		String blockingKeyValue = "";
-
-		for(int i = 0; i <= 2 && i < tokens.length; i++) {
-			blockingKeyValue += tokens[i].substring(0, Math.min(2,tokens[i].length())).toUpperCase();
-		}
-
-		resultCollector.next(new Pair<>(blockingKeyValue, record));
-	*/
+		resultCollector.next(new Pair<>(Integer.toString(record.getReleaseDate().getYear()), record));
 	}
-	
 	
 }
