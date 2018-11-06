@@ -1,4 +1,4 @@
-package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
+package de.uni_mannheim.WDIGroup5.IdentityResolution.comparators;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
