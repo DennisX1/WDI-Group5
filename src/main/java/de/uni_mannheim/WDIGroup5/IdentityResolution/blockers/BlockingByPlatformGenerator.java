@@ -11,7 +11,7 @@ import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 
-public class BlockingByPlatform extends RecordBlockingKeyGenerator<Game, Attribute> {
+public class BlockingByPlatformGenerator extends RecordBlockingKeyGenerator<Game, Attribute> {
 
 
 	private static final long serialVersionUID = 1L;
@@ -24,16 +24,8 @@ public class BlockingByPlatform extends RecordBlockingKeyGenerator<Game, Attribu
 	public void generateBlockingKeys(Game record, Processable<Correspondence<Attribute, Matchable>> correspondences,
 			DataIterator<Pair<String, Game>> resultCollector) {
 
-	
-		String[] tokens  = record.getTitle().split(" ");
 
-		String blockingKeyValue = "";
-
-		for(int i = 0; i <= 2 && i < tokens.length; i++) {
-			blockingKeyValue += tokens[i].substring(0, Math.min(2,tokens[i].length())).toUpperCase();
-		}
-
-		resultCollector.next(new Pair<>(blockingKeyValue, record));
+		resultCollector.next(new Pair<>(record.getPlatform().toLowerCase(), record));
 	
 	}
 	
