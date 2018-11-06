@@ -40,7 +40,8 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         //Fill String attribute        
         game.setGameTitle(getValueFromChildElement(node,"GameTitle"));
         game.setGenre(getValueFromChildElement(node,"Genre"));
-        game.setPlatform(getValueFromChildElement(node,"Platform"));
+        game.setPlatform(getValueFromChildElement(node,""
+        		+ "Platform"));
         
         //Parse Date - <ReleaseDate>1999-11-21</ReleaseDate>
         SimpleDateFormat relDateFormat = new SimpleDateFormat ("yyyy-MM-dd");
