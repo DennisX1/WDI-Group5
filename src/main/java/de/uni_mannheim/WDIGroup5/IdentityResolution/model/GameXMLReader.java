@@ -51,6 +51,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         
         publisherList = getObjectListFromChildElement(node.getFirstChild(), "Game",
 				"Publisher", new PublisherXMLReader(), provenanceInfo);
+        System.out.println(publisherList);
 		game.setPublisher(publisherList.get(0));
         
 

@@ -20,7 +20,7 @@ public class BlockingByPublisherNameGenerator extends RecordBlockingKeyGenerator
 	public void generateBlockingKeys(Game record, Processable<Correspondence<Attribute, Matchable>> correspondences,
 			DataIterator<Pair<String, Game>> resultCollector) {
 
-		resultCollector.next(new Pair<>(record.getPublisher().getPublisherName(), record));
+		resultCollector.next(new Pair<>(record.getPublisher().getPublisherName().toLowerCase(), record));
 	}
 	
 	

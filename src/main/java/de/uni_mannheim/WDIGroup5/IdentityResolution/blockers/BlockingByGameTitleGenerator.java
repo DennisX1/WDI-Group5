@@ -23,7 +23,7 @@ public class BlockingByGameTitleGenerator extends RecordBlockingKeyGenerator<Gam
 		String blockingKeyValue = "";
 
 		for(int i = 0; i <= 2 && i < tokens.length; i++) {
-			blockingKeyValue += tokens[i].substring(0, Math.min(2,tokens[i].length())).toUpperCase();
+			blockingKeyValue += tokens[i].substring(0, Math.min(2,tokens[i].length())).toLowerCase();
 		}
 
 		resultCollector.next(new Pair<>(blockingKeyValue, record));

@@ -1,5 +1,6 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.solutions;
 
+import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.*;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.*;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.*;
 import java.io.File;
@@ -79,17 +80,53 @@ public class IdentiyResolution {
 		// add comparators
 		matchingRule.addComparator(new GameTitleComparatorJaccard(), 1.0);
 		
-	/*
 		// create a blocker (blocking strategy)
-		Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new GameBlockingKeyByTitleGenerator());
 		
 		System.out.println("*\n*\tStandard Blocker: by title\n*");
-		testBlocker(blocker, dataAcademyAwards, dataActors, matchingRule, gsTest);
+		Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
+		
+		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
 
-		System.out.println("*\n*\tStandard Blocker: by decade\n*");
-		blocker = new StandardRecordBlocker<>(new GameBlockingKeyByDecadeGenerator());
-		testBlocker(blocker, dataAcademyAwards, dataActors, matchingRule, gsTest);
-	*/
+		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		
+		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+		System.out.println("*\n*\tStandard Blocker: by platform\n*");
+		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+		
+		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
+
+		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		
+		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+		
+		System.out.println("*\n*\tStandard Blocker: by year\n*");
+		blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
+		
+		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
+
+		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		
+		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+		
+		System.out.println("*\n*\tStandard Blocker: by platform\n*");
+		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+		
+		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
+
+		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		
+		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+		testBlocker(blocker, dataTop1000JapanSales, dataPublisher, matchingRule, gsTestTopPublisher);
+
+		testBlocker(blocker, dataPublisher, dataGameList, matchingRule, gsTestPublisherGamelist);
+
+		testBlocker(blocker, dataVgaGames, dataPublisher, matchingRule, gsTestVgaPublisher);
+
+		
 		
 	    }
 	
