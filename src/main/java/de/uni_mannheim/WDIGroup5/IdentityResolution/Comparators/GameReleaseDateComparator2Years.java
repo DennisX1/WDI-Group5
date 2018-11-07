@@ -8,7 +8,7 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
 
-public class GameReleaseDateComparator2Years implements Comparator<Game,Attribute> {
+public class GameReleaseDateComparator2Years implements Comparator<Game, Attribute> {
 
     private YearSimilarity sim = new YearSimilarity(2);
     private ComparatorLogger comparisonLog;
@@ -18,10 +18,10 @@ public class GameReleaseDateComparator2Years implements Comparator<Game,Attribut
             Game record1,
             Game record2,
             Correspondence<Attribute, Matchable> schemaCorrespondences) {
-//NOT YET DONE
-        double similarity =  0; //sim.calculate(record1.getReleaseDate(), record2.getReleaseDate());
 
-        if(this.comparisonLog != null){
+        double similarity = sim.calculate(record1.getReleaseDate(), record2.getReleaseDate());
+
+        if (this.comparisonLog != null) {
             this.comparisonLog.setComparatorName(getClass().getName());
 
             this.comparisonLog.setRecord1Value(record1.getReleaseDate().toString());

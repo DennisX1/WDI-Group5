@@ -1,5 +1,6 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
 
+import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Sale;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
@@ -31,6 +32,16 @@ public class SalesJapanSalesComparatorAbsolutDiff implements Comparator<Sale, At
         }
 
         return similarity;
+    }
+
+    @Override
+    public Attribute getFirstSchemaElement(Sale record) {
+        return null;
+    }
+
+    @Override
+    public Attribute getSecondSchemaElement(Sale record) {
+        return null;
     }
 
 

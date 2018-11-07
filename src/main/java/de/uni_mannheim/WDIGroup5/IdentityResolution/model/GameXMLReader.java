@@ -6,8 +6,13 @@ import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.temporal.ChronoField;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 /*
  * Main reader class. It is invocated after loading the data. It subsumes the other existing readers 
@@ -33,16 +38,21 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         game.setPlatform(getValueFromChildElement(node,"Platform"));
         
         //Parse Date - <ReleaseDate>1999-11-21</ReleaseDate>
-        SimpleDateFormat relDateFormat = new SimpleDateFormat ("yyyy-MM-dd");
-        String releaseDateXML = getValueFromChildElement(node, "ReleaseDate");
         try {
-        	if (releaseDateXML != null) {
-				Date releaseDate = relDateFormat.parse(releaseDateXML);
-				game.setReleaseDate(releaseDate);
-        	}
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
+            String date = getValueFromChildElement(node, "ReleaseDate");
+            if (date != null && !date.isEmpty()) {
+                DateTimeFormatter formatter = new DateTimeFormatterBuilder()
+                        .appendPattern("yyyy-MM-dd")
+                        .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
+                        .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
+                        .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
+                        .toFormatter(Locale.ENGLISH);
+                LocalDateTime dt = LocalDateTime.parse(date, formatter);
+                game.setReleaseDate(dt);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         
         
         //Get the publisher Data
