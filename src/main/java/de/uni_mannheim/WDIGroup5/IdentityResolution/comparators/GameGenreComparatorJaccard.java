@@ -1,4 +1,4 @@
-package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
+package de.uni_mannheim.WDIGroup5.IdentityResolution.comparators;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
@@ -8,8 +8,7 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 
-
-public class GamePlatformComparatorJaccard implements Comparator <Game, Attribute> {
+public class GameGenreComparatorJaccard implements Comparator <Game, Attribute> {
 
     private TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 
@@ -21,8 +20,8 @@ public class GamePlatformComparatorJaccard implements Comparator <Game, Attribut
             Game record2,
             Correspondence<Attribute, Matchable> schemaCorrespondences) {
 
-        String s1 = record1.getPlatform();
-        String s2 = record2.getPlatform();
+        String s1 = record1.getGenre();
+        String s2 = record2.getGenre();
 
         double similarity = sim.calculate(s1, s2);
 

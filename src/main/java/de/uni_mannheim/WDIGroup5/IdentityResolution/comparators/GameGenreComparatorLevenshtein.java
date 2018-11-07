@@ -1,4 +1,5 @@
-package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
+package de.uni_mannheim.WDIGroup5.IdentityResolution.comparators;
+
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
@@ -6,12 +7,11 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.EqualsSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
 
-public class GamePlatformComparatorEqual implements Comparator<Game, Attribute> {
+public class GameGenreComparatorLevenshtein implements Comparator<Game, Attribute> {
 
-
-    private EqualsSimilarity<String> sim = new EqualsSimilarity<String>();
+    private LevenshteinSimilarity sim = new LevenshteinSimilarity();
 
     private ComparatorLogger comparisonLog;
 
@@ -21,8 +21,8 @@ public class GamePlatformComparatorEqual implements Comparator<Game, Attribute> 
             Game record2,
             Correspondence<Attribute, Matchable> schemaCorrespondences) {
 
-        String s1 = record1.getPlatform();
-        String s2 = record2.getPlatform();
+        String s1 = record1.getGenre();
+        String s2 = record2.getGenre();
 
         double similarity = sim.calculate(s1, s2);
 
@@ -34,9 +34,10 @@ public class GamePlatformComparatorEqual implements Comparator<Game, Attribute> 
 
             this.comparisonLog.setSimilarity(Double.toString(similarity));
         }
-        return similarity;
-    }
 
+        return similarity;
+
+    }
 
     @Override
     public ComparatorLogger getComparisonLog() {
@@ -48,3 +49,4 @@ public class GamePlatformComparatorEqual implements Comparator<Game, Attribute> 
         this.comparisonLog = comparatorLog;
     }
 }
+

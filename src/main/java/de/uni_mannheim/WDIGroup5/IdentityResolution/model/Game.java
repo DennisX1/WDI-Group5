@@ -15,8 +15,8 @@ private String gameTitle;
 private String genre;
 private String platform;
 private LocalDateTime releaseDate;
-private List <Publisher> publisherList;
-private List <Sale> salesList;
+private Publisher publisher;
+private Sale sales;
 
 /*
  * This is the main class, we also use the invocation of the GameXMLReader to load and parse the data
@@ -65,12 +65,12 @@ private List <Sale> salesList;
         this.gameTitle = gameTitle;
     }
 
-    public List<Publisher> getPublisherList() {
-        return publisherList;
+    public Publisher getPublisher() {
+        return this.publisher;
     }
 
-    public void setPublisherList(List<Publisher> publisherList) {
-        this.publisherList = publisherList;
+    public void setPublisher(Publisher publisher) {
+        this.publisher = publisher;
     }
 
     public String getGenre() {
@@ -97,12 +97,12 @@ private List <Sale> salesList;
         this.releaseDate = releaseDate;
     }
 
-    public List<Sale> getSalesList() {
-        return salesList;
+    public Sale getSales() {
+        return sales;
     }
 
-    public void setSalesList(List<Sale> salesList) {
-        this.salesList = salesList;
+    public void setSales(Sale sales) {
+        this.sales = sales;
     }
 
 

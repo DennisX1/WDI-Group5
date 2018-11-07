@@ -1,4 +1,4 @@
-package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
+package de.uni_mannheim.WDIGroup5.IdentityResolution.comparators;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
@@ -6,11 +6,12 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 
-public class GamePlatformComparatorLevenshtein implements Comparator<Game, Attribute> {
+public class GameTitleComparatorJaccard implements Comparator<Game, Attribute> {
 
-    private LevenshteinSimilarity sim = new LevenshteinSimilarity();
+
+    private TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 
     private ComparatorLogger comparisonLog;
 
@@ -20,12 +21,12 @@ public class GamePlatformComparatorLevenshtein implements Comparator<Game, Attri
             Game record2,
             Correspondence<Attribute, Matchable> schemaCorrespondences) {
 
-        String s1 = record1.getPlatform();
-        String s2 = record2.getPlatform();
+        String s1 = record1.getGameTitle();
+        String s2 = record2.getGameTitle();
 
         double similarity = sim.calculate(s1, s2);
 
-        if (this.comparisonLog != null) {
+        if(this.comparisonLog != null){
             this.comparisonLog.setComparatorName(getClass().getName());
 
             this.comparisonLog.setRecord1Value(s1);
@@ -35,7 +36,6 @@ public class GamePlatformComparatorLevenshtein implements Comparator<Game, Attri
         }
 
         return similarity;
-
     }
 
     @Override
@@ -47,6 +47,5 @@ public class GamePlatformComparatorLevenshtein implements Comparator<Game, Attri
     public void setComparisonLog(ComparatorLogger comparatorLog) {
         this.comparisonLog = comparatorLog;
     }
+
 }
-
-

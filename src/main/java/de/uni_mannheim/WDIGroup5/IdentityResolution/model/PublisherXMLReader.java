@@ -11,24 +11,32 @@ public class PublisherXMLReader extends XMLMatchableReader<Publisher, Attribute>
     @Override
     public Publisher createModelFromElement(Node node, String provenanceInfo) {
 
-        String id = getValueFromChildElement(node.getParentNode(), "ID");
-
+        String id = getValueFromChildElement(node.getParentNode().getParentNode(), "ID");
         Publisher publisher = new Publisher(id,provenanceInfo);
 
         //fill String attributes
-        publisher.setPublisherName(getValueFromChildElement(node,"PublisherName"));
-        publisher.setHeadQuarters(getValueFromChildElement(node,"HeadQuarters"));
-        publisher.setNotableGamesPublished(getValueFromChildElement(node,"NotableGamesPublished"));
-        publisher.setNotes(getValueFromChildElement(node,"Notes"));
-        
+        publisher.setPublisherName(getValueFromChildElement(node.getParentNode(),"PublisherName"));
+        publisher.setHeadQuarters(getValueFromChildElement(node.getParentNode(),"HeadQuarters"));
+        publisher.setNotableGamesPublished(getValueFromChildElement(node.getParentNode(),"NotableGamesPublished"));
+        publisher.setNotes(getValueFromChildElement(node.getParentNode(),"Notes"));
+
         
         /*
          * 
          */
-        String establishedString = getValueFromChildElement(node, "Established");
-        int established = new Integer (establishedString);
+        String establishedString = getValueFromChildElement(node.getParentNode(), "Established");
         
-        publisher.setEstablished(established);
+        if(establishedString == null || establishedString.equals("N/A")) {
+        	int established = 0;
+            publisher.setEstablished(established);
+
+        }
+        else {
+        	int established = new Integer (establishedString);
+            publisher.setEstablished(established);
+
+
+        }
         
         return publisher;
     }

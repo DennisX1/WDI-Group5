@@ -1,4 +1,4 @@
-package de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators;
+package de.uni_mannheim.WDIGroup5.IdentityResolution.comparators;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
@@ -6,11 +6,13 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.EqualsSimilarity;
 
-public class GameReleaseDateComparator2Years implements Comparator<Game, Attribute> {
+public class GamePlatformComparatorEqual implements Comparator<Game, Attribute> {
 
-    private YearSimilarity sim = new YearSimilarity(2);
+
+    private EqualsSimilarity<String> sim = new EqualsSimilarity<String>();
+
     private ComparatorLogger comparisonLog;
 
     @Override
@@ -19,19 +21,22 @@ public class GameReleaseDateComparator2Years implements Comparator<Game, Attribu
             Game record2,
             Correspondence<Attribute, Matchable> schemaCorrespondences) {
 
-        double similarity = sim.calculate(record1.getReleaseDate(), record2.getReleaseDate());
+        String s1 = record1.getPlatform();
+        String s2 = record2.getPlatform();
+
+        double similarity = sim.calculate(s1, s2);
 
         if (this.comparisonLog != null) {
             this.comparisonLog.setComparatorName(getClass().getName());
 
-            this.comparisonLog.setRecord1Value(record1.getReleaseDate().toString());
-            this.comparisonLog.setRecord2Value(record2.getReleaseDate().toString());
+            this.comparisonLog.setRecord1Value(s1);
+            this.comparisonLog.setRecord2Value(s2);
 
             this.comparisonLog.setSimilarity(Double.toString(similarity));
         }
         return similarity;
-
     }
+
 
     @Override
     public ComparatorLogger getComparisonLog() {
@@ -42,5 +47,4 @@ public class GameReleaseDateComparator2Years implements Comparator<Game, Attribu
     public void setComparisonLog(ComparatorLogger comparatorLog) {
         this.comparisonLog = comparatorLog;
     }
-
 }

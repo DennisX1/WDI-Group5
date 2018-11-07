@@ -1,5 +1,6 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.model;
 
+import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
@@ -25,17 +26,27 @@ import org.w3c.dom.Node;
 
 public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 
-    @Override
+	@Override
+	protected void initialiseDataset(DataSet<Game, Attribute> dataset) {
+		super.initialiseDataset(dataset);
+		
+	}
+	
+	
+	
+    @SuppressWarnings("unused")
+	@Override
     public Game createModelFromElement(Node node, String provenanceInfo) {
 
         String id = getValueFromChildElement(node, "ID");
 
         Game game = new Game(id,provenanceInfo);
-
+        
         //Fill String attribute        
         game.setGameTitle(getValueFromChildElement(node,"GameTitle"));
         game.setGenre(getValueFromChildElement(node,"Genre"));
-        game.setPlatform(getValueFromChildElement(node,"Platform"));
+        game.setPlatform(getValueFromChildElement(node,""
+        		+ "Platform"));
         
         //Parse Date - <ReleaseDate>1999-11-21</ReleaseDate>
         try {
@@ -55,17 +66,34 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         }
         
         
-        //Get the publisher Data
-        List<Publisher> publisher = getObjectListFromChildElement(node, "Game",
-				"Publisher", new PublisherXMLReader(), provenanceInfo);
-		game.setPublisherList(publisher);
+        //System.out.print(node.getChildNodes().item(3).getNodeName());
+
         
+        
+        
+        
+        //Get the publisher Data
+        List <Publisher> publisherList;
+        
+        		
+        publisherList = getObjectListFromChildElement(node, "Publisher",
+				"PublisherName", new PublisherXMLReader(), provenanceInfo);
+        if(!publisherList.isEmpty()) {
+            game.setPublisher(publisherList.get(0));
 
+		} else {
+			game.setPublisher(new Publisher(id, provenanceInfo));
+		}
+        
+        
 		//Get Sales DAta
-		List<Sale> sales = getObjectListFromChildElement(node, "Game",
-					"Sales", new SaleXMLReader(), provenanceInfo);
-		game.setSalesList(sales);
+		List<Sale> salesList = getObjectListFromChildElement(node, "Sales",
+					"JapanSales", new SaleXMLReader(), provenanceInfo);
+		if(salesList != null) {
+			game.setSales(salesList.get(0));
 
+		}		
+		
 
 
         return game;
