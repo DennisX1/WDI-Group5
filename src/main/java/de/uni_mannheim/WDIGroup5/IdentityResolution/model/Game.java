@@ -3,6 +3,7 @@ package de.uni_mannheim.WDIGroup5.IdentityResolution.model;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -13,7 +14,7 @@ protected String provenance;
 private String gameTitle;
 private String genre;
 private String platform;
-private Date releaseDate;
+private LocalDateTime releaseDate;
 private Publisher publisher;
 private Sale sales;
 
@@ -88,11 +89,11 @@ private Sale sales;
         this.platform = platform;
     }
 
-    public Date getReleaseDate() {
+    public LocalDateTime getReleaseDate() {
         return releaseDate;
     }
 
-    public void setReleaseDate(Date releaseDate) {
+    public void setReleaseDate(LocalDateTime releaseDate) {
         this.releaseDate = releaseDate;
     }
 
