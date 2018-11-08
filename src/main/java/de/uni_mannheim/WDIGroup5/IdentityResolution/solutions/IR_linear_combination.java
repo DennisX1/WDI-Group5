@@ -1,7 +1,7 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.solutions;
 
-import de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators.GameGenreComparatorJaccard;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.Comparators.GameTitleComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.*;
 
 import java.io.File;
