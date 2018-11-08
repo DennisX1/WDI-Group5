@@ -8,7 +8,8 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 
-public class SalesJapanSalesComparatorAbsolutDiff implements Comparator<Game, Attribute> {
+public class SalesFirstWeekSalesComparatorAbsolutDiff implements Comparator<Game,Attribute> {
+
 
     private AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(100000);
     private ComparatorLogger comparisonLog;
@@ -16,8 +17,8 @@ public class SalesJapanSalesComparatorAbsolutDiff implements Comparator<Game, At
 
     @Override
     public double compare(Game record1, Game record2, Correspondence<Attribute, Matchable> correspondence) {
-        double s1 = record1.getSales().getJapanSales();
-        double s2 = record2.getSales().getJapanSales();
+        double s1 = record1.getSales().getFirstWeekSales();
+        double s2 = record2.getSales().getFirstWeekSales();
 
         double similarity = sim.calculate(s1, s2);
 
