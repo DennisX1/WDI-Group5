@@ -26,7 +26,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3</ID>
-		<GameTitle>Mario Kart Wii </GameTitle>
+		<GameTitle>Mario Kart Wii</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -38,7 +38,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4</ID>
-		<GameTitle>Wii Sports Resort </GameTitle>
+		<GameTitle>Wii Sports Resort</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -86,7 +86,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8</ID>
-		<GameTitle>Wii Play </GameTitle>
+		<GameTitle>Wii Play</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -98,7 +98,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9</ID>
-		<GameTitle>New Super Mario Bros. Wii </GameTitle>
+		<GameTitle>New Super Mario Bros. Wii</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -158,7 +158,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json14</ID>
-		<GameTitle>Wii Fit </GameTitle>
+		<GameTitle>Wii Fit</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -170,7 +170,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json15</ID>
-		<GameTitle>Kinect Adventures! </GameTitle>
+		<GameTitle>Kinect Adventures!</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -470,7 +470,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json40</ID>
-		<GameTitle>Call of Duty: Modern Warfare 2 </GameTitle>
+		<GameTitle>Call of Duty: Modern Warfare 2</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -506,7 +506,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json43</ID>
-		<GameTitle>Call of Duty: WWII </GameTitle>
+		<GameTitle>Call of Duty: WWII</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -518,7 +518,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json44</ID>
-		<GameTitle>Super Smash Bros. Brawl </GameTitle>
+		<GameTitle>Super Smash Bros. Brawl</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -566,7 +566,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json48</ID>
-		<GameTitle>Halo 3 </GameTitle>
+		<GameTitle>Halo 3</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -590,7 +590,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json50</ID>
-		<GameTitle>Pokémon Heart Gold / Soul Silver Version </GameTitle>
+		<GameTitle>Pokémon Heart Gold / Soul Silver Version</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -626,7 +626,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json53</ID>
-		<GameTitle>Super Mario Galaxy </GameTitle>
+		<GameTitle>Super Mario Galaxy</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -674,7 +674,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json57</ID>
-		<GameTitle>Grand Theft Auto IV </GameTitle>
+		<GameTitle>Grand Theft Auto IV</GameTitle>
 		<Publisher>
 			<PublisherName>Rockstar Games</PublisherName>
 		</Publisher>
@@ -734,7 +734,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json62</ID>
-		<GameTitle>Call of Duty: Modern Warfare 2 </GameTitle>
+		<GameTitle>Call of Duty: Modern Warfare 2</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -746,7 +746,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json63</ID>
-		<GameTitle>Grand Theft Auto IV </GameTitle>
+		<GameTitle>Grand Theft Auto IV</GameTitle>
 		<Publisher>
 			<PublisherName>Rockstar Games</PublisherName>
 		</Publisher>
@@ -842,7 +842,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json71</ID>
-		<GameTitle>Super Mario Odyssey </GameTitle>
+		<GameTitle>Super Mario Odyssey</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -1142,7 +1142,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json96</ID>
-		<GameTitle>Star Wars Battlefront (2015) </GameTitle>
+		<GameTitle>Star Wars Battlefront (2015)</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -1190,7 +1190,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json100</ID>
-		<GameTitle>The Sims 3 </GameTitle>
+		<GameTitle>The Sims 3</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -1286,7 +1286,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json108</ID>
-		<GameTitle>Super Mario Galaxy 2 </GameTitle>
+		<GameTitle>Super Mario Galaxy 2</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -1310,7 +1310,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json110</ID>
-		<GameTitle>Call of Duty: World at War </GameTitle>
+		<GameTitle>Call of Duty: World at War</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -1406,7 +1406,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json118</ID>
-		<GameTitle>The Legend of Zelda: Twilight Princess </GameTitle>
+		<GameTitle>The Legend of Zelda: Twilight Princess</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -1538,7 +1538,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json129</ID>
-		<GameTitle>Gears of War 2 </GameTitle>
+		<GameTitle>Gears of War 2</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -1550,7 +1550,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json130</ID>
-		<GameTitle>Uncharted 2: Among Thieves </GameTitle>
+		<GameTitle>Uncharted 2: Among Thieves</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -1610,7 +1610,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json135</ID>
-		<GameTitle>Red Dead Redemption </GameTitle>
+		<GameTitle>Red Dead Redemption</GameTitle>
 		<Publisher>
 			<PublisherName>Rockstar Games</PublisherName>
 		</Publisher>
@@ -1682,7 +1682,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json141</ID>
-		<GameTitle>Red Dead Redemption </GameTitle>
+		<GameTitle>Red Dead Redemption</GameTitle>
 		<Publisher>
 			<PublisherName>Rockstar Games</PublisherName>
 		</Publisher>
@@ -1766,7 +1766,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json148</ID>
-		<GameTitle>Halo 3: ODST </GameTitle>
+		<GameTitle>Halo 3: ODST</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -1778,7 +1778,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json149</ID>
-		<GameTitle>Super Mario Sunshine </GameTitle>
+		<GameTitle>Super Mario Sunshine</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -1862,7 +1862,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json156</ID>
-		<GameTitle>Gears of War </GameTitle>
+		<GameTitle>Gears of War</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -1934,7 +1934,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json162</ID>
-		<GameTitle>Metal Gear Solid 4: Guns of the Patriots </GameTitle>
+		<GameTitle>Metal Gear Solid 4: Guns of the Patriots</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -1982,7 +1982,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json166</ID>
-		<GameTitle>LittleBigPlanet </GameTitle>
+		<GameTitle>LittleBigPlanet</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -2102,7 +2102,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json176</ID>
-		<GameTitle>Assassin's Creed II </GameTitle>
+		<GameTitle>Assassin's Creed II</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -2138,7 +2138,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json179</ID>
-		<GameTitle>Assassin's Creed </GameTitle>
+		<GameTitle>Assassin's Creed</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -2246,7 +2246,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json188</ID>
-		<GameTitle>Call of Duty: World at War </GameTitle>
+		<GameTitle>Call of Duty: World at War</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -2270,7 +2270,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json190</ID>
-		<GameTitle>Final Fantasy XIII </GameTitle>
+		<GameTitle>Final Fantasy XIII</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -2342,7 +2342,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json196</ID>
-		<GameTitle>Assassin's Creed II </GameTitle>
+		<GameTitle>Assassin's Creed II</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -2378,7 +2378,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json199</ID>
-		<GameTitle>Diablo III </GameTitle>
+		<GameTitle>Diablo III</GameTitle>
 		<Publisher>
 			<PublisherName>Blizzard Entertainment</PublisherName>
 		</Publisher>
@@ -2606,7 +2606,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json218</ID>
-		<GameTitle>Resident Evil 5 </GameTitle>
+		<GameTitle>Resident Evil 5</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -2642,7 +2642,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json221</ID>
-		<GameTitle>The Legend of Zelda: Phantom Hourglass </GameTitle>
+		<GameTitle>The Legend of Zelda: Phantom Hourglass</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -2786,7 +2786,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json233</ID>
-		<GameTitle>Link's Crossbow Training </GameTitle>
+		<GameTitle>Link's Crossbow Training</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -2798,7 +2798,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json234</ID>
-		<GameTitle>Uncharted: Drake's Fortune </GameTitle>
+		<GameTitle>Uncharted: Drake's Fortune</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -2810,7 +2810,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json235</ID>
-		<GameTitle>Fallout 3 </GameTitle>
+		<GameTitle>Fallout 3</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -2894,7 +2894,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json242</ID>
-		<GameTitle>Halo 5: Guardians </GameTitle>
+		<GameTitle>Halo 5: Guardians</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -2906,7 +2906,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json243</ID>
-		<GameTitle>StarCraft II: Wings of Liberty </GameTitle>
+		<GameTitle>StarCraft II: Wings of Liberty</GameTitle>
 		<Publisher>
 			<PublisherName>Blizzard Entertainment</PublisherName>
 		</Publisher>
@@ -2930,7 +2930,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json245</ID>
-		<GameTitle>God of War (2018) </GameTitle>
+		<GameTitle>God of War (2018)</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -2942,7 +2942,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json246</ID>
-		<GameTitle>Assassin's Creed </GameTitle>
+		<GameTitle>Assassin's Creed</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -2954,7 +2954,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json247</ID>
-		<GameTitle>God of War III </GameTitle>
+		<GameTitle>God of War III</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -3086,7 +3086,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json258</ID>
-		<GameTitle>Animal Crossing: City Folk </GameTitle>
+		<GameTitle>Animal Crossing: City Folk</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -3266,7 +3266,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json273</ID>
-		<GameTitle>The Elder Scrolls IV: Oblivion </GameTitle>
+		<GameTitle>The Elder Scrolls IV: Oblivion</GameTitle>
 		<Publisher>
 			<PublisherName>Take-Two Interactive</PublisherName>
 		</Publisher>
@@ -3362,7 +3362,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json281</ID>
-		<GameTitle>Resistance: Fall of Man </GameTitle>
+		<GameTitle>Resistance: Fall of Man</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -3458,7 +3458,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json289</ID>
-		<GameTitle>Batman: Arkham Asylum </GameTitle>
+		<GameTitle>Batman: Arkham Asylum</GameTitle>
 		<Publisher>
 			<PublisherName>Eidos Interactive</PublisherName>
 		</Publisher>
@@ -3470,7 +3470,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json290</ID>
-		<GameTitle>Fable II </GameTitle>
+		<GameTitle>Fable II</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -3590,7 +3590,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json300</ID>
-		<GameTitle>Gran Turismo 5 Prologue </GameTitle>
+		<GameTitle>Gran Turismo 5 Prologue</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -3602,7 +3602,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json301</ID>
-		<GameTitle>Street Fighter IV </GameTitle>
+		<GameTitle>Street Fighter IV</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -3818,7 +3818,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json319</ID>
-		<GameTitle>Fallout: New Vegas </GameTitle>
+		<GameTitle>Fallout: New Vegas</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -3962,7 +3962,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json331</ID>
-		<GameTitle>Fallout 3 </GameTitle>
+		<GameTitle>Fallout 3</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -4010,7 +4010,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json335</ID>
-		<GameTitle>Left 4 Dead 2 </GameTitle>
+		<GameTitle>Left 4 Dead 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -4046,7 +4046,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json338</ID>
-		<GameTitle>Professor Layton and the Diabolical Box </GameTitle>
+		<GameTitle>Professor Layton and the Diabolical Box</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -4094,7 +4094,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json342</ID>
-		<GameTitle>The Sims 4 </GameTitle>
+		<GameTitle>The Sims 4</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -4178,7 +4178,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json349</ID>
-		<GameTitle>MotorStorm </GameTitle>
+		<GameTitle>MotorStorm</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -4262,7 +4262,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json356</ID>
-		<GameTitle>Forza Horizon 3 </GameTitle>
+		<GameTitle>Forza Horizon 3</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -4286,7 +4286,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json358</ID>
-		<GameTitle>Mario &amp; Luigi: Bowser's Inside Story </GameTitle>
+		<GameTitle>Mario &amp; Luigi: Bowser's Inside Story</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -4574,7 +4574,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json382</ID>
-		<GameTitle>FIFA Soccer 10 </GameTitle>
+		<GameTitle>FIFA Soccer 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -4658,7 +4658,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json389</ID>
-		<GameTitle>Gears of War: Ultimate Edition </GameTitle>
+		<GameTitle>Gears of War: Ultimate Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -4862,7 +4862,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json406</ID>
-		<GameTitle>Batman: Arkham Asylum </GameTitle>
+		<GameTitle>Batman: Arkham Asylum</GameTitle>
 		<Publisher>
 			<PublisherName>Eidos Interactive</PublisherName>
 		</Publisher>
@@ -4886,7 +4886,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json408</ID>
-		<GameTitle>Resident Evil 5 </GameTitle>
+		<GameTitle>Resident Evil 5</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -4922,7 +4922,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json411</ID>
-		<GameTitle>Left 4 Dead </GameTitle>
+		<GameTitle>Left 4 Dead</GameTitle>
 		<Publisher>
 			<PublisherName>Valve Corporation</PublisherName>
 		</Publisher>
@@ -5006,7 +5006,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json418</ID>
-		<GameTitle>Borderlands </GameTitle>
+		<GameTitle>Borderlands</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -5090,7 +5090,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json425</ID>
-		<GameTitle>LEGO Batman: The Videogame </GameTitle>
+		<GameTitle>LEGO Batman: The Videogame</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -5306,7 +5306,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json443</ID>
-		<GameTitle>Mortal Kombat X </GameTitle>
+		<GameTitle>Mortal Kombat X</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -5354,7 +5354,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json447</ID>
-		<GameTitle>The Legend of Zelda: Spirit Tracks </GameTitle>
+		<GameTitle>The Legend of Zelda: Spirit Tracks</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -5606,7 +5606,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json468</ID>
-		<GameTitle>Crisis Core: Final Fantasy VII </GameTitle>
+		<GameTitle>Crisis Core: Final Fantasy VII</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -5618,7 +5618,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json469</ID>
-		<GameTitle>God of War: Chains of Olympus </GameTitle>
+		<GameTitle>God of War: Chains of Olympus</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -5822,7 +5822,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json486</ID>
-		<GameTitle>The Elder Scrolls IV: Oblivion </GameTitle>
+		<GameTitle>The Elder Scrolls IV: Oblivion</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -5846,7 +5846,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json488</ID>
-		<GameTitle>Rhythm Heaven </GameTitle>
+		<GameTitle>Rhythm Heaven</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -5894,7 +5894,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json492</ID>
-		<GameTitle>Mass Effect 2 </GameTitle>
+		<GameTitle>Mass Effect 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -5954,7 +5954,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json497</ID>
-		<GameTitle>LEGO Batman: The Videogame </GameTitle>
+		<GameTitle>LEGO Batman: The Videogame</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -6002,7 +6002,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json501</ID>
-		<GameTitle>Heavy Rain </GameTitle>
+		<GameTitle>Heavy Rain</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -6182,7 +6182,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json516</ID>
-		<GameTitle>Killzone 2 </GameTitle>
+		<GameTitle>Killzone 2</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -6254,7 +6254,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json522</ID>
-		<GameTitle>inFAMOUS </GameTitle>
+		<GameTitle>inFAMOUS</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -6350,7 +6350,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json530</ID>
-		<GameTitle>Street Fighter IV </GameTitle>
+		<GameTitle>Street Fighter IV</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -6422,7 +6422,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json536</ID>
-		<GameTitle>Gran Turismo </GameTitle>
+		<GameTitle>Gran Turismo</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -6446,7 +6446,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json538</ID>
-		<GameTitle>Kirby Super Star Ultra </GameTitle>
+		<GameTitle>Kirby Super Star Ultra</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -6458,7 +6458,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json539</ID>
-		<GameTitle>Resident Evil VII: Biohazard </GameTitle>
+		<GameTitle>Resident Evil VII: Biohazard</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -6482,7 +6482,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json541</ID>
-		<GameTitle>Mass Effect </GameTitle>
+		<GameTitle>Mass Effect</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -6614,7 +6614,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json552</ID>
-		<GameTitle>WarioWare: Smooth Moves </GameTitle>
+		<GameTitle>WarioWare: Smooth Moves</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -6746,7 +6746,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json563</ID>
-		<GameTitle>Madden NFL 10 </GameTitle>
+		<GameTitle>Madden NFL 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -6758,7 +6758,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json564</ID>
-		<GameTitle>BioShock </GameTitle>
+		<GameTitle>BioShock</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -6782,7 +6782,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json566</ID>
-		<GameTitle>Metroid Prime </GameTitle>
+		<GameTitle>Metroid Prime</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -7214,7 +7214,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json602</ID>
-		<GameTitle>Skate 3 </GameTitle>
+		<GameTitle>Skate 3</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -7406,7 +7406,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json618</ID>
-		<GameTitle>Halo Wars </GameTitle>
+		<GameTitle>Halo Wars</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -7490,7 +7490,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json625</ID>
-		<GameTitle>Need for Speed: Shift </GameTitle>
+		<GameTitle>Need for Speed: Shift</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -7538,7 +7538,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json629</ID>
-		<GameTitle>Medal of Honor </GameTitle>
+		<GameTitle>Medal of Honor</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -7598,7 +7598,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json634</ID>
-		<GameTitle>Tekken: Dark Resurrection </GameTitle>
+		<GameTitle>Tekken: Dark Resurrection</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -7610,7 +7610,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json635</ID>
-		<GameTitle>FIFA Soccer 10 </GameTitle>
+		<GameTitle>FIFA Soccer 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -7658,7 +7658,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json639</ID>
-		<GameTitle>God of War Collection </GameTitle>
+		<GameTitle>God of War Collection</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -7826,7 +7826,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json653</ID>
-		<GameTitle>Ratchet &amp; Clank Future: Tools of Destruction </GameTitle>
+		<GameTitle>Ratchet &amp; Clank Future: Tools of Destruction</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -7874,7 +7874,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json657</ID>
-		<GameTitle>Dragon Age: Origins </GameTitle>
+		<GameTitle>Dragon Age: Origins</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -8222,7 +8222,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json686</ID>
-		<GameTitle>Rock Band </GameTitle>
+		<GameTitle>Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -8234,7 +8234,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json687</ID>
-		<GameTitle>Resistance 2 </GameTitle>
+		<GameTitle>Resistance 2</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -8438,7 +8438,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json704</ID>
-		<GameTitle>Kinect: Disneyland Adventures </GameTitle>
+		<GameTitle>Kinect: Disneyland Adventures</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -8738,7 +8738,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json729</ID>
-		<GameTitle>Driveclub </GameTitle>
+		<GameTitle>Driveclub</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -8798,7 +8798,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json734</ID>
-		<GameTitle>Madden NFL 10 </GameTitle>
+		<GameTitle>Madden NFL 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -9386,7 +9386,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json783</ID>
-		<GameTitle>Dissidia: Final Fantasy </GameTitle>
+		<GameTitle>Dissidia: Final Fantasy</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -9482,7 +9482,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json791</ID>
-		<GameTitle>Monster Hunter Tri </GameTitle>
+		<GameTitle>Monster Hunter Tri</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -9626,7 +9626,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json803</ID>
-		<GameTitle>Rock Band 2 </GameTitle>
+		<GameTitle>Rock Band 2</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -9662,7 +9662,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json806</ID>
-		<GameTitle>BioShock 2 </GameTitle>
+		<GameTitle>BioShock 2</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -9686,7 +9686,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json808</ID>
-		<GameTitle>Final Fantasy XIII </GameTitle>
+		<GameTitle>Final Fantasy XIII</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -9854,7 +9854,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json822</ID>
-		<GameTitle>Scribblenauts </GameTitle>
+		<GameTitle>Scribblenauts</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -10022,7 +10022,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json836</ID>
-		<GameTitle>Mario + Rabbids: Kingdom Battle </GameTitle>
+		<GameTitle>Mario + Rabbids: Kingdom Battle</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -10082,7 +10082,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json841</ID>
-		<GameTitle>Borderlands </GameTitle>
+		<GameTitle>Borderlands</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -10718,7 +10718,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json894</ID>
-		<GameTitle>Tom Clancy's Splinter Cell: Conviction </GameTitle>
+		<GameTitle>Tom Clancy's Splinter Cell: Conviction</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -10742,7 +10742,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json896</ID>
-		<GameTitle>Need for Speed: Undercover </GameTitle>
+		<GameTitle>Need for Speed: Undercover</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -10922,7 +10922,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json911</ID>
-		<GameTitle>Skate 3 </GameTitle>
+		<GameTitle>Skate 3</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -10946,7 +10946,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json913</ID>
-		<GameTitle>Rayman Raving Rabbids: TV Party </GameTitle>
+		<GameTitle>Rayman Raving Rabbids: TV Party</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -11066,7 +11066,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json923</ID>
-		<GameTitle>Dead Space </GameTitle>
+		<GameTitle>Dead Space</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -11186,7 +11186,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json933</ID>
-		<GameTitle>Kingdom Hearts 358/2 Days </GameTitle>
+		<GameTitle>Kingdom Hearts 358/2 Days</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -11582,7 +11582,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json966</ID>
-		<GameTitle>Call of Duty: World at War </GameTitle>
+		<GameTitle>Call of Duty: World at War</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -11762,7 +11762,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json981</ID>
-		<GameTitle>Need for Speed: Shift </GameTitle>
+		<GameTitle>Need for Speed: Shift</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -11870,7 +11870,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json990</ID>
-		<GameTitle>Ratchet &amp; Clank Future: A Crack in Time </GameTitle>
+		<GameTitle>Ratchet &amp; Clank Future: A Crack in Time</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -12062,7 +12062,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1006</ID>
-		<GameTitle>Star Wars: The Force Unleashed </GameTitle>
+		<GameTitle>Star Wars: The Force Unleashed</GameTitle>
 		<Publisher>
 			<PublisherName>LucasArts</PublisherName>
 		</Publisher>
@@ -12422,7 +12422,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1036</ID>
-		<GameTitle>Demon's Souls </GameTitle>
+		<GameTitle>Demon's Souls</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -13010,7 +13010,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1085</ID>
-		<GameTitle>Just Cause 2 </GameTitle>
+		<GameTitle>Just Cause 2</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -13370,7 +13370,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1115</ID>
-		<GameTitle>The Beatles: Rock Band </GameTitle>
+		<GameTitle>The Beatles: Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -13694,7 +13694,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1142</ID>
-		<GameTitle>Need for Speed: Undercover </GameTitle>
+		<GameTitle>Need for Speed: Undercover</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -13958,7 +13958,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1164</ID>
-		<GameTitle>Dragon Age: Origins </GameTitle>
+		<GameTitle>Dragon Age: Origins</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -14126,7 +14126,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1178</ID>
-		<GameTitle>Shaun White Snowboarding: Road Trip </GameTitle>
+		<GameTitle>Shaun White Snowboarding: Road Trip</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -14498,7 +14498,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1209</ID>
-		<GameTitle>Dead Rising 3 </GameTitle>
+		<GameTitle>Dead Rising 3</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -14558,7 +14558,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1214</ID>
-		<GameTitle>Kinectimals </GameTitle>
+		<GameTitle>Kinectimals</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -14570,7 +14570,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1215</ID>
-		<GameTitle>Viva Pinata </GameTitle>
+		<GameTitle>Viva Pinata</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -14642,7 +14642,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1221</ID>
-		<GameTitle>Rock Band </GameTitle>
+		<GameTitle>Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -14666,7 +14666,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1223</ID>
-		<GameTitle>Dragon Quest IV: Chapters of the Chosen </GameTitle>
+		<GameTitle>Dragon Quest IV: Chapters of the Chosen</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -14846,7 +14846,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1238</ID>
-		<GameTitle>Just Cause 2 </GameTitle>
+		<GameTitle>Just Cause 2</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -14942,7 +14942,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1246</ID>
-		<GameTitle>Far Cry 2 </GameTitle>
+		<GameTitle>Far Cry 2</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -15218,7 +15218,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1269</ID>
-		<GameTitle>Dragon Quest V: Hand of the Heavenly Bride </GameTitle>
+		<GameTitle>Dragon Quest V: Hand of the Heavenly Bride</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -15470,7 +15470,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1290</ID>
-		<GameTitle>BioShock 2 </GameTitle>
+		<GameTitle>BioShock 2</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -15722,7 +15722,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1311</ID>
-		<GameTitle>Resident Evil: The Umbrella Chronicles </GameTitle>
+		<GameTitle>Resident Evil: The Umbrella Chronicles</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -15962,7 +15962,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1331</ID>
-		<GameTitle>Call of Duty: Modern Warfare: Reflex Edition </GameTitle>
+		<GameTitle>Call of Duty: Modern Warfare: Reflex Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -16010,7 +16010,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1335</ID>
-		<GameTitle>Kirby Star Allies </GameTitle>
+		<GameTitle>Kirby Star Allies</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -16262,7 +16262,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1356</ID>
-		<GameTitle>Rock Band 2 </GameTitle>
+		<GameTitle>Rock Band 2</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -16274,7 +16274,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1357</ID>
-		<GameTitle>Football Manager 2012 </GameTitle>
+		<GameTitle>Football Manager 2012</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -16814,7 +16814,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1402</ID>
-		<GameTitle>Resident Evil 4: Wii Edition </GameTitle>
+		<GameTitle>Resident Evil 4: Wii Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -16850,7 +16850,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1405</ID>
-		<GameTitle>Tekken 7 </GameTitle>
+		<GameTitle>Tekken 7</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai Games</PublisherName>
 		</Publisher>
@@ -17042,7 +17042,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1421</ID>
-		<GameTitle>Sonic &amp; SEGA All-Stars Racing </GameTitle>
+		<GameTitle>Sonic &amp; SEGA All-Stars Racing</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -17102,7 +17102,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1426</ID>
-		<GameTitle>BioShock </GameTitle>
+		<GameTitle>BioShock</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -17774,7 +17774,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1482</ID>
-		<GameTitle>Dead Space </GameTitle>
+		<GameTitle>Dead Space</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -17990,7 +17990,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1500</ID>
-		<GameTitle>Far Cry 2 </GameTitle>
+		<GameTitle>Far Cry 2</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -18170,7 +18170,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1515</ID>
-		<GameTitle>Final Fantasy XII: Revenant Wings </GameTitle>
+		<GameTitle>Final Fantasy XII: Revenant Wings</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -18398,7 +18398,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1534</ID>
-		<GameTitle>Gardening Mama </GameTitle>
+		<GameTitle>Gardening Mama</GameTitle>
 		<Publisher>
 			<PublisherName>Majesco</PublisherName>
 		</Publisher>
@@ -18458,7 +18458,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1539</ID>
-		<GameTitle>Hasbro Family Game Night 2 </GameTitle>
+		<GameTitle>Hasbro Family Game Night 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -18482,7 +18482,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1541</ID>
-		<GameTitle>MotorStorm: Pacific Rift </GameTitle>
+		<GameTitle>MotorStorm: Pacific Rift</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -18686,7 +18686,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1558</ID>
-		<GameTitle>Chrono Trigger </GameTitle>
+		<GameTitle>Chrono Trigger</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -18770,7 +18770,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1565</ID>
-		<GameTitle>The ICO &amp; Shadow of the Colossus Collection </GameTitle>
+		<GameTitle>The ICO &amp; Shadow of the Colossus Collection</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -18878,7 +18878,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1574</ID>
-		<GameTitle>Alan Wake </GameTitle>
+		<GameTitle>Alan Wake</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -18998,7 +18998,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1584</ID>
-		<GameTitle>Grand Theft Auto: Chinatown Wars </GameTitle>
+		<GameTitle>Grand Theft Auto: Chinatown Wars</GameTitle>
 		<Publisher>
 			<PublisherName>Rockstar Games</PublisherName>
 		</Publisher>
@@ -19058,7 +19058,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1589</ID>
-		<GameTitle>Your Shape: Fitness Evolved </GameTitle>
+		<GameTitle>Your Shape: Fitness Evolved</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -19118,7 +19118,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1594</ID>
-		<GameTitle>MAG: Massive Action Game </GameTitle>
+		<GameTitle>MAG: Massive Action Game</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -19190,7 +19190,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1600</ID>
-		<GameTitle>Forza Motorsport 7 </GameTitle>
+		<GameTitle>Forza Motorsport 7</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -19322,7 +19322,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1611</ID>
-		<GameTitle>LEGO Batman: The Videogame </GameTitle>
+		<GameTitle>LEGO Batman: The Videogame</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -19382,7 +19382,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1616</ID>
-		<GameTitle>The Beatles: Rock Band </GameTitle>
+		<GameTitle>The Beatles: Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -19502,7 +19502,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1626</ID>
-		<GameTitle>LEGO Batman: The Videogame </GameTitle>
+		<GameTitle>LEGO Batman: The Videogame</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -19694,7 +19694,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1642</ID>
-		<GameTitle>Street Fighter V </GameTitle>
+		<GameTitle>Street Fighter V</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -19802,7 +19802,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1651</ID>
-		<GameTitle>Project CARS </GameTitle>
+		<GameTitle>Project CARS</GameTitle>
 		<Publisher>
 			<PublisherName>Bandai Namco Games</PublisherName>
 		</Publisher>
@@ -19958,7 +19958,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1664</ID>
-		<GameTitle>Valkyria Chronicles </GameTitle>
+		<GameTitle>Valkyria Chronicles</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -19970,7 +19970,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1665</ID>
-		<GameTitle>LEGO Batman: The Videogame </GameTitle>
+		<GameTitle>LEGO Batman: The Videogame</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -20342,7 +20342,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1696</ID>
-		<GameTitle>Assassin's Creed: Bloodlines </GameTitle>
+		<GameTitle>Assassin's Creed: Bloodlines</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -21206,7 +21206,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1768</ID>
-		<GameTitle>Final Fantasy IV </GameTitle>
+		<GameTitle>Final Fantasy IV</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -21290,7 +21290,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1775</ID>
-		<GameTitle>Wolfenstein II: The New Colossus </GameTitle>
+		<GameTitle>Wolfenstein II: The New Colossus</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -21302,7 +21302,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1776</ID>
-		<GameTitle>Bayonetta </GameTitle>
+		<GameTitle>Bayonetta</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -21422,7 +21422,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1786</ID>
-		<GameTitle>Boom Blox </GameTitle>
+		<GameTitle>Boom Blox</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -21914,7 +21914,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1827</ID>
-		<GameTitle>Mario Tennis Aces </GameTitle>
+		<GameTitle>Mario Tennis Aces</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -22382,7 +22382,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1866</ID>
-		<GameTitle>Final Fantasy Tactics: The War of the Lions </GameTitle>
+		<GameTitle>Final Fantasy Tactics: The War of the Lions</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -22394,7 +22394,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1867</ID>
-		<GameTitle>Mirror's Edge </GameTitle>
+		<GameTitle>Mirror's Edge</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -22562,7 +22562,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1881</ID>
-		<GameTitle>Wario Land: Shake It! </GameTitle>
+		<GameTitle>Wario Land: Shake It!</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -22862,7 +22862,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1906</ID>
-		<GameTitle>Shadow of the Colossus </GameTitle>
+		<GameTitle>Shadow of the Colossus</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -23090,7 +23090,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1925</ID>
-		<GameTitle>Mirror's Edge </GameTitle>
+		<GameTitle>Mirror's Edge</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -23246,7 +23246,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1938</ID>
-		<GameTitle>Rabbids Go Home </GameTitle>
+		<GameTitle>Rabbids Go Home</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -23258,7 +23258,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1939</ID>
-		<GameTitle>Dragon Ball FighterZ </GameTitle>
+		<GameTitle>Dragon Ball FighterZ</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai Games</PublisherName>
 		</Publisher>
@@ -23354,7 +23354,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1947</ID>
-		<GameTitle>Yakuza 3 </GameTitle>
+		<GameTitle>Yakuza 3</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -23390,7 +23390,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1950</ID>
-		<GameTitle>The Beatles: Rock Band </GameTitle>
+		<GameTitle>The Beatles: Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -23654,7 +23654,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1972</ID>
-		<GameTitle>Lumines: Puzzle Fusion </GameTitle>
+		<GameTitle>Lumines: Puzzle Fusion</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -23858,7 +23858,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1989</ID>
-		<GameTitle>GRID </GameTitle>
+		<GameTitle>GRID</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -23882,7 +23882,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json1991</ID>
-		<GameTitle>SingStar Legends </GameTitle>
+		<GameTitle>SingStar Legends</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -24134,7 +24134,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2012</ID>
-		<GameTitle>DJ Hero </GameTitle>
+		<GameTitle>DJ Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -24242,7 +24242,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2021</ID>
-		<GameTitle>Skate 2 </GameTitle>
+		<GameTitle>Skate 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -24326,7 +24326,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2028</ID>
-		<GameTitle>Dante's Inferno </GameTitle>
+		<GameTitle>Dante's Inferno</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -24566,7 +24566,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2048</ID>
-		<GameTitle>Prince of Persia </GameTitle>
+		<GameTitle>Prince of Persia</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -24602,7 +24602,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2051</ID>
-		<GameTitle>Tiger Woods PGA Tour 10 </GameTitle>
+		<GameTitle>Tiger Woods PGA Tour 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -24710,7 +24710,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2060</ID>
-		<GameTitle>Naruto: Ultimate Ninja Storm </GameTitle>
+		<GameTitle>Naruto: Ultimate Ninja Storm</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -24890,7 +24890,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2075</ID>
-		<GameTitle>Endless Ocean </GameTitle>
+		<GameTitle>Endless Ocean</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -24950,7 +24950,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2080</ID>
-		<GameTitle>Aliens vs Predator </GameTitle>
+		<GameTitle>Aliens vs Predator</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -24998,7 +24998,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2084</ID>
-		<GameTitle>Darksiders </GameTitle>
+		<GameTitle>Darksiders</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -25034,7 +25034,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2087</ID>
-		<GameTitle>Donkey Kong Country: Tropical Freeze </GameTitle>
+		<GameTitle>Donkey Kong Country: Tropical Freeze</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -25070,7 +25070,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2090</ID>
-		<GameTitle>DiRT </GameTitle>
+		<GameTitle>DiRT</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -25262,7 +25262,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2106</ID>
-		<GameTitle>MySims Agents </GameTitle>
+		<GameTitle>MySims Agents</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -25430,7 +25430,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2120</ID>
-		<GameTitle>Aliens vs Predator </GameTitle>
+		<GameTitle>Aliens vs Predator</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -25586,7 +25586,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2133</ID>
-		<GameTitle>Detroit: Become Human </GameTitle>
+		<GameTitle>Detroit: Become Human</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -25598,7 +25598,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2134</ID>
-		<GameTitle>MotorStorm: Arctic Edge </GameTitle>
+		<GameTitle>MotorStorm: Arctic Edge</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -25766,7 +25766,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2148</ID>
-		<GameTitle>Middle-Earth: Shadow of War </GameTitle>
+		<GameTitle>Middle-Earth: Shadow of War</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -26066,7 +26066,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2173</ID>
-		<GameTitle>Rock Band 2 </GameTitle>
+		<GameTitle>Rock Band 2</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -26294,7 +26294,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2192</ID>
-		<GameTitle>Prince of Persia </GameTitle>
+		<GameTitle>Prince of Persia</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -26414,7 +26414,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2202</ID>
-		<GameTitle>NERF N-Strike Elite </GameTitle>
+		<GameTitle>NERF N-Strike Elite</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -26822,7 +26822,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2236</ID>
-		<GameTitle>DiRT 2 </GameTitle>
+		<GameTitle>DiRT 2</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -26846,7 +26846,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2238</ID>
-		<GameTitle>Apollo Justice: Ace Attorney </GameTitle>
+		<GameTitle>Apollo Justice: Ace Attorney</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -27170,7 +27170,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2265</ID>
-		<GameTitle>Fallout 3 </GameTitle>
+		<GameTitle>Fallout 3</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -27278,7 +27278,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2274</ID>
-		<GameTitle>Brutal Legend </GameTitle>
+		<GameTitle>Brutal Legend</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -27758,7 +27758,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2314</ID>
-		<GameTitle>Sonic &amp; SEGA All-Stars Racing </GameTitle>
+		<GameTitle>Sonic &amp; SEGA All-Stars Racing</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -27938,7 +27938,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2329</ID>
-		<GameTitle>Lost Planet 2 </GameTitle>
+		<GameTitle>Lost Planet 2</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -27998,7 +27998,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2334</ID>
-		<GameTitle>White Knight Chronicles: International Edition </GameTitle>
+		<GameTitle>White Knight Chronicles: International Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -28106,7 +28106,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2343</ID>
-		<GameTitle>Brutal Legend </GameTitle>
+		<GameTitle>Brutal Legend</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -28514,7 +28514,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2377</ID>
-		<GameTitle>Bayonetta </GameTitle>
+		<GameTitle>Bayonetta</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -28634,7 +28634,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2387</ID>
-		<GameTitle>Phoenix Wright: Ace Attorney </GameTitle>
+		<GameTitle>Phoenix Wright: Ace Attorney</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -28718,7 +28718,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2394</ID>
-		<GameTitle>Dante's Inferno </GameTitle>
+		<GameTitle>Dante's Inferno</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -28934,7 +28934,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2412</ID>
-		<GameTitle>BUZZ! Quiz World </GameTitle>
+		<GameTitle>BUZZ! Quiz World</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -29270,7 +29270,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2440</ID>
-		<GameTitle>DJ Hero </GameTitle>
+		<GameTitle>DJ Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -29378,7 +29378,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2449</ID>
-		<GameTitle>Killzone: Liberation </GameTitle>
+		<GameTitle>Killzone: Liberation</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -29978,7 +29978,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2499</ID>
-		<GameTitle>Buzz! Quiz TV </GameTitle>
+		<GameTitle>Buzz! Quiz TV</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -29990,7 +29990,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2500</ID>
-		<GameTitle>F1 2010 </GameTitle>
+		<GameTitle>F1 2010</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -30002,7 +30002,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2501</ID>
-		<GameTitle>Call of Juarez: Bound in Blood </GameTitle>
+		<GameTitle>Call of Juarez: Bound in Blood</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -30458,7 +30458,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2539</ID>
-		<GameTitle>GRID </GameTitle>
+		<GameTitle>GRID</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -30470,7 +30470,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2540</ID>
-		<GameTitle>DiRT </GameTitle>
+		<GameTitle>DiRT</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -30602,7 +30602,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2551</ID>
-		<GameTitle>Ghostbusters: The Video Game </GameTitle>
+		<GameTitle>Ghostbusters: The Video Game</GameTitle>
 		<Publisher>
 			<PublisherName>Atari</PublisherName>
 		</Publisher>
@@ -30986,7 +30986,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2583</ID>
-		<GameTitle>Ninja Gaiden Sigma 2 </GameTitle>
+		<GameTitle>Ninja Gaiden Sigma 2</GameTitle>
 		<Publisher>
 			<PublisherName>Tecmo Koei</PublisherName>
 		</Publisher>
@@ -31070,7 +31070,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2590</ID>
-		<GameTitle>The Legendary Starfy </GameTitle>
+		<GameTitle>The Legendary Starfy</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -31142,7 +31142,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2596</ID>
-		<GameTitle>The House of the Dead: Overkill </GameTitle>
+		<GameTitle>The House of the Dead: Overkill</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -31178,7 +31178,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2599</ID>
-		<GameTitle>Ghostbusters: The Video Game </GameTitle>
+		<GameTitle>Ghostbusters: The Video Game</GameTitle>
 		<Publisher>
 			<PublisherName>Atari</PublisherName>
 		</Publisher>
@@ -31262,7 +31262,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2606</ID>
-		<GameTitle>Skate 2 </GameTitle>
+		<GameTitle>Skate 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -31610,7 +31610,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2635</ID>
-		<GameTitle>Need for Speed: Nitro </GameTitle>
+		<GameTitle>Need for Speed: Nitro</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -31718,7 +31718,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2644</ID>
-		<GameTitle>WWE SmackDown vs. Raw 2009 </GameTitle>
+		<GameTitle>WWE SmackDown vs. Raw 2009</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -32162,7 +32162,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2681</ID>
-		<GameTitle>Patapon </GameTitle>
+		<GameTitle>Patapon</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -32198,7 +32198,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2684</ID>
-		<GameTitle>Shin Megami Tensei: Persona 4 </GameTitle>
+		<GameTitle>Shin Megami Tensei: Persona 4</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -32402,7 +32402,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2701</ID>
-		<GameTitle>Shaun White Snowboarding </GameTitle>
+		<GameTitle>Shaun White Snowboarding</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -32774,7 +32774,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2732</ID>
-		<GameTitle>DiRT 2 </GameTitle>
+		<GameTitle>DiRT 2</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -33218,7 +33218,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2769</ID>
-		<GameTitle>Band Hero </GameTitle>
+		<GameTitle>Band Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -33290,7 +33290,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2775</ID>
-		<GameTitle>The Godfather II </GameTitle>
+		<GameTitle>The Godfather II</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -33326,7 +33326,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2778</ID>
-		<GameTitle>Star Ocean: The Last Hope </GameTitle>
+		<GameTitle>Star Ocean: The Last Hope</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -33362,7 +33362,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2781</ID>
-		<GameTitle>MadWorld </GameTitle>
+		<GameTitle>MadWorld</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -33386,7 +33386,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2783</ID>
-		<GameTitle>Too Human </GameTitle>
+		<GameTitle>Too Human</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Game Studios</PublisherName>
 		</Publisher>
@@ -33470,7 +33470,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2790</ID>
-		<GameTitle>The World Ends With You </GameTitle>
+		<GameTitle>The World Ends With You</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -33530,7 +33530,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2795</ID>
-		<GameTitle>Sid Meier's Civilization Revolution </GameTitle>
+		<GameTitle>Sid Meier's Civilization Revolution</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -33578,7 +33578,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2799</ID>
-		<GameTitle>Shadow of the Colossus </GameTitle>
+		<GameTitle>Shadow of the Colossus</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -33662,7 +33662,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2806</ID>
-		<GameTitle>DJ Hero </GameTitle>
+		<GameTitle>DJ Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -33698,7 +33698,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2809</ID>
-		<GameTitle>Rare Replay </GameTitle>
+		<GameTitle>Rare Replay</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -34274,7 +34274,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2857</ID>
-		<GameTitle>Sonic &amp; SEGA All-Stars Racing with Banjo-Kazooie </GameTitle>
+		<GameTitle>Sonic &amp; SEGA All-Stars Racing with Banjo-Kazooie</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -34298,7 +34298,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2859</ID>
-		<GameTitle>Injustice 2 </GameTitle>
+		<GameTitle>Injustice 2</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -34418,7 +34418,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2869</ID>
-		<GameTitle>Battlefield 1 </GameTitle>
+		<GameTitle>Battlefield 1</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -34430,7 +34430,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2870</ID>
-		<GameTitle>Band Hero </GameTitle>
+		<GameTitle>Band Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -34658,7 +34658,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2889</ID>
-		<GameTitle>Lost Planet 2 </GameTitle>
+		<GameTitle>Lost Planet 2</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -35114,7 +35114,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2927</ID>
-		<GameTitle>Final Fantasy Tactics A2: Grimoire of the Rift </GameTitle>
+		<GameTitle>Final Fantasy Tactics A2: Grimoire of the Rift</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -35246,7 +35246,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2938</ID>
-		<GameTitle>The Godfather II </GameTitle>
+		<GameTitle>The Godfather II</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -35330,7 +35330,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2945</ID>
-		<GameTitle>X-Men Origins: Wolverine - Uncaged Edition </GameTitle>
+		<GameTitle>X-Men Origins: Wolverine - Uncaged Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -35438,7 +35438,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2954</ID>
-		<GameTitle>Tales of Vesperia </GameTitle>
+		<GameTitle>Tales of Vesperia</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -35450,7 +35450,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2955</ID>
-		<GameTitle>Resonance of Fate </GameTitle>
+		<GameTitle>Resonance of Fate</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -35726,7 +35726,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2978</ID>
-		<GameTitle>Monster Hunter: World </GameTitle>
+		<GameTitle>Monster Hunter: World</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -35858,7 +35858,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2989</ID>
-		<GameTitle>Star Ocean: The Last Hope International </GameTitle>
+		<GameTitle>Star Ocean: The Last Hope International</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -35966,7 +35966,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json2998</ID>
-		<GameTitle>Indiana Jones and the Staff of Kings </GameTitle>
+		<GameTitle>Indiana Jones and the Staff of Kings</GameTitle>
 		<Publisher>
 			<PublisherName>LucasArts</PublisherName>
 		</Publisher>
@@ -36086,7 +36086,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3008</ID>
-		<GameTitle>MLB 09: The Show </GameTitle>
+		<GameTitle>MLB 09: The Show</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -36302,7 +36302,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3026</ID>
-		<GameTitle>Battlefield: Bad Company 2 </GameTitle>
+		<GameTitle>Battlefield: Bad Company 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -36326,7 +36326,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3028</ID>
-		<GameTitle>F1 2011 </GameTitle>
+		<GameTitle>F1 2011</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -36422,7 +36422,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3036</ID>
-		<GameTitle>DiRT 3 </GameTitle>
+		<GameTitle>DiRT 3</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -36902,7 +36902,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3076</ID>
-		<GameTitle>Ace Attorney Investigations: Miles Edgeworth </GameTitle>
+		<GameTitle>Ace Attorney Investigations: Miles Edgeworth</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -37238,7 +37238,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3104</ID>
-		<GameTitle>Transformers: Revenge of the Fallen </GameTitle>
+		<GameTitle>Transformers: Revenge of the Fallen</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -37346,7 +37346,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3113</ID>
-		<GameTitle>LEGO Rock Band </GameTitle>
+		<GameTitle>LEGO Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -37694,7 +37694,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3142</ID>
-		<GameTitle>X-Men Origins: Wolverine - Uncaged Edition </GameTitle>
+		<GameTitle>X-Men Origins: Wolverine - Uncaged Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -37874,7 +37874,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3157</ID>
-		<GameTitle>The Last Remnant </GameTitle>
+		<GameTitle>The Last Remnant</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -38378,7 +38378,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3199</ID>
-		<GameTitle>Unreal Tournament III </GameTitle>
+		<GameTitle>Unreal Tournament III</GameTitle>
 		<Publisher>
 			<PublisherName>Midway Games</PublisherName>
 		</Publisher>
@@ -38450,7 +38450,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3205</ID>
-		<GameTitle>Mass Effect </GameTitle>
+		<GameTitle>Mass Effect</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -38942,7 +38942,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3246</ID>
-		<GameTitle>NHL 10 </GameTitle>
+		<GameTitle>NHL 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -39038,7 +39038,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3254</ID>
-		<GameTitle>Octopath Traveler </GameTitle>
+		<GameTitle>Octopath Traveler</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -39302,7 +39302,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3276</ID>
-		<GameTitle>Shaun White Snowboarding </GameTitle>
+		<GameTitle>Shaun White Snowboarding</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -39638,7 +39638,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3304</ID>
-		<GameTitle>007: Quantum of Solace </GameTitle>
+		<GameTitle>007: Quantum of Solace</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -39986,7 +39986,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3333</ID>
-		<GameTitle>Real Heroes: Firefighter </GameTitle>
+		<GameTitle>Real Heroes: Firefighter</GameTitle>
 		<Publisher>
 			<PublisherName>Conspiracy Entertainment</PublisherName>
 		</Publisher>
@@ -40550,7 +40550,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3380</ID>
-		<GameTitle>The Lord of the Rings: Conquest </GameTitle>
+		<GameTitle>The Lord of the Rings: Conquest</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -40850,7 +40850,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3405</ID>
-		<GameTitle>Transformers: Revenge of the Fallen </GameTitle>
+		<GameTitle>Transformers: Revenge of the Fallen</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -40946,7 +40946,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3413</ID>
-		<GameTitle>Ghostbusters: The Video Game </GameTitle>
+		<GameTitle>Ghostbusters: The Video Game</GameTitle>
 		<Publisher>
 			<PublisherName>Atari</PublisherName>
 		</Publisher>
@@ -41030,7 +41030,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3420</ID>
-		<GameTitle>Family Feud: 2010 Edition </GameTitle>
+		<GameTitle>Family Feud: 2010 Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -41198,7 +41198,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3434</ID>
-		<GameTitle>Red Steel 2 </GameTitle>
+		<GameTitle>Red Steel 2</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -41594,7 +41594,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3467</ID>
-		<GameTitle>NBA 2K9 </GameTitle>
+		<GameTitle>NBA 2K9</GameTitle>
 		<Publisher>
 			<PublisherName>2K Sports</PublisherName>
 		</Publisher>
@@ -41618,7 +41618,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3469</ID>
-		<GameTitle>Wet </GameTitle>
+		<GameTitle>Wet</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -41678,7 +41678,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3474</ID>
-		<GameTitle>Fire Emblem: Shadow Dragon </GameTitle>
+		<GameTitle>Fire Emblem: Shadow Dragon</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -41690,7 +41690,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3475</ID>
-		<GameTitle>Metroid Prime: Trilogy </GameTitle>
+		<GameTitle>Metroid Prime: Trilogy</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -41750,7 +41750,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3480</ID>
-		<GameTitle>Advance Wars: Days of Ruin </GameTitle>
+		<GameTitle>Advance Wars: Days of Ruin</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -42446,7 +42446,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3538</ID>
-		<GameTitle>Muramasa: The Demon Blade </GameTitle>
+		<GameTitle>Muramasa: The Demon Blade</GameTitle>
 		<Publisher>
 			<PublisherName>Ignition Entertainment</PublisherName>
 		</Publisher>
@@ -42494,7 +42494,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3542</ID>
-		<GameTitle>Call of Juarez: Bound in Blood </GameTitle>
+		<GameTitle>Call of Juarez: Bound in Blood</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -43082,7 +43082,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3591</ID>
-		<GameTitle>Dead Space </GameTitle>
+		<GameTitle>Dead Space</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -43226,7 +43226,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3603</ID>
-		<GameTitle>Marvel vs. Capcom: Infinite </GameTitle>
+		<GameTitle>Marvel vs. Capcom: Infinite</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -43874,7 +43874,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3657</ID>
-		<GameTitle>Guitar Hero: Smash Hits </GameTitle>
+		<GameTitle>Guitar Hero: Smash Hits</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -44234,7 +44234,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3687</ID>
-		<GameTitle>Skate it </GameTitle>
+		<GameTitle>Skate it</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -44702,7 +44702,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3726</ID>
-		<GameTitle>NHL 10 </GameTitle>
+		<GameTitle>NHL 10</GameTitle>
 		<Publisher>
 			<PublisherName>EA Sports</PublisherName>
 		</Publisher>
@@ -44762,7 +44762,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3731</ID>
-		<GameTitle>3D Dot Game Heroes </GameTitle>
+		<GameTitle>3D Dot Game Heroes</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -44870,7 +44870,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3740</ID>
-		<GameTitle>The Conduit </GameTitle>
+		<GameTitle>The Conduit</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -44894,7 +44894,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3742</ID>
-		<GameTitle>Trivial Pursuit </GameTitle>
+		<GameTitle>Trivial Pursuit</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -45362,7 +45362,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3781</ID>
-		<GameTitle>LEGO Rock Band </GameTitle>
+		<GameTitle>LEGO Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -46298,7 +46298,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3859</ID>
-		<GameTitle>Secret Agent Clank(US sales) </GameTitle>
+		<GameTitle>Secret Agent Clank(US sales)</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -46406,7 +46406,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3868</ID>
-		<GameTitle>Disgaea 3: Absence of Justice </GameTitle>
+		<GameTitle>Disgaea 3: Absence of Justice</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -46466,7 +46466,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3873</ID>
-		<GameTitle>Legends of WrestleMania </GameTitle>
+		<GameTitle>Legends of WrestleMania</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -47306,7 +47306,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3943</ID>
-		<GameTitle>METRO 2033 </GameTitle>
+		<GameTitle>METRO 2033</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -47666,7 +47666,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3973</ID>
-		<GameTitle>Rune Factory: A Fantasy Harvest Moon </GameTitle>
+		<GameTitle>Rune Factory: A Fantasy Harvest Moon</GameTitle>
 		<Publisher>
 			<PublisherName>Natsume</PublisherName>
 		</Publisher>
@@ -47966,7 +47966,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json3998</ID>
-		<GameTitle>Excite Truck </GameTitle>
+		<GameTitle>Excite Truck</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -48458,7 +48458,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4039</ID>
-		<GameTitle>Sesame Street: Once Upon A Monster </GameTitle>
+		<GameTitle>Sesame Street: Once Upon A Monster</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -48482,7 +48482,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4041</ID>
-		<GameTitle>Silent Hill: Origins </GameTitle>
+		<GameTitle>Silent Hill: Origins</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -48518,7 +48518,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4044</ID>
-		<GameTitle>Tales of Symphonia: Dawn of the New World </GameTitle>
+		<GameTitle>Tales of Symphonia: Dawn of the New World</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -49730,7 +49730,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4145</ID>
-		<GameTitle>Dragon Ball: Raging Blast </GameTitle>
+		<GameTitle>Dragon Ball: Raging Blast</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -50018,7 +50018,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4169</ID>
-		<GameTitle>Dragon Age: Origins </GameTitle>
+		<GameTitle>Dragon Age: Origins</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -50042,7 +50042,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4171</ID>
-		<GameTitle>Rock Band Unplugged </GameTitle>
+		<GameTitle>Rock Band Unplugged</GameTitle>
 		<Publisher>
 			<PublisherName>MTV Games</PublisherName>
 		</Publisher>
@@ -50234,7 +50234,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4187</ID>
-		<GameTitle>Lost: Via Domus </GameTitle>
+		<GameTitle>Lost: Via Domus</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -50726,7 +50726,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4228</ID>
-		<GameTitle>Picross 3D </GameTitle>
+		<GameTitle>Picross 3D</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -50846,7 +50846,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4238</ID>
-		<GameTitle>Wet </GameTitle>
+		<GameTitle>Wet</GameTitle>
 		<Publisher>
 			<PublisherName>Bethesda Softworks</PublisherName>
 		</Publisher>
@@ -51026,7 +51026,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4253</ID>
-		<GameTitle>Dynasty Warriors: Gundam 2 </GameTitle>
+		<GameTitle>Dynasty Warriors: Gundam 2</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -51434,7 +51434,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4287</ID>
-		<GameTitle>MotorStorm: Apocalypse </GameTitle>
+		<GameTitle>MotorStorm: Apocalypse</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -51518,7 +51518,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4294</ID>
-		<GameTitle>F1 2012 </GameTitle>
+		<GameTitle>F1 2012</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -51614,7 +51614,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4302</ID>
-		<GameTitle>Halo Wars 2 </GameTitle>
+		<GameTitle>Halo Wars 2</GameTitle>
 		<Publisher>
 			<PublisherName>Microsoft Studios</PublisherName>
 		</Publisher>
@@ -52862,7 +52862,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4406</ID>
-		<GameTitle>ICO </GameTitle>
+		<GameTitle>ICO</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -52898,7 +52898,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4409</ID>
-		<GameTitle>Unreal Tournament III </GameTitle>
+		<GameTitle>Unreal Tournament III</GameTitle>
 		<Publisher>
 			<PublisherName>Midway Games</PublisherName>
 		</Publisher>
@@ -53078,7 +53078,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4424</ID>
-		<GameTitle>Dead Space Extraction </GameTitle>
+		<GameTitle>Dead Space Extraction</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -53234,7 +53234,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4437</ID>
-		<GameTitle>Silent Hill: Shattered Memories </GameTitle>
+		<GameTitle>Silent Hill: Shattered Memories</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -53402,7 +53402,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4451</ID>
-		<GameTitle>Final Fantasy Crystal Chronicles: Echoes of Time </GameTitle>
+		<GameTitle>Final Fantasy Crystal Chronicles: Echoes of Time</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -54062,7 +54062,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4506</ID>
-		<GameTitle>Puyo Puyo Tetris </GameTitle>
+		<GameTitle>Puyo Puyo Tetris</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -55682,7 +55682,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4641</ID>
-		<GameTitle>Sid Meier's Civilization Revolution </GameTitle>
+		<GameTitle>Sid Meier's Civilization Revolution</GameTitle>
 		<Publisher>
 			<PublisherName>2K Games</PublisherName>
 		</Publisher>
@@ -56366,7 +56366,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4698</ID>
-		<GameTitle>SingStar Queen </GameTitle>
+		<GameTitle>SingStar Queen</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -56678,7 +56678,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4724</ID>
-		<GameTitle>Eternal Sonata </GameTitle>
+		<GameTitle>Eternal Sonata</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -56786,7 +56786,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4733</ID>
-		<GameTitle>Need for Speed: Shift 2 Unleashed </GameTitle>
+		<GameTitle>Need for Speed: Shift 2 Unleashed</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -58358,7 +58358,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4864</ID>
-		<GameTitle>Guitar Hero: Smash Hits </GameTitle>
+		<GameTitle>Guitar Hero: Smash Hits</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -58442,7 +58442,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4871</ID>
-		<GameTitle>LEGO Rock Band </GameTitle>
+		<GameTitle>LEGO Rock Band</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -58718,7 +58718,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4894</ID>
-		<GameTitle>Dissidia Final Fantasy NT </GameTitle>
+		<GameTitle>Dissidia Final Fantasy NT</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -58814,7 +58814,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json4902</ID>
-		<GameTitle>LEGO Marvel Super Heroes 2 </GameTitle>
+		<GameTitle>LEGO Marvel Super Heroes 2</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive Entertainment</PublisherName>
 		</Publisher>
@@ -60902,7 +60902,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5076</ID>
-		<GameTitle>Yu-Gi-Oh! 5D's Stardust Accelerator: World Championship 2009 </GameTitle>
+		<GameTitle>Yu-Gi-Oh! 5D's Stardust Accelerator: World Championship 2009</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -61634,7 +61634,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5137</ID>
-		<GameTitle>No More Heroes 2: Desperate Struggle </GameTitle>
+		<GameTitle>No More Heroes 2: Desperate Struggle</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -61838,7 +61838,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5154</ID>
-		<GameTitle>Legends of WrestleMania </GameTitle>
+		<GameTitle>Legends of WrestleMania</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -62054,7 +62054,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5172</ID>
-		<GameTitle>Final Fantasy Crystal Chronicles: The Crystal Bearers </GameTitle>
+		<GameTitle>Final Fantasy Crystal Chronicles: The Crystal Bearers</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -62522,7 +62522,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5211</ID>
-		<GameTitle>LocoRoco </GameTitle>
+		<GameTitle>LocoRoco</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -62642,7 +62642,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5221</ID>
-		<GameTitle>Mass Effect 2 </GameTitle>
+		<GameTitle>Mass Effect 2</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -62906,7 +62906,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5243</ID>
-		<GameTitle>Wipeout 2048 </GameTitle>
+		<GameTitle>Wipeout 2048</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -64286,7 +64286,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5358</ID>
-		<GameTitle>NBA 2K10 </GameTitle>
+		<GameTitle>NBA 2K10</GameTitle>
 		<Publisher>
 			<PublisherName>2K Sports</PublisherName>
 		</Publisher>
@@ -64550,7 +64550,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5380</ID>
-		<GameTitle>Guitar Hero On Tour: Modern Hits </GameTitle>
+		<GameTitle>Guitar Hero On Tour: Modern Hits</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -64586,7 +64586,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5383</ID>
-		<GameTitle>Skate </GameTitle>
+		<GameTitle>Skate</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -64970,7 +64970,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5416</ID>
-		<GameTitle>Rune Factory: Frontier </GameTitle>
+		<GameTitle>Rune Factory: Frontier</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -65030,7 +65030,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5427</ID>
-		<GameTitle>Fragile Dreams: Farewell Ruins of the Moon </GameTitle>
+		<GameTitle>Fragile Dreams: Farewell Ruins of the Moon</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -65054,7 +65054,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5431</ID>
-		<GameTitle>Monster Hunter Generations Ultimate </GameTitle>
+		<GameTitle>Monster Hunter Generations Ultimate</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -65078,7 +65078,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5438</ID>
-		<GameTitle>Wanted: Weapons of Fate </GameTitle>
+		<GameTitle>Wanted: Weapons of Fate</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -65126,7 +65126,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5443</ID>
-		<GameTitle>Castlevania: Order of Ecclesia </GameTitle>
+		<GameTitle>Castlevania: Order of Ecclesia</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -65198,7 +65198,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5460</ID>
-		<GameTitle>Dragon Ball Z: Attack of the Saiyans </GameTitle>
+		<GameTitle>Dragon Ball Z: Attack of the Saiyans</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -65870,7 +65870,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5614</ID>
-		<GameTitle>Hyrule Warriors: Definitive Edition </GameTitle>
+		<GameTitle>Hyrule Warriors: Definitive Edition</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -66290,7 +66290,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5727</ID>
-		<GameTitle>The Eye of Judgment </GameTitle>
+		<GameTitle>The Eye of Judgment</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -66302,7 +66302,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5729</ID>
-		<GameTitle>Dynasty Warriors: Gundam 2 </GameTitle>
+		<GameTitle>Dynasty Warriors: Gundam 2</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -66410,7 +66410,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5753</ID>
-		<GameTitle>Jeanne d'Arc </GameTitle>
+		<GameTitle>Jeanne d'Arc</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -66710,7 +66710,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5816</ID>
-		<GameTitle>Resonance of Fate </GameTitle>
+		<GameTitle>Resonance of Fate</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -67154,7 +67154,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5930</ID>
-		<GameTitle>Folklore </GameTitle>
+		<GameTitle>Folklore</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -67394,7 +67394,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json5985</ID>
-		<GameTitle>Singularity </GameTitle>
+		<GameTitle>Singularity</GameTitle>
 		<Publisher>
 			<PublisherName>Activision</PublisherName>
 		</Publisher>
@@ -67922,7 +67922,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6122</ID>
-		<GameTitle>Detective Pikachu </GameTitle>
+		<GameTitle>Detective Pikachu</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -68018,7 +68018,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6145</ID>
-		<GameTitle>F1 2013 </GameTitle>
+		<GameTitle>F1 2013</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -68126,7 +68126,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6164</ID>
-		<GameTitle>Little Nightmares </GameTitle>
+		<GameTitle>Little Nightmares</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai Games</PublisherName>
 		</Publisher>
@@ -68630,7 +68630,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6277</ID>
-		<GameTitle>Glory of Heracles </GameTitle>
+		<GameTitle>Glory of Heracles</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -68642,7 +68642,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6282</ID>
-		<GameTitle>Little King's Story </GameTitle>
+		<GameTitle>Little King's Story</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -68762,7 +68762,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6311</ID>
-		<GameTitle>Wanted: Weapons of Fate </GameTitle>
+		<GameTitle>Wanted: Weapons of Fate</GameTitle>
 		<Publisher>
 			<PublisherName>Warner Bros. Interactive</PublisherName>
 		</Publisher>
@@ -68870,7 +68870,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6333</ID>
-		<GameTitle>Trace Memory </GameTitle>
+		<GameTitle>Trace Memory</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -69122,7 +69122,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6384</ID>
-		<GameTitle>Dead Rising: Chop Till You Drop </GameTitle>
+		<GameTitle>Dead Rising: Chop Till You Drop</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -69326,7 +69326,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6438</ID>
-		<GameTitle>Burnout Paradise Remastered </GameTitle>
+		<GameTitle>Burnout Paradise Remastered</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -69650,7 +69650,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6533</ID>
-		<GameTitle>Darksiders </GameTitle>
+		<GameTitle>Darksiders</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -69722,7 +69722,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6546</ID>
-		<GameTitle>Virtua Fighter 5 Online </GameTitle>
+		<GameTitle>Virtua Fighter 5 Online</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -69806,7 +69806,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6563</ID>
-		<GameTitle>Shin Megami Tensei: Strange Journey </GameTitle>
+		<GameTitle>Shin Megami Tensei: Strange Journey</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -69950,7 +69950,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6591</ID>
-		<GameTitle>Yakuza: Kiwami 2 </GameTitle>
+		<GameTitle>Yakuza: Kiwami 2</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -70070,7 +70070,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6624</ID>
-		<GameTitle>GRID 2 </GameTitle>
+		<GameTitle>GRID 2</GameTitle>
 		<Publisher>
 			<PublisherName>Codemasters</PublisherName>
 		</Publisher>
@@ -70430,7 +70430,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6744</ID>
-		<GameTitle>Suikoden Tierkreis </GameTitle>
+		<GameTitle>Suikoden Tierkreis</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -70730,7 +70730,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6802</ID>
-		<GameTitle>Deadly Premonition </GameTitle>
+		<GameTitle>Deadly Premonition</GameTitle>
 		<Publisher>
 			<PublisherName>Ignition Entertainment</PublisherName>
 		</Publisher>
@@ -70838,7 +70838,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6820</ID>
-		<GameTitle>Punch-Out!! </GameTitle>
+		<GameTitle>Punch-Out!!</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -71150,7 +71150,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6887</ID>
-		<GameTitle>Resident Evil: Deadly Silence </GameTitle>
+		<GameTitle>Resident Evil: Deadly Silence</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -71198,7 +71198,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6893</ID>
-		<GameTitle>What Did I Do to Deserve This, My Lord!? 2 </GameTitle>
+		<GameTitle>What Did I Do to Deserve This, My Lord!? 2</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -71438,7 +71438,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json6963</ID>
-		<GameTitle>Final Fantasy Crystal Chronicles: Echoes of Time </GameTitle>
+		<GameTitle>Final Fantasy Crystal Chronicles: Echoes of Time</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -71678,7 +71678,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7043</ID>
-		<GameTitle>Disgaea 2: Dark Hero Days </GameTitle>
+		<GameTitle>Disgaea 2: Dark Hero Days</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -71798,7 +71798,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7084</ID>
-		<GameTitle>Freshly-Picked: Tingle's Rosy Rupeeland </GameTitle>
+		<GameTitle>Freshly-Picked: Tingle's Rosy Rupeeland</GameTitle>
 		<Publisher>
 			<PublisherName>Nintendo</PublisherName>
 		</Publisher>
@@ -72038,7 +72038,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7155</ID>
-		<GameTitle>Lunar: Silver Star Harmony </GameTitle>
+		<GameTitle>Lunar: Silver Star Harmony</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -72410,7 +72410,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7265</ID>
-		<GameTitle>Avalon Code </GameTitle>
+		<GameTitle>Avalon Code</GameTitle>
 		<Publisher>
 			<PublisherName>Marvelous Interactive</PublisherName>
 		</Publisher>
@@ -72602,7 +72602,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7326</ID>
-		<GameTitle>Hot Shots Tennis: Get a Grip </GameTitle>
+		<GameTitle>Hot Shots Tennis: Get a Grip</GameTitle>
 		<Publisher>
 			<PublisherName>Sony Computer Entertainment</PublisherName>
 		</Publisher>
@@ -72710,7 +72710,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7360</ID>
-		<GameTitle>Cross Edge </GameTitle>
+		<GameTitle>Cross Edge</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -72830,7 +72830,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7400</ID>
-		<GameTitle>Me &amp; My Katamari </GameTitle>
+		<GameTitle>Me &amp; My Katamari</GameTitle>
 		<Publisher>
 			<PublisherName>Namco</PublisherName>
 		</Publisher>
@@ -73646,7 +73646,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7628</ID>
-		<GameTitle>Shin Megami Tensei: Persona </GameTitle>
+		<GameTitle>Shin Megami Tensei: Persona</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -74090,7 +74090,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7780</ID>
-		<GameTitle>Ninja Gaiden: Dragon Sword </GameTitle>
+		<GameTitle>Ninja Gaiden: Dragon Sword</GameTitle>
 		<Publisher>
 			<PublisherName>Tecmo</PublisherName>
 		</Publisher>
@@ -74210,7 +74210,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7819</ID>
-		<GameTitle>Sword Art Online: Fatal Bullet </GameTitle>
+		<GameTitle>Sword Art Online: Fatal Bullet</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai Games</PublisherName>
 		</Publisher>
@@ -74438,7 +74438,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json7874</ID>
-		<GameTitle>Tenchu: Shadow Assassins </GameTitle>
+		<GameTitle>Tenchu: Shadow Assassins</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -75278,7 +75278,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8063</ID>
-		<GameTitle>Dante's Inferno </GameTitle>
+		<GameTitle>Dante's Inferno</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -75482,7 +75482,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8124</ID>
-		<GameTitle>Mana Khemia 2: Fall of Alchemy </GameTitle>
+		<GameTitle>Mana Khemia 2: Fall of Alchemy</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -75494,7 +75494,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8126</ID>
-		<GameTitle>Dead or Alive Paradise </GameTitle>
+		<GameTitle>Dead or Alive Paradise</GameTitle>
 		<Publisher>
 			<PublisherName>Tecmo</PublisherName>
 		</Publisher>
@@ -75662,7 +75662,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8167</ID>
-		<GameTitle>Dynasty Warriors: Gundam 2 </GameTitle>
+		<GameTitle>Dynasty Warriors: Gundam 2</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -76130,7 +76130,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8301</ID>
-		<GameTitle>Armored Core: For Answer </GameTitle>
+		<GameTitle>Armored Core: For Answer</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -76274,7 +76274,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8327</ID>
-		<GameTitle>Nostalgia </GameTitle>
+		<GameTitle>Nostalgia</GameTitle>
 		<Publisher>
 			<PublisherName>Ignition Entertainment</PublisherName>
 		</Publisher>
@@ -76430,7 +76430,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8356</ID>
-		<GameTitle>Half-Minute Hero </GameTitle>
+		<GameTitle>Half-Minute Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -76706,7 +76706,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8441</ID>
-		<GameTitle>Ar tonelico 2: Melody of Metafalica </GameTitle>
+		<GameTitle>Ar tonelico 2: Melody of Metafalica</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -77306,7 +77306,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8613</ID>
-		<GameTitle>Velvet Assassin </GameTitle>
+		<GameTitle>Velvet Assassin</GameTitle>
 		<Publisher>
 			<PublisherName>SouthPeak Interactive</PublisherName>
 		</Publisher>
@@ -78494,7 +78494,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json8956</ID>
-		<GameTitle>Marble Saga: Kororinpa </GameTitle>
+		<GameTitle>Marble Saga: Kororinpa</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -78674,7 +78674,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9014</ID>
-		<GameTitle>Klonoa </GameTitle>
+		<GameTitle>Klonoa</GameTitle>
 		<Publisher>
 			<PublisherName>Namco Bandai</PublisherName>
 		</Publisher>
@@ -79154,7 +79154,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9112</ID>
-		<GameTitle>Time Hollow </GameTitle>
+		<GameTitle>Time Hollow</GameTitle>
 		<Publisher>
 			<PublisherName>Konami</PublisherName>
 		</Publisher>
@@ -79670,7 +79670,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9285</ID>
-		<GameTitle>Space Invaders Extreme </GameTitle>
+		<GameTitle>Space Invaders Extreme</GameTitle>
 		<Publisher>
 			<PublisherName>Square Enix</PublisherName>
 		</Publisher>
@@ -80486,7 +80486,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9501</ID>
-		<GameTitle>Shin Megami Tensei: Strange Journey Redux </GameTitle>
+		<GameTitle>Shin Megami Tensei: Strange Journey Redux</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -81086,7 +81086,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9644</ID>
-		<GameTitle>Holy Invasion of Privacy, Badman! What Did I Do to Deserve This? </GameTitle>
+		<GameTitle>Holy Invasion of Privacy, Badman! What Did I Do to Deserve This?</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -82022,7 +82022,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json9909</ID>
-		<GameTitle>Phantom Brave: We Meet Again </GameTitle>
+		<GameTitle>Phantom Brave: We Meet Again</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -82826,7 +82826,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10143</ID>
-		<GameTitle>Baroque </GameTitle>
+		<GameTitle>Baroque</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -82838,7 +82838,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10147</ID>
-		<GameTitle>The Legend of Heroes: Trails of Cold Steel III </GameTitle>
+		<GameTitle>The Legend of Heroes: Trails of Cold Steel III</GameTitle>
 		<Publisher>
 			<PublisherName>Nihon Falcom Corporation</PublisherName>
 		</Publisher>
@@ -83150,7 +83150,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10221</ID>
-		<GameTitle>Sonic Mania </GameTitle>
+		<GameTitle>Sonic Mania</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -83678,7 +83678,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10352</ID>
-		<GameTitle>The Great Ace Attorney 2 - The Resolve of Ryuunosuke Naruhodou </GameTitle>
+		<GameTitle>The Great Ace Attorney 2 - The Resolve of Ryuunosuke Naruhodou</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -83774,7 +83774,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10378</ID>
-		<GameTitle>Tenchu: Shadow Assassins </GameTitle>
+		<GameTitle>Tenchu: Shadow Assassins</GameTitle>
 		<Publisher>
 			<PublisherName>Ubisoft</PublisherName>
 		</Publisher>
@@ -84530,7 +84530,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10580</ID>
-		<GameTitle>Retro Game Challenge </GameTitle>
+		<GameTitle>Retro Game Challenge</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -84962,7 +84962,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10698</ID>
-		<GameTitle>Jake Hunter Detective Story: Memories of the Past </GameTitle>
+		<GameTitle>Jake Hunter Detective Story: Memories of the Past</GameTitle>
 		<Publisher>
 			<PublisherName>Aksys Games</PublisherName>
 		</Publisher>
@@ -85382,7 +85382,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json10825</ID>
-		<GameTitle>Prinny: Can I Really Be the Hero? </GameTitle>
+		<GameTitle>Prinny: Can I Really Be the Hero?</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -87074,7 +87074,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json11301</ID>
-		<GameTitle>Tokyo Xanadu eX+ </GameTitle>
+		<GameTitle>Tokyo Xanadu eX+</GameTitle>
 		<Publisher>
 			<PublisherName>Aksys Games</PublisherName>
 		</Publisher>
@@ -87842,7 +87842,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json11511</ID>
-		<GameTitle>The Alliance Alive </GameTitle>
+		<GameTitle>The Alliance Alive</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -88202,7 +88202,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json11637</ID>
-		<GameTitle>Last Rebellion </GameTitle>
+		<GameTitle>Last Rebellion</GameTitle>
 		<Publisher>
 			<PublisherName>NIS America</PublisherName>
 		</Publisher>
@@ -88238,7 +88238,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json11641</ID>
-		<GameTitle>Lock's Quest </GameTitle>
+		<GameTitle>Lock's Quest</GameTitle>
 		<Publisher>
 			<PublisherName>THQ</PublisherName>
 		</Publisher>
@@ -90578,7 +90578,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12256</ID>
-		<GameTitle>Valkyria Chronicles 4 </GameTitle>
+		<GameTitle>Valkyria Chronicles 4</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -91070,7 +91070,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12370</ID>
-		<GameTitle>Baroque </GameTitle>
+		<GameTitle>Baroque</GameTitle>
 		<Publisher>
 			<PublisherName>Atlus</PublisherName>
 		</Publisher>
@@ -91334,7 +91334,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12429</ID>
-		<GameTitle>Again </GameTitle>
+		<GameTitle>Again</GameTitle>
 		<Publisher>
 			<PublisherName>KOEI</PublisherName>
 		</Publisher>
@@ -91994,7 +91994,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12582</ID>
-		<GameTitle>Burnout Paradise: The Ultimate Box </GameTitle>
+		<GameTitle>Burnout Paradise: The Ultimate Box</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -92642,7 +92642,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12743</ID>
-		<GameTitle>SG/ZH: School Girl/Zombie Hunter </GameTitle>
+		<GameTitle>SG/ZH: School Girl/Zombie Hunter</GameTitle>
 		<Publisher>
 			<PublisherName>Aksys Games</PublisherName>
 		</Publisher>
@@ -92906,7 +92906,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12792</ID>
-		<GameTitle>Bad Apple Wars </GameTitle>
+		<GameTitle>Bad Apple Wars</GameTitle>
 		<Publisher>
 			<PublisherName>Aksys Games</PublisherName>
 		</Publisher>
@@ -93110,7 +93110,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json12842</ID>
-		<GameTitle>God Hand </GameTitle>
+		<GameTitle>God Hand</GameTitle>
 		<Publisher>
 			<PublisherName>Capcom</PublisherName>
 		</Publisher>
@@ -94250,7 +94250,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json13104</ID>
-		<GameTitle>Shantae: Half-Genie Hero </GameTitle>
+		<GameTitle>Shantae: Half-Genie Hero</GameTitle>
 		<Publisher>
 			<PublisherName>Xseed Games</PublisherName>
 		</Publisher>
@@ -94586,7 +94586,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json13208</ID>
-		<GameTitle>Shining Resonance Refrain </GameTitle>
+		<GameTitle>Shining Resonance Refrain</GameTitle>
 		<Publisher>
 			<PublisherName>Sega</PublisherName>
 		</Publisher>
@@ -95090,7 +95090,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json13353</ID>
-		<GameTitle>BlazBlue: Cross Tag Battle </GameTitle>
+		<GameTitle>BlazBlue: Cross Tag Battle</GameTitle>
 		<Publisher>
 			<PublisherName>Arc System Works</PublisherName>
 		</Publisher>
@@ -97154,7 +97154,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json13860</ID>
-		<GameTitle>Atelier Lydie &amp; Suelle: The Alchemists and the Mysterious Paintings </GameTitle>
+		<GameTitle>Atelier Lydie &amp; Suelle: The Alchemists and the Mysterious Paintings</GameTitle>
 		<Publisher>
 			<PublisherName>Tecmo Koei</PublisherName>
 		</Publisher>
@@ -102494,7 +102494,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json15065</ID>
-		<GameTitle>Burnout Paradise: The Ultimate Box </GameTitle>
+		<GameTitle>Burnout Paradise: The Ultimate Box</GameTitle>
 		<Publisher>
 			<PublisherName>Electronic Arts</PublisherName>
 		</Publisher>
@@ -106394,7 +106394,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json15817</ID>
-		<GameTitle>Death end re;Quest </GameTitle>
+		<GameTitle>Death end re;Quest</GameTitle>
 		<Publisher>
 			<PublisherName>Idea Factory</PublisherName>
 		</Publisher>
@@ -106742,7 +106742,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json15896</ID>
-		<GameTitle>Death Mark </GameTitle>
+		<GameTitle>Death Mark</GameTitle>
 		<Publisher>
 			<PublisherName>Experience Inc.</PublisherName>
 		</Publisher>
@@ -110582,7 +110582,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json16600</ID>
-		<GameTitle>Mary Skelter: Nightmares 2 </GameTitle>
+		<GameTitle>Mary Skelter: Nightmares 2</GameTitle>
 		<Publisher>
 			<PublisherName>Compile Heart</PublisherName>
 		</Publisher>
@@ -117986,7 +117986,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json17863</ID>
-		<GameTitle>Gal Gun 2 </GameTitle>
+		<GameTitle>Gal Gun 2</GameTitle>
 		<Publisher>
 			<PublisherName>PQube</PublisherName>
 		</Publisher>
@@ -120290,7 +120290,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json18239</ID>
-		<GameTitle>The Liar Princess and the Blind Prince </GameTitle>
+		<GameTitle>The Liar Princess and the Blind Prince</GameTitle>
 		<Publisher>
 			<PublisherName>Nippon Ichi Software</PublisherName>
 		</Publisher>
@@ -122102,7 +122102,7 @@
 	</Game>
 	<Game>
 		<ID>vga_games_json18567</ID>
-		<GameTitle>Code of Princess EX </GameTitle>
+		<GameTitle>Code of Princess EX</GameTitle>
 		<Publisher>
 			<PublisherName>Nicalis</PublisherName>
 		</Publisher>
