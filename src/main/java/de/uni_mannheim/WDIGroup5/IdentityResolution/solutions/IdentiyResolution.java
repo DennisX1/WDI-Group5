@@ -35,7 +35,9 @@ import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 
 
 public class IdentiyResolution {
-
+	
+	private static long startTime;
+	private static long endTime;
 
     public static void main( String[] args ) throws Exception
 	    {
@@ -73,7 +75,8 @@ public class IdentiyResolution {
 		MatchingGoldStandard gsTestVgaPublisher = new MatchingGoldStandard();
 		gsTestVgaPublisher.loadFromCSVFile(new File("data/goldstandard/GS_vga_publisher_testing.csv"));
 		
-		
+		startTime = System.nanoTime();
+		System.out.println("*\n*\tStart Counting Time\n*");
 		// create a matching rule
 		LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
 		
@@ -154,6 +157,11 @@ public class IdentiyResolution {
 			"Recall: %.4f",	perfTest.getRecall()));
 		System.out.println(String.format(
 			"F1: %.4f",perfTest.getF1()));
+		
+		endTime   = System.nanoTime();
+		long totalTime = endTime - startTime;
+		System.out.println("Execution Time: " + totalTime/1000000000);
+		
 	}
     
 	

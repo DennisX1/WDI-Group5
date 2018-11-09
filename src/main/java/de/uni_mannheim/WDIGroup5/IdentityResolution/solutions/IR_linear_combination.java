@@ -23,6 +23,8 @@ import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 public class IR_linear_combination {
 
+	private static long startTime;
+	private static long endTime;
 
     public static void main(String[] args) throws Exception {
 
@@ -67,6 +69,9 @@ public class IR_linear_combination {
         MatchingGoldStandard gsTestVgaPublisher = new MatchingGoldStandard();
       //  gsTestVgaPublisher.loadFromCSVFile(new File("data/goldstandard/GS_vga_publisher_testing.csv"));
 
+		startTime = System.nanoTime();
+		System.out.println("*\n*\tStart Counting Time\n*");
+		
         //create a matching rule
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
       //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
@@ -174,6 +179,10 @@ public class IR_linear_combination {
                 "Recall: %.4f",	perfTest.getRecall()));
         System.out.println(String.format(
                 "F1: %.4f",perfTest.getF1()));
+        
+		endTime   = System.nanoTime();
+		long totalTime = endTime - startTime;
+		System.out.println("Execution Time: " + totalTime/1000000000);
     }
 
 }

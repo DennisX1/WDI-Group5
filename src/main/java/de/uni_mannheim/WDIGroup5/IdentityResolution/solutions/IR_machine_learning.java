@@ -36,6 +36,8 @@ public class IR_machine_learning {
      */
 
     private static final Logger logger = WinterLogManager.activateLogger("default");
+	private static long startTime;
+	private static long endTime;
 
     public static void main(String[] args) throws Exception {
         //loading data
@@ -50,6 +52,9 @@ public class IR_machine_learning {
         new GameXMLReader().loadFromXML(new File("data/input/GameList.xml"), "/Games/Game", dataVgaGames);
         System.out.println("*\n*\tFinished loading the datasets\n*");
 
+		startTime = System.nanoTime();
+		System.out.println("*\n*\tStart Counting Time\n*");
+		
         // create a matching rule
         String options[] = new String[]{"-S"};
         String modelType = "SimpleLogistic"; // use a logistic regression
@@ -186,5 +191,10 @@ public class IR_machine_learning {
                 "Recall: %.4f", perfTest.getRecall()));
         System.out.println(String.format(
                 "F1: %.4f", perfTest.getF1()));
+
+		endTime   = System.nanoTime();
+		long totalTime = endTime - startTime;
+		System.out.println("Execution Time: " + totalTime/1000000000);
+		
     }
 }
