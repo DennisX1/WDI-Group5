@@ -13,6 +13,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -45,7 +46,7 @@ public class IR_linear_combination_Pub_T1000 {
         System.out.println("*\n*\tLoading gold standard\n*");
 
         MatchingGoldStandard gsTrainingTopPublisher = new MatchingGoldStandard();
-        gsTrainingTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_test.csv"));
+        gsTrainingTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_training.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
@@ -71,16 +72,15 @@ public class IR_linear_combination_Pub_T1000 {
         System.out.println("*\n*\tStandard Blocker: by year\n*");
 
 
-
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
-        Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+        Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataPublisher, matchingRule, gsTrainingTopPublisher);
     }
 
 
-    protected static void testBlocker(Blocker<Game,Attribute,Game,Attribute> blocker, DataSet<Game,Attribute> ds1, DataSet<Game,Attribute> ds2, MatchingRule<Game,Attribute> rule, MatchingGoldStandard gsTest) throws
-    Exception {
+    protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws
+            Exception {
         // blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
@@ -91,7 +91,7 @@ public class IR_linear_combination_Pub_T1000 {
 
         // Execute the matching
         System.out.println("*\n*\tRunning identity resolution\n*");
-        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule,blocker);
+        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
 
 
         // Optional!????
@@ -105,14 +105,13 @@ public class IR_linear_combination_Pub_T1000 {
 //        // correspondences = maxWeight.getResult();
 //
 //        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/Pub_T1000_correspondences.csv"), correspondences);
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/Pub_T1000_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTest_pub_t1000 = new MatchingGoldStandard();
         gsTest_pub_t1000.loadFromCSVFile(new File(
                 "data/goldstandard/gold_standard_top1000_publisher_test.csv"));
-
 
 
         // evaluate your result
@@ -124,14 +123,14 @@ public class IR_linear_combination_Pub_T1000 {
         // print the evaluation result
         System.out.println("Publisher <-> Top1000");
         System.out.println(String.format(
-                "Precision: %.4f",perfTest.getPrecision()));
+                "Precision: %.4f", perfTest.getPrecision()));
         System.out.println(String.format(
-                "Recall: %.4f",	perfTest.getRecall()));
+                "Recall: %.4f", perfTest.getRecall()));
         System.out.println(String.format(
-                "F1: %.4f",perfTest.getF1()));
+                "F1: %.4f", perfTest.getF1()));
 
-        endTime   = System.nanoTime();
+        endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-        System.out.println("Execution Time: " + totalTime/1000000000);
+        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 }

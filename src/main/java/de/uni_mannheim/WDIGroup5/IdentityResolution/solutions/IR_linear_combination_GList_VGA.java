@@ -15,6 +15,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -47,7 +48,7 @@ public class IR_linear_combination_GList_VGA {
         System.out.println("*\n*\tLoading gold standard\n*");
 
         MatchingGoldStandard gsTestGamelistVga = new MatchingGoldStandard();
-        gsTestGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_testing.csv"));
+        gsTestGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_training.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
@@ -63,7 +64,7 @@ public class IR_linear_combination_GList_VGA {
 
         System.out.println("*\n*\tStandard Blocker: by title\n*");
 
-        Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
+        Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
         testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 
         System.out.println("*\n*\tStandard Blocker: by platform\n*");
@@ -85,8 +86,8 @@ public class IR_linear_combination_GList_VGA {
     }
 
 
-    protected static void testBlocker(Blocker<Game,Attribute,Game,Attribute> blocker, DataSet<Game,Attribute> ds1, DataSet<Game,Attribute> ds2, MatchingRule<Game,Attribute> rule, MatchingGoldStandard gsTest) throws
-    Exception{
+    protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws
+            Exception {
         // blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
@@ -97,7 +98,7 @@ public class IR_linear_combination_GList_VGA {
 
         // Execute the matching
         System.out.println("*\n*\tRunning identity resolution\n*");
-        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule,blocker);
+        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
 
 
         // Optional!????
@@ -110,15 +111,14 @@ public class IR_linear_combination_GList_VGA {
 //        // maxWeight.run();
 //        // correspondences = maxWeight.getResult();
 //
-//        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_VGA_correspondences.csv"), correspondences);
+        // write the correspondences to the output file
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_VGA_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTest_gList_vga = new MatchingGoldStandard();
         gsTest.loadFromCSVFile(new File(
                 "data/goldstandard/GS_gamelist_vga_testing.csv"));
-
 
 
         // evaluate your result
@@ -130,14 +130,14 @@ public class IR_linear_combination_GList_VGA {
         // print the evaluation result
         System.out.println("GameList <-> VGA");
         System.out.println(String.format(
-                "Precision: %.4f",perfTest.getPrecision()));
+                "Precision: %.4f", perfTest.getPrecision()));
         System.out.println(String.format(
-                "Recall: %.4f",	perfTest.getRecall()));
+                "Recall: %.4f", perfTest.getRecall()));
         System.out.println(String.format(
-                "F1: %.4f",perfTest.getF1()));
+                "F1: %.4f", perfTest.getF1()));
 
-        endTime   = System.nanoTime();
+        endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-        System.out.println("Execution Time: " + totalTime/1000000000);
+        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 }

@@ -14,6 +14,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -102,7 +103,7 @@ public class IR_linear_combination_GList_Pub {
 //        // correspondences = maxWeight.getResult();
 //
 //        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_Publisher_correspondences.csv"), correspondences);
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_Publisher_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");

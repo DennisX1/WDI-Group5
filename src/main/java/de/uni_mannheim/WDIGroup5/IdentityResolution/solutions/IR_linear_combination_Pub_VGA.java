@@ -17,6 +17,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -72,16 +73,15 @@ public class IR_linear_combination_Pub_VGA {
         System.out.println("*\n*\tStandard Blocker: by year\n*");
 
 
-
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
-        Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+        Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
         testBlocker(blocker, dataVgaGames, dataPublisher, matchingRule, gsTestVgaPublisher);
 
     }
 
 
-    protected static void testBlocker(Blocker<Game,Attribute,Game,Attribute> blocker, DataSet<Game,Attribute> ds1, DataSet<Game,Attribute> ds2, MatchingRule<Game,Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
+    protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
         // blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
@@ -92,7 +92,7 @@ public class IR_linear_combination_Pub_VGA {
 
         // Execute the matching
         System.out.println("*\n*\tRunning identity resolution\n*");
-        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule,blocker);
+        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
 
 
         // Optional!????
@@ -106,14 +106,13 @@ public class IR_linear_combination_Pub_VGA {
 //        // correspondences = maxWeight.getResult();
 //
 //        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/Pub_VGA_correspondences.csv"), correspondences);
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/Pub_VGA_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTest_pub_vga = new MatchingGoldStandard();
         gsTest_pub_vga.loadFromCSVFile(new File(
-               "data/goldstandard/GS_vga_publisher_testing.csv"));
-
+                "data/goldstandard/GS_vga_publisher_testing.csv"));
 
 
         // evaluate your result
@@ -125,14 +124,14 @@ public class IR_linear_combination_Pub_VGA {
         // print the evaluation result
         System.out.println("Publisher <-> VGA");
         System.out.println(String.format(
-                "Precision: %.4f",perfTest.getPrecision()));
+                "Precision: %.4f", perfTest.getPrecision()));
         System.out.println(String.format(
-                "Recall: %.4f",	perfTest.getRecall()));
+                "Recall: %.4f", perfTest.getRecall()));
         System.out.println(String.format(
-                "F1: %.4f",perfTest.getF1()));
+                "F1: %.4f", perfTest.getF1()));
 
-        endTime   = System.nanoTime();
+        endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-        System.out.println("Execution Time: " + totalTime/1000000000);
+        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 }

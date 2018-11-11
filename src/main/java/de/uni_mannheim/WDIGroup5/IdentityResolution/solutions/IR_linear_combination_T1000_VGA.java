@@ -17,6 +17,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -48,7 +49,7 @@ public class IR_linear_combination_T1000_VGA {
         // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainingTopVga = new MatchingGoldStandard();
-        gsTrainingTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_test.csv"));
+        gsTrainingTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_training.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
@@ -111,8 +112,8 @@ public class IR_linear_combination_T1000_VGA {
 //        // maxWeight.run();
 //        // correspondences = maxWeight.getResult();
 //
-//        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/T1000_VGA_correspondences.csv"), correspondences);
+        // write the correspondences to the output file
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/T1000_VGA_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");

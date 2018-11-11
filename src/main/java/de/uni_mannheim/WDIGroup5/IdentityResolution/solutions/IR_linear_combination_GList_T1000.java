@@ -18,6 +18,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMat
 import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.*;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 import java.io.File;
@@ -49,7 +50,7 @@ public class IR_linear_combination_GList_T1000 {
         // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainingTopGamelist = new MatchingGoldStandard();
-        gsTrainingTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_test.csv"));
+        gsTrainingTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_training.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
@@ -112,8 +113,8 @@ public class IR_linear_combination_GList_T1000 {
 //        // maxWeight.run();
 //        // correspondences = maxWeight.getResult();
 //
-//        // write the correspondences to the output file
-//        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_T1000_correspondences.csv"), correspondences);
+//         write the correspondences to the output file
+        new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_T1000_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
