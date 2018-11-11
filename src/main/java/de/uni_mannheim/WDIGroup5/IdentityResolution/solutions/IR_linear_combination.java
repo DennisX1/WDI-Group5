@@ -46,7 +46,7 @@ public class IR_linear_combination {
         HashedDataSet<Game, Attribute> dataVgaGames = new HashedDataSet<>();
         new GameXMLReader().loadFromXML(new File("data/input/vga_games_json.xml"), "/Games/Game", dataVgaGames);
         HashedDataSet<Game, Attribute> dataGameList = new HashedDataSet<>();
-        new GameXMLReader().loadFromXML(new File("data/input/GameList.xml"), "/Games/Game", dataVgaGames);
+        new GameXMLReader().loadFromXML(new File("data/input/GameList.xml"), "/Games/Game", dataGameList);
         System.out.println("*\n*\tFinished loading the datasets\n*");
 
         // load the gold standard (test set)
