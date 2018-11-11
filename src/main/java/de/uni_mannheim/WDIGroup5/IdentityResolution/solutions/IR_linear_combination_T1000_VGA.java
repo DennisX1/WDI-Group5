@@ -49,7 +49,7 @@ public class IR_linear_combination_T1000_VGA {
         // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainingTopVga = new MatchingGoldStandard();
-        gsTrainingTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_training.csv"));
+        gsTrainingTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_train.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");

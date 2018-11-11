@@ -46,7 +46,7 @@ public class IR_linear_combination_Pub_T1000 {
         System.out.println("*\n*\tLoading gold standard\n*");
 
         MatchingGoldStandard gsTrainingTopPublisher = new MatchingGoldStandard();
-        gsTrainingTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_training.csv"));
+        gsTrainingTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_train.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
