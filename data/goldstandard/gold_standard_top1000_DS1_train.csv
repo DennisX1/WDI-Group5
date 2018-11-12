@@ -24,11 +24,13 @@ jpntop_511,Game_List_ID_5453,TRUE
 jpntop_595,Game_List_ID_2692,TRUE
 jpntop_725,Game_List_ID_8180,TRUE
 jpntop_657,Game_List_ID_8928,TRUE
-jpntop_574,Game_List_ID_9825,TRUE
 jpntop_735,Game_List_ID_4440,TRUE
 jpntop_270,Game_List_ID_10006,TRUE
 jpntop_482,Game_List_ID_4453,TRUE
 jpntop_482,Game_List_ID_11415,TRUE
+jpntop_17,Game_List_ID_3,TRUE
+jpntop_17,Game_List_ID_12,FALSE
+jpntop_27,Game_List_ID_3,FALSE
 jpntop_412,Game_List_ID_4204,FALSE
 jpntop_934,Game_List_ID_7505,FALSE
 jpntop_167,Game_List_ID_6872,FALSE
@@ -61,8 +63,6 @@ jpntop_766,Game_List_ID_12712,FALSE
 jpntop_972,Game_List_ID_9884,FALSE
 jpntop_558,Game_List_ID_12814,FALSE
 jpntop_762,Game_List_ID_670,FALSE
-jpntop_715,Game_List_ID_5585,FALSE
-jpntop_420,Game_List_ID_6757,FALSE
 jpntop_224,Game_List_ID_14036,FALSE
 jpntop_846,Game_List_ID_9023,FALSE
 jpntop_222,Game_List_ID_16031,FALSE
