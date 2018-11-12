@@ -10,6 +10,7 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameCom
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesJapanSalesComparatorAbsolutDiff;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
+import de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.Blocker;
@@ -110,7 +111,6 @@ public class IR_linear_combination_Pub_VGA {
         MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
         Performance perfTest = evaluator.evaluateMatching(correspondences,
                 gsTest_pub_vga);
-
         // print the evaluation result
         System.out.println("Publisher <-> VGA");
         System.out.println(String.format(

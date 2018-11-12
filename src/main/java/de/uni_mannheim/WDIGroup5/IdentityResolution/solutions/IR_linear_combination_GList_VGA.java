@@ -64,7 +64,7 @@ public class IR_linear_combination_GList_VGA {
 
         System.out.println("*\n*\tStandard Blocker: by title\n*");
 
-        Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
+        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());
         testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 
         System.out.println("*\n*\tStandard Blocker: by platform\n*");
@@ -86,7 +86,7 @@ public class IR_linear_combination_GList_VGA {
     }
 
 
-    protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws
+    protected static void testBlocker(StandardRecordBlocker<Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws
             Exception {
         // blocker.setMeasureBlockSizes(true);
 
