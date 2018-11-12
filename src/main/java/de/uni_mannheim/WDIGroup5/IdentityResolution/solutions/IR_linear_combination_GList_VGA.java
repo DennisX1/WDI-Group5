@@ -48,7 +48,7 @@ public class IR_linear_combination_GList_VGA {
         System.out.println("*\n*\tLoading gold standard\n*");
 
         MatchingGoldStandard gsTestGamelistVga = new MatchingGoldStandard();
-        gsTestGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_training.csv"));
+        gsTestGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_testing.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
@@ -57,7 +57,8 @@ public class IR_linear_combination_GList_VGA {
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
-        //add comparators
+        //add comparators @Li: Game Title, PublisherName, JapanSales GamePlatform, GameGenre
+        //Dont forget to test for equal, levenstein and jaccard
         matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
 
         // create a blocker (blocking strategy)
@@ -125,7 +126,7 @@ public class IR_linear_combination_GList_VGA {
         System.out.println("*\n*\tEvaluating result\n*");
         MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
         Performance perfTest = evaluator.evaluateMatching(correspondences,
-                gsTest);
+        		gsTest_gList_vga);
 
         // print the evaluation result
         System.out.println("GameList <-> VGA");

@@ -83,13 +83,13 @@ public class IR_machine_learning {
         // load the training set
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainTopGamelist = new MatchingGoldStandard();
-        gsTrainTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_training.csv"));
+        gsTrainTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_train.csv"));
 
         MatchingGoldStandard gsTrainTopPublisher = new MatchingGoldStandard();
-        gsTrainTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_training.csv"));
+        gsTrainTopPublisher.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_publisher_train.csv"));
 
         MatchingGoldStandard gsTrainTopVga = new MatchingGoldStandard();
-        gsTrainTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_training.csv"));
+        gsTrainTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_train.csv"));
 
         MatchingGoldStandard gsTrainGamelistVga = new MatchingGoldStandard();
         gsTrainGamelistVga.loadFromCSVFile(new File("data/goldstandard/GS_gamelist_vga_training.csv"));

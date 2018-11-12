@@ -2,7 +2,7 @@ package de.uni_mannheim.WDIGroup5.IdentityResolution.solutions;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitleGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.*;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
@@ -55,25 +55,10 @@ public class IR_linear_combination_Pub_T1000 {
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
-        //add comparators
-        matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
+        //add comparators @Dennis: Musst nur Levenstein, Equal und Jaccard testen. Blocking kannst du lassen
+        matchingRule.addComparator(new PublisherNameComparatorEqual(), 1);
 
         // create a blocker (blocking strategy)
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by title\n*");
-
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by platform\n*");
-
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by year\n*");
-
-
-        System.out.println("*\n*\tStandard Blocker: by publisher\n*");
-
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataPublisher, matchingRule, gsTrainingTopPublisher);
     }

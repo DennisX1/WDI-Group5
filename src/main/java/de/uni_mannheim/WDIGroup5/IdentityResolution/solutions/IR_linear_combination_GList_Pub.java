@@ -4,6 +4,8 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitle
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorLevenshtein;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
@@ -46,7 +48,7 @@ public class IR_linear_combination_GList_Pub {
         // load the gold standard (training set)
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainingPublisherGamelist = new MatchingGoldStandard();
-        gsTrainingPublisherGamelist.loadFromCSVFile(new File("data/goldstandard/GS_publisher_gamelist_training.csv"));
+        gsTrainingPublisherGamelist.loadFromCSVFile(new File("data/goldstandard/GS_publisher_gamelist_testing.csv"));
 
 
         startTime = System.nanoTime();
@@ -56,20 +58,10 @@ public class IR_linear_combination_GList_Pub {
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
-        //add comparators
-        matchingRule.addComparator(new PublisherNameComparatorEqual(), 1);
+        //add comparators @Anne: PublisherName
+        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 1);
 
         // create a blocker (blocking strategy)
-
-        // not available for that combination
-        System.out.println("*\n*\tStandard Blocker: by title\n*");
-
-        // not available for that combination
-        System.out.println("*\n*\tStandard Blocker: by platform\n*");
-
-        // not available for that combination
-        System.out.println("*\n*\tStandard Blocker: by year\n*");
-
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
@@ -105,13 +97,7 @@ public class IR_linear_combination_GList_Pub {
 //        // write the correspondences to the output file
         new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_Publisher_correspondences.csv"), correspondences);
 //
-//        // load the gold standard (test set)
-        System.out.println("*\n*\tLoading gold standard\n*");
-        MatchingGoldStandard gsTest_gList_pub = new MatchingGoldStandard();
-        gsTest_gList_pub.loadFromCSVFile(new File(
-                "data/goldstandard/GS_publisher_gamelist_testing.csv"));
-
-
+//     
         // evaluate your result
         System.out.println("*\n*\tEvaluating result\n*");
         MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();

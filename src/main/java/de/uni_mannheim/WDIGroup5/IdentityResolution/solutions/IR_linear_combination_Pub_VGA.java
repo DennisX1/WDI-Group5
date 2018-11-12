@@ -4,10 +4,7 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitle
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPlatformGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorJaccard;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorLevenshtein;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesJapanSalesComparatorAbsolutDiff;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.*;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet;
@@ -61,7 +58,7 @@ public class IR_linear_combination_Pub_VGA {
         matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTestVgaPublisher);
 
         //add comparators Publisher Name
-        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 1);
+        matchingRule.addComparator(new PublisherNameComparatorJaccard(), 1);
 
         // create a blocker (blocking strategy)
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
