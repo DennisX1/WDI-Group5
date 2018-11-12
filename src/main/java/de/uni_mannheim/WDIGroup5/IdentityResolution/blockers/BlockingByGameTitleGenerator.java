@@ -27,6 +27,9 @@ public class BlockingByGameTitleGenerator extends RecordBlockingKeyGenerator<Gam
 		}
 
 		resultCollector.next(new Pair<>(blockingKeyValue, record));
+		
+		
+		
 	}
 
 }

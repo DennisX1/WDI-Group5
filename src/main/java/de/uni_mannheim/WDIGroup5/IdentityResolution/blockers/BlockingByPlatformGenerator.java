@@ -25,7 +25,8 @@ public class BlockingByPlatformGenerator extends RecordBlockingKeyGenerator<Game
 			DataIterator<Pair<String, Game>> resultCollector) {
 
 
-		resultCollector.next(new Pair<>(record.getPlatform().toLowerCase(), record));
+		resultCollector.next(new Pair<>(record.getPlatform(), record));
+		System.out.println(record.getPlatform());
 	
 	}
 	

@@ -53,7 +53,8 @@ public class IdentiyResolutionTestBlocker {
 		new GameXMLReader().loadFromXML(new File("data/input/GameList.xml"), "/Games/Game", dataGameList);
 		System.out.println("*\n*\tFinished loading the datasets\n*");
 		
-		
+		System.out.println(dataGameList.size());
+		System.out.println(dataTop1000JapanSales.size());
 		
 		// load the gold standard (test set)
 		System.out.println("*\n*\tLoading gold standard\n*");
@@ -148,16 +149,22 @@ public class IdentiyResolutionTestBlocker {
 		MatchingEngine<Game, Attribute> engine = new MatchingEngine<>();
 
 		// Execute the matching
-		Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule,blocker);
-
+		Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
+		
 		// evaluate your result
 		System.out.println("*\n*\tEvaluating result\n*");
+		
+		System.out.println(ds1.getRandomRecord().getPlatform());
+		System.out.println(ds2.getRandomRecord().getPlatform());
+
+		
+		System.out.println(correspondences.get());
+		
 		MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
 		Performance perfTest = evaluator.evaluateMatching(correspondences,
 			gsTest);
 
 		// print the evaluation result
-		System.out.println("Academy Awards <-> Actors");
 		System.out.println(String.format(
 			"Precision: %.4f",perfTest.getPrecision()));
 		System.out.println(String.format(
