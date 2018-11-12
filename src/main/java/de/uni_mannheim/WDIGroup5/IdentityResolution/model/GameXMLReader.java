@@ -64,12 +64,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
-        
-        //System.out.print(node.getChildNodes().item(3).getNodeName());
-
-        
-        
+                
         
         
         //Get the publisher Data
