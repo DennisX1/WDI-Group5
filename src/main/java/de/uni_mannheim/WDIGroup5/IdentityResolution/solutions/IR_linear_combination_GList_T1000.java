@@ -110,6 +110,9 @@ public class IR_linear_combination_GList_T1000 {
         System.out.println("*\n*\tRunning identity resolution\n*");
         Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule,blocker);
 
+        // Testing Error Analysis
+        ErrorAnalysis analysis = new ErrorAnalysis();
+		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
 
         // Optional!????
 
@@ -144,5 +147,15 @@ public class IR_linear_combination_GList_T1000 {
         endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution Time: " + totalTime/1000000000);
+    }
+    
+    protected static void testErrorAnalysis(ErrorAnalysis analysis, Processable<Correspondence<Game, Attribute>> correspondences,DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
+    	System.out.println("*\n*\tTesting Error Analysis\n*");
+    	analysis.printFalseNegatives(ds1, ds2, correspondences, gsTest);
+    	analysis.printFalsePositives(correspondences, gsTest);
+       
+        endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 }

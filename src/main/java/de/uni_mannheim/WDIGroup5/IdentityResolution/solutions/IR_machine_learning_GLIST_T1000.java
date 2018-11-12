@@ -22,8 +22,10 @@ import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
 import de.uni_mannheim.informatik.dws.winter.matching.algorithms.RuleLearner;
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.StandardRecordBlocker;
+import de.uni_mannheim.informatik.dws.winter.matching.rules.MatchingRule;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.WekaMatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
+import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.HashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.MatchingGoldStandard;
 import de.uni_mannheim.informatik.dws.winter.model.Performance;
@@ -88,6 +90,13 @@ public class IR_machine_learning_GLIST_T1000 {
 	Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(
 			dataTop1000JapanSales, dataGameList, null, matchingRule,
 			blocker);
+	
+	// Testing Error Analysis - unfinished
+//	System.out.println("*\n*\tTesting Error Analysis\n*");
+//    ErrorAnalysis analysis = new ErrorAnalysis();
+//	analysis.printFalseNegatives(dataTop1000JapanSales, dataGameList, correspondences, gsTest);
+//    analysis.printFalsePositives(correspondences, gsTrainTopGamelistTest);
+       
 	
 	System.out.println("*\n*\tRunning global matching\n*");
 

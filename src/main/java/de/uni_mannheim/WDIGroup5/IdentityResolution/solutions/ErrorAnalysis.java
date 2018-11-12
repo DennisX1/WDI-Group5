@@ -12,8 +12,9 @@ import de.uni_mannheim.informatik.dws.winter.utils.*;
 public class ErrorAnalysis {
 		
 	/**
-	 * NOT YET FINISHED
-	 * For Publisher + Game atm not working bc cannot resolve publisher_id to game
+	 * DOES SOMETIMES NOT WORK
+	 * cannot resolve ids correctly 
+	 * 
 	 */
 	
 	private static final Logger logger = WinterLogManager.getLogger();
@@ -23,8 +24,8 @@ public class ErrorAnalysis {
 		// go through the correspondences and check if they are incorrect
 		for(Correspondence<Game, Attribute> c : correspondences.get()) {
 			// is the match incorrect?
-						
-			if(gs.containsNegative(c.getFirstRecord(), c.getSecondRecord())) {
+					
+			if(gs.containsNegative(c.getFirstRecord(), c.getSecondRecord())) {			
 				
 				// if yes, print the records to the console
 				Game g1 = c.getFirstRecord();
@@ -87,9 +88,14 @@ public class ErrorAnalysis {
 			if (g1 == null) {
 				logger.info(String.format("\t%s", "null"));	
 			} else {
-				logger.info(String.format("\t%s", g1.getId() ));	
+				logger.info(String.format("\t%s", g1.getId()+ " / " + g1.getGameTitle()));	
 			}
-			logger.info(String.format("\t%s", g2.getId() + " / " + g2.getGameTitle()));	
+			if (g2 == null) {
+				logger.info(String.format("\t%s", "null"));	
+			} else {
+				logger.info(String.format("\t%s", g2.getId() + " / " + g2.getGameTitle()));	
+			}
+			
 		}
 	}
 }
