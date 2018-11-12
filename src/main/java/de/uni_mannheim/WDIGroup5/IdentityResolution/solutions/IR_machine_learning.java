@@ -60,8 +60,13 @@ public class IR_machine_learning {
         String modelType = "SimpleLogistic"; // use a logistic regression
         WekaMatchingRule<Game, Attribute> matchingRule = new WekaMatchingRule<>(0.7, modelType, options);
         matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000);
+        
 
-        // add comparators
+        
+        /*
+         * Matching Rule 1 for the first three Datasets (without publisher)
+         * Matching Rule 2 for including the publisher Dataset
+         */
         matchingRule.addComparator(new GameTitleComparatorEqual());
         matchingRule.addComparator(new GameTitleComparatorJaccard());
         matchingRule.addComparator(new GameTitleComparatorLevenshtein());
@@ -72,14 +77,10 @@ public class IR_machine_learning {
         matchingRule.addComparator(new GamePlatformComparatorJaccard());
         matchingRule.addComparator(new GamePlatformComparatorLevenshtein());
         matchingRule.addComparator(new GameReleaseDateComparator2Years());
-        matchingRule.addComparator(new SalesJapanSalesComparatorAbsolutDiff());
-        matchingRule.addComparator(new SalesPriceComparatorAbsolutDiff());
-        matchingRule.addComparator(new SalesFirstWeekSalesComparatorAbsolutDiff());
         matchingRule.addComparator(new PublisherNameComparatorEqual());
         matchingRule.addComparator(new PublisherNameComparatorJaccard());
         matchingRule.addComparator(new PublisherNameComparatorLevenshtein());
-
-
+  
         // load the training set
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTrainTopGamelist = new MatchingGoldStandard();
@@ -106,7 +107,7 @@ public class IR_machine_learning {
         learner.learnMatchingRule(dataVgaGames, dataGameList, null, matchingRule, gsTrainTopGamelist);
         System.out.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
 
-        // create a blocker (blocking strategy)
+        //blockers
         System.out.println("*\n*\tStandard Blocker: by title\n*");
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
 
