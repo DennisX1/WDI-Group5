@@ -75,10 +75,13 @@ public class IR_linear_combination_T1000_VGA {
         testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
 
 
+        /*
+        
         System.out.println("*\n*\tStandard Blocker: by year\n*");
         blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
 
+		*/
 
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
         blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
