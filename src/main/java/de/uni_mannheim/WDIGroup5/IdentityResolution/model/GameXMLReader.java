@@ -34,7 +34,6 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 	
 	
 	
-    @SuppressWarnings("unused")
 	@Override
     public Game createModelFromElement(Node node, String provenanceInfo) {
 
@@ -49,21 +48,30 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
         		+ "Platform"));
         
         //Parse Date - <ReleaseDate>1999-11-21</ReleaseDate>
-        try {
-            String date = getValueFromChildElement(node, "ReleaseDate");
-            if (date != null && !date.isEmpty()) {
-                DateTimeFormatter formatter = new DateTimeFormatterBuilder()
-                        .appendPattern("yyyy-MM-dd")
-                        .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
-                        .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
-                        .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
-                        .toFormatter(Locale.ENGLISH);
-                LocalDateTime dt = LocalDateTime.parse(date, formatter);
-                game.setReleaseDate(dt);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
+        String date = getValueFromChildElement(node, "ReleaseDate");
+        if (date != null && !date.isEmpty()) {
+            DateTimeFormatter formatter = new DateTimeFormatterBuilder()
+                    .appendPattern("yyyy-MM-dd")
+                    .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
+                    .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
+                    .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
+                    .toFormatter(Locale.ENGLISH);
+            LocalDateTime dt = LocalDateTime.parse(date, formatter);
+            game.setReleaseDate(dt);
         }
+        else {
+        	DateTimeFormatter formatter = new DateTimeFormatterBuilder()
+                    .appendPattern("yyyy-MM-dd")
+                    .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
+                    .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
+                    .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
+                    .toFormatter(Locale.ENGLISH);
+        	date = "0003-11-01";
+            LocalDateTime dt = LocalDateTime.parse(date, formatter);
+            game.setReleaseDate(dt);
+
+        }
+
                 
         
         
@@ -89,8 +97,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 
 		}		
 		
-
-
+		
         return game;
     }
 }

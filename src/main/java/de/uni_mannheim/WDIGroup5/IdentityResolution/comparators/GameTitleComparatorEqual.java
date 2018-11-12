@@ -35,7 +35,6 @@ public class GameTitleComparatorEqual implements Comparator<Game, Attribute> {
 
             this.comparisonLog.setSimilarity(Double.toString(similarity));
         }
-        System.out.println(similarity);
         return similarity;
     }
 

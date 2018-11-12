@@ -29,7 +29,7 @@ private Sale sales;
 
 
     public Game (String identifier, String provenance){
-        this.id = id;
+        this.id = identifier;
         this.provenance = provenance;
 
     }

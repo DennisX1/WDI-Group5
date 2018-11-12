@@ -14,7 +14,7 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
     @Override
     public Element createElementFromRecord(Game record, Document document) {
         Element game = document.createElement("Game");
-
+        
         //String elements from Game
         game.appendChild(createTextElement("id",record.getId(), document));
         game.appendChild(createTextElement("GameTitle",record.getGameTitle(), document));

@@ -24,9 +24,7 @@ public class BlockingByPlatformGenerator extends RecordBlockingKeyGenerator<Game
 	public void generateBlockingKeys(Game record, Processable<Correspondence<Attribute, Matchable>> correspondences,
 			DataIterator<Pair<String, Game>> resultCollector) {
 
-
 		resultCollector.next(new Pair<>(record.getPlatform(), record));
-		System.out.println(record.getPlatform());
 	
 	}
 	

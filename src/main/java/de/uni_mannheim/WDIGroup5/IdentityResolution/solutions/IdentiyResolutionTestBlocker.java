@@ -53,9 +53,6 @@ public class IdentiyResolutionTestBlocker {
 		new GameXMLReader().loadFromXML(new File("data/input/GameList.xml"), "/Games/Game", dataGameList);
 		System.out.println("*\n*\tFinished loading the datasets\n*");
 		
-		System.out.println(dataGameList.size());
-		System.out.println(dataTop1000JapanSales.size());
-		
 		// load the gold standard (test set)
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTestTopGamelist = new MatchingGoldStandard();
@@ -87,10 +84,9 @@ public class IdentiyResolutionTestBlocker {
 		// create a blocker (blocking strategy)
 		
 		
+		//Blocker anpassen
 		Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
 		
-		/*
-
 		
 		System.out.println("*\n*\tStandard Blocker: by title\n*");		
 		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
@@ -99,18 +95,16 @@ public class IdentiyResolutionTestBlocker {
 		
 		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 		
-		*/
 		
 		System.out.println("*\n*\tStandard Blocker: by platform\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
 		
 		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
 
-		//testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
 		
-		//testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 		
-		/*
 		
 		System.out.println("*\n*\tStandard Blocker: by year\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
@@ -137,7 +131,6 @@ public class IdentiyResolutionTestBlocker {
 
 		testBlocker(blocker, dataVgaGames, dataPublisher, matchingRule, gsTestVgaPublisher);
 
-		*/
 		
 	    }
 	
@@ -153,13 +146,7 @@ public class IdentiyResolutionTestBlocker {
 		
 		// evaluate your result
 		System.out.println("*\n*\tEvaluating result\n*");
-		
-		System.out.println(ds1.getRandomRecord().getPlatform());
-		System.out.println(ds2.getRandomRecord().getPlatform());
-
-		
-		System.out.println(correspondences.get());
-		
+				
 		MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
 		Performance perfTest = evaluator.evaluateMatching(correspondences,
 			gsTest);
