@@ -106,7 +106,7 @@ public class IR_machine_learning_GLIST_T1000 {
 			gsTrainTopGamelistTest);
 	
 	// print the evaluation result
-	System.out.println("Academy Awards <-> Actors");
+	System.out.println("GameList <-> Top1000");
 	System.out.println(String.format(
 			"Precision: %.4f",perfTest.getPrecision()));
 	System.out.println(String.format(
