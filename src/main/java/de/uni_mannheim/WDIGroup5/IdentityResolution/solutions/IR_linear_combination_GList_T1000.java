@@ -70,20 +70,20 @@ public class IR_linear_combination_GList_T1000 {
         Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
 
-//        System.out.println("*\n*\tStandard Blocker: by platform\n*");
-//
-//        blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
-//        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
-//
-//        System.out.println("*\n*\tStandard Blocker: by year\n*");
-//
-//        blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
-//        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
-//
-//         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
-//
-//        blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
-//        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+        System.out.println("*\n*\tStandard Blocker: by platform\n*");
+
+        blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+
+        System.out.println("*\n*\tStandard Blocker: by year\n*");
+
+        blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+
+         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
+
+        blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
 
 
     }

@@ -85,7 +85,7 @@ public class IR_linear_combination_Pub_VGA {
         // blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
-        // blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+        blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
         // Initialize Matching Engine
         MatchingEngine<Game, Attribute> engine = new MatchingEngine<>();
