@@ -60,14 +60,14 @@ public class IR_linear_combination_GList_T1000 {
         matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTrainingTopGamelist);
 
         //add comparators, Game Title, Publisher, JapanSales, GamePlatform, GameReleaseDate
-        matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
-        matchingRule.addComparator(new GameGenreComparatorEqual(), 0.5);
+        matchingRule.addComparator(new GameTitleComparatorEqual(), 1.0);
+        //matchingRule.addComparator(new GameGenreComparatorEqual(), 0.5);
 
         // create a blocker (blocking strategy)
 
         System.out.println("*\n*\tStandard Blocker: by title\n*");
 
-        Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
+        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
 
         System.out.println("*\n*\tStandard Blocker: by platform\n*");
@@ -75,10 +75,15 @@ public class IR_linear_combination_GList_T1000 {
         blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
 
+        /*
+         * GC overhead limit exceeded
+         * 
         System.out.println("*\n*\tStandard Blocker: by year\n*");
 
         blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
         testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+
+		*/
 
          System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
@@ -89,11 +94,11 @@ public class IR_linear_combination_GList_T1000 {
     }
 
 
-    protected static void testBlocker(Blocker<Game,Attribute,Game,Attribute> blocker, DataSet<Game,Attribute> ds1, DataSet<Game,Attribute> ds2, MatchingRule<Game,Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
-        // blocker.setMeasureBlockSizes(true);
+    protected static void testBlocker(StandardRecordBlocker<Game, Attribute> blocker, DataSet<Game,Attribute> ds1, DataSet<Game,Attribute> ds2, MatchingRule<Game,Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
+        blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
-        // blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+        blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
         // Initialize Matching Engine
         MatchingEngine<Game, Attribute> engine = new MatchingEngine<>();

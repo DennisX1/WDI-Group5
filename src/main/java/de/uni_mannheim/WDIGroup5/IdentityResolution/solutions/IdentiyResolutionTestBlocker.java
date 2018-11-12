@@ -106,6 +106,9 @@ public class IdentiyResolutionTestBlocker {
 		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 		
 		
+		/*
+		 * GC overhead limit exceeded
+		 * 
 		System.out.println("*\n*\tStandard Blocker: by year\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
 		
@@ -114,7 +117,7 @@ public class IdentiyResolutionTestBlocker {
 		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
 		
 		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
-		
+		*/
 		
 		System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
