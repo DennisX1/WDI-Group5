@@ -4,10 +4,7 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitle
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPlatformGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorEqual;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorJaccard;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
-import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesJapanSalesComparatorAbsolutDiff;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.*;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
@@ -49,47 +46,53 @@ public class IR_linear_combination_GList_T1000 {
 
         // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
-        MatchingGoldStandard gsTrainingTopGamelist = new MatchingGoldStandard();
-        gsTrainingTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_train.csv"));
+        MatchingGoldStandard gsTestingTopGamelist = new MatchingGoldStandard();
+        gsTestingTopGamelist.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_DS1_test.csv"));
 
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
 
         //create a matching rule
-        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
-        matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTrainingTopGamelist);
+        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<Game, Attribute>(0.9);
+        //matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTestingTopGamelist);
 
         //add comparators, Game Title, Publisher, JapanSales, GamePlatform, GameReleaseDate
-        matchingRule.addComparator(new GameTitleComparatorEqual(), 1.0);
-        //matchingRule.addComparator(new GameGenreComparatorEqual(), 0.5);
-
+        matchingRule.addComparator(new GameTitleComparatorJaccard(), 1.0);
+        //matchingRule.addComparator(new GamePlatformComparatorEqual(), 0.2);
         // create a blocker (blocking strategy)
 
         System.out.println("*\n*\tStandard Blocker: by title\n*");
 
         StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());
-        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestingTopGamelist);
 
+        /*
         System.out.println("*\n*\tStandard Blocker: by platform\n*");
 
         blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
-        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
-
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestingTopGamelist);
+		*/
+        
         /*
          * GC overhead limit exceeded
          * 
         System.out.println("*\n*\tStandard Blocker: by year\n*");
 
         blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
-        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestingTopGamelist);
 
 		*/
 
-         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
+        
+        /*
+         * GC overhead limit exceeded
+         * 
+        System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
         blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
-        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTrainingTopGamelist);
+        testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestingTopGamelist);
 
+		 */
 
     }
 
@@ -123,17 +126,11 @@ public class IR_linear_combination_GList_T1000 {
 //
 //        // load the gold standard (test set)
         System.out.println("*\n*\tLoading gold standard\n*");
-        MatchingGoldStandard gsTest_gList_t1000 = new MatchingGoldStandard();
-        gsTest_gList_t1000.loadFromCSVFile(new File(
-                "data/goldstandard/gold_standard_top1000_DS1_test.csv"));
-
-
 
         // evaluate your result
         System.out.println("*\n*\tEvaluating result\n*");
         MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
-        Performance perfTest = evaluator.evaluateMatching(correspondences,
-                gsTest);
+        Performance perfTest = evaluator.evaluateMatching(correspondences, gsTest);
 
         // print the evaluation result
         System.out.println("GameList <-> Top1000");
