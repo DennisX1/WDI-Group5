@@ -6,6 +6,7 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisher
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorJaccard;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorLevenshtein;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesJapanSalesComparatorAbsolutDiff;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
@@ -56,23 +57,12 @@ public class IR_linear_combination_Pub_VGA {
 
         //create a matching rule
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
-        //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
+        matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTestVgaPublisher);
 
-        //add comparators
-        matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
+        //add comparators Publisher Name
+        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 1);
 
         // create a blocker (blocking strategy)
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by title\n*");
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by platform\n*");
-
-        //not available for this combination
-        System.out.println("*\n*\tStandard Blocker: by year\n*");
-
-
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());

@@ -57,11 +57,11 @@ public class IR_linear_combination_GList_T1000 {
 
         //create a matching rule
         LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
-        //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
+        matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTrainingTopGamelist);
 
-        //add comparators
+        //add comparators, Game Title, Publisher, JapanSales, GamePlatform, GameReleaseDate
         matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
-        matchingRule.addComparator(new GameGenreComparatorEqual(),0.5);
+        matchingRule.addComparator(new GameGenreComparatorEqual(), 0.5);
 
         // create a blocker (blocking strategy)
 
