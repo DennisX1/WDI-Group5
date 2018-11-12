@@ -25,6 +25,8 @@ public class IR_linear_combination_GList_Pub {
 
     private static long startTime;
     private static long endTime;
+    
+    private static ErrorAnalysis a = new ErrorAnalysis();
 
     public static void main(String[] args) throws Exception {
 
@@ -50,7 +52,6 @@ public class IR_linear_combination_GList_Pub {
         MatchingGoldStandard gsTrainingPublisherGamelist = new MatchingGoldStandard();
         gsTrainingPublisherGamelist.loadFromCSVFile(new File("data/goldstandard/GS_publisher_gamelist_testing.csv"));
 
-
         startTime = System.nanoTime();
         System.out.println("*\n*\tStart Counting Time\n*");
 
@@ -65,8 +66,7 @@ public class IR_linear_combination_GList_Pub {
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
-        testBlocker(blocker, dataPublisher, dataGameList, matchingRule, gsTrainingPublisherGamelist);
-
+        testBlocker(blocker, dataGameList, dataPublisher, matchingRule, gsTrainingPublisherGamelist);
     }
 
 
@@ -81,9 +81,13 @@ public class IR_linear_combination_GList_Pub {
 
         // Execute the matching
         System.out.println("*\n*\tRunning identity resolution\n*");
-        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
-
-
+        Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);       
+       
+        // Testing Error Analysis ***** Does not work correctly!
+        // ErrorAnalysis analysis = new ErrorAnalysis();
+		// testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
+		
+        
         // Optional!????
 
 //        // Create a top-1 global matching
@@ -113,6 +117,16 @@ public class IR_linear_combination_GList_Pub {
         System.out.println(String.format(
                 "F1: %.4f", perfTest.getF1()));
 
+        endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Execution Time: " + totalTime / 1000000000);
+    }
+
+    protected static void testErrorAnalysis(ErrorAnalysis analysis, Processable<Correspondence<Game, Attribute>> correspondences,DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
+    	System.out.println("*\n*\tTesting Error Analysis\n*");
+    	analysis.printFalseNegatives(ds1, ds2, correspondences, gsTest);
+    	analysis.printFalsePositives(correspondences, gsTest);
+       
         endTime = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution Time: " + totalTime / 1000000000);
