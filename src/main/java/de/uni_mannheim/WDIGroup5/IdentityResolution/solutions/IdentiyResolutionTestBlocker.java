@@ -34,7 +34,7 @@ import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 
 
 
-public class IdentiyResolution {
+public class IdentiyResolutionTestBlocker {
 	
 	private static long startTime;
 	private static long endTime;
@@ -81,28 +81,35 @@ public class IdentiyResolution {
 		LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
 		
 		// add comparators
-		matchingRule.addComparator(new GameTitleComparatorJaccard(), 1.0);
+		matchingRule.addComparator(new GameTitleComparatorEqual(), 1.0);
 		
 		// create a blocker (blocking strategy)
 		
-		System.out.println("*\n*\tStandard Blocker: by title\n*");
+		
 		Blocker<Game,Attribute,Game,Attribute> blocker = new StandardRecordBlocker<>(new BlockingByGameTitleGenerator());
 		
+		/*
+
+		
+		System.out.println("*\n*\tStandard Blocker: by title\n*");		
 		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
 
 		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
 		
 		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+		*/
 		
 		System.out.println("*\n*\tStandard Blocker: by platform\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
 		
 		testBlocker(blocker, dataTop1000JapanSales, dataGameList, matchingRule, gsTestTopGamelist);
 
-		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
+		//testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTestTopVga);
 		
-		testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		//testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
 		
+		/*
 		
 		System.out.println("*\n*\tStandard Blocker: by year\n*");
 		blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
@@ -129,7 +136,7 @@ public class IdentiyResolution {
 
 		testBlocker(blocker, dataVgaGames, dataPublisher, matchingRule, gsTestVgaPublisher);
 
-		
+		*/
 		
 	    }
 	

@@ -72,17 +72,17 @@ public class IR_linear_combination_GList_Pub {
 
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
 
-        blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+        Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
         testBlocker(blocker, dataPublisher, dataGameList, matchingRule, gsTrainingPublisherGamelist);
 
     }
 
 
     protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
-        blocker.setMeasureBlockSizes(true);
+        // blocker.setMeasureBlockSizes(true);
 
         //Write debug results to file
-        blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+        // blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
         // Initialize Matching Engine
         MatchingEngine<Game, Attribute> engine = new MatchingEngine<>();
