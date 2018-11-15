@@ -5,6 +5,8 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPlatformG
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorLevenshtein;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
@@ -54,35 +56,38 @@ public class IR_linear_combination_GList_VGA {
         System.out.println("*\n*\tStart Counting Time\n*");
 
         //create a matching rule
-        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
+        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.9);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
         //add comparators @Li: Game Title, PublisherName, JapanSales GamePlatform, GameGenre
         //Dont forget to test for equal, levenstein and jaccard
-        matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
+        matchingRule.addComparator(new GameTitleComparatorJaccard(), 1.0);
 
         // create a blocker (blocking strategy)
-
-        System.out.println("*\n*\tStandard Blocker: by title\n*");
-
-        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());
-        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
-
-        System.out.println("*\n*\tStandard Blocker: by platform\n*");
-
-        blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
-        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
-
-        System.out.println("*\n*\tStandard Blocker: by year\n*");
-
-        blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
-        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
-
-
-        System.out.println("*\n*\tStandard Blocker: by publisher\n*");
-
-        blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
-        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+        
+//        System.out.println("*\n*\tStandard Blocker: by title\n*");
+//
+//        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());
+//        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+        
+        
+//        System.out.println("*\n*\tStandard Blocker: by platform\n*");
+//
+//        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+//        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+        
+//        System.out.println("*\n*\tStandard Blocker: by year\n*");
+//
+//        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
+//        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+		
+        
+//        System.out.println("*\n*\tStandard Blocker: by publisher\n*");
+//
+//        StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+//        testBlocker(blocker, dataGameList, dataVgaGames, matchingRule, gsTestGamelistVga);
+        
 
     }
 
@@ -102,8 +107,8 @@ public class IR_linear_combination_GList_VGA {
         Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
 
         // Testing Error Analysis ***** Does not work correctly!
-//        ErrorAnalysis analysis = new ErrorAnalysis();
-//		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
+        ErrorAnalysis analysis = new ErrorAnalysis();
+        testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
 
         // Optional!????
 
@@ -119,17 +124,18 @@ public class IR_linear_combination_GList_VGA {
         new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_VGA_correspondences.csv"), correspondences);
 //
 //        // load the gold standard (test set)
+        /*
         System.out.println("*\n*\tLoading gold standard\n*");
         MatchingGoldStandard gsTest_gList_vga = new MatchingGoldStandard();
         gsTest.loadFromCSVFile(new File(
                 "data/goldstandard/GS_gamelist_vga_testing.csv"));
+       	*/
 
 
         // evaluate your result
         System.out.println("*\n*\tEvaluating result\n*");
         MatchingEvaluator<Game, Attribute> evaluator = new MatchingEvaluator<Game, Attribute>();
-        Performance perfTest = evaluator.evaluateMatching(correspondences,
-        		gsTest_gList_vga);
+        Performance perfTest = evaluator.evaluateMatching(correspondences, gsTest);
 
         // print the evaluation result
         System.out.println("GameList <-> VGA");
