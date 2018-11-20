@@ -4,9 +4,22 @@ import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitle
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPlatformGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorEqual;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameGenreComparatorLevenshtein;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GamePlatformComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GamePlatformComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GamePlatformComparatorLevenshtein;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameReleaseDateComparator2Years;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorLevenshtein;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorEqual;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorJaccard;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorLevenshtein;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesFirstWeekSalesComparatorAbsolutDiff;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesJapanSalesComparatorAbsolutDiff;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.SalesPriceComparatorAbsolutDiff;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.GameXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
@@ -20,7 +33,9 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
+import java.awt.List;
 import java.io.File;
+import java.util.HashSet;
 
 public class IR_linear_combination_T1000_VGA {
 
@@ -28,14 +43,6 @@ public class IR_linear_combination_T1000_VGA {
 	private static long endTime;
 
 	public static void main(String[] args) throws Exception {
-
-		// possible combinations:
-		// GameList - Publisher
-		// GameList - Top 1000
-		// GameList - VGA
-		// Publisher - Top 1000
-		// Publisher - VGA
-		// Top 1000 - VGA
 
 		// loading data
 		System.out.println("*\n*\tLoading datasets\n*");
@@ -54,39 +61,50 @@ public class IR_linear_combination_T1000_VGA {
 		System.out.println("*\n*\tStart Counting Time\n*");
 
 		// create a matching rule
-		LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
+		LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.6);
 		// matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv",
 		// -1, gsTraining);
 
 		// add comparators
-		matchingRule.addComparator(new GameTitleComparatorEqual(), 0.5);
-		matchingRule.addComparator(new GameGenreComparatorJaccard(), 0.5);
-		matchingRule.addComparator(new SalesJapanSalesComparatorAbsolutDiff(), 0.4);
+//		matchingRule.addComparator(new GameTitleComparatorEqual(),0.8);		
+//		matchingRule.addComparator(new GameTitleComparatorJaccard(), 0.2);
+		matchingRule.addComparator(new GameTitleComparatorLevenshtein(), 0.2);
+
+//		matchingRule.addComparator(new GamePlatformComparatorEqual(),0.2);
+//		matchingRule.addComparator(new GamePlatformComparatorJaccard(),0.7);
+		matchingRule.addComparator(new GamePlatformComparatorLevenshtein(),0.8);
+
+//		matchingRule.addComparator(new PublisherNameComparatorEqual(), 1);
+//		matchingRule.addComparator(new PublisherNameComparatorJaccard(), 1);
+//		matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 0.1);
+
+//		matchingRule.addComparator(new GameReleaseDateComparator2Years(),0.1);
+
+//		matchingRule.addComparator(new SalesJapanSalesComparatorAbsolutDiff(),1);
+//		matchingRule.addComparator(new SalesFirstWeekSalesComparatorAbsolutDiff(),1);
+//		matchingRule.addComparator(new SalesPriceComparatorAbsolutDiff(),1);
+
+//		matchingRule.addComparator(new GameGenreComparatorEqual(),1);
+//		matchingRule.addComparator(new GameGenreComparatorJaccard(),1);
+//		matchingRule.addComparator(new GameGenreComparatorLevenshtein(),1);
 
 		// create a blocker (blocking strategy)
-
 		System.out.println("*\n*\tStandard Blocker: by title\n*");
 		Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(
 				new BlockingByGameTitleGenerator());
 		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
 
-		System.out.println("*\n*\tStandard Blocker: by platform\n*");
-		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
-		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
-
-		/*
-		 * 
-		 * System.out.println("*\n*\tStandard Blocker: by year\n*"); blocker = new
-		 * StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
-		 * testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule,
-		 * gsTrainingTopVga);
-		 * 
-		 */
-
-		System.out.println("*\n*\tStandard Blocker: by publisher\n*");
-		blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
-		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
-
+//		System.out.println("*\n*\tStandard Blocker: by platform\n*");
+//		blocker = new StandardRecordBlocker<>(new BlockingByPlatformGenerator());
+//		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
+//
+//		System.out.println("*\n*\tStandard Blocker: by publisher\n*");
+//		blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
+//		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
+//
+//		System.out.println("*\n*\tStandard Blocker: by year\n*");
+//		blocker = new StandardRecordBlocker<>(new BlockingByReleaseYearGenerator());
+//		testBlocker(blocker, dataTop1000JapanSales, dataVgaGames, matchingRule, gsTrainingTopVga);
 	}
 
 	protected static void testBlocker(Blocker<Game, Attribute, Game, Attribute> blocker, DataSet<Game, Attribute> ds1,
@@ -106,8 +124,8 @@ public class IR_linear_combination_T1000_VGA {
 				rule, blocker);
 
 		// Testing Error Analysis ***** Does not work correctly!
-		ErrorAnalysis analysis = new ErrorAnalysis();
-		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
+//		ErrorAnalysis analysis = new ErrorAnalysis();
+//		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
 
 		// Optional!????
 
@@ -139,9 +157,6 @@ public class IR_linear_combination_T1000_VGA {
 		System.out.println(String.format("Recall: %.4f", perfTest.getRecall()));
 		System.out.println(String.format("F1: %.4f", perfTest.getF1()));
 
-		endTime = System.nanoTime();
-		long totalTime = endTime - startTime;
-		System.out.println("Execution Time: " + totalTime / 1000000000);
 	}
 
 	protected static void testErrorAnalysis(ErrorAnalysis analysis,
@@ -154,6 +169,6 @@ public class IR_linear_combination_T1000_VGA {
 
 		endTime = System.nanoTime();
 		long totalTime = endTime - startTime;
-		System.out.println("Execution Time: " + totalTime / 1000000000);
+//		System.out.println("Execution Time: " + totalTime / 1000000000);
 	}
 }

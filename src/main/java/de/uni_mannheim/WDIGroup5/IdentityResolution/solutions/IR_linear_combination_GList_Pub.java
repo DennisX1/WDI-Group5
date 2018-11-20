@@ -1,7 +1,9 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.solutions;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByGameTitleGenerator;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPlatformGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByPublisherNameGenerator;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.blockers.BlockingByReleaseYearGenerator;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.GameTitleComparatorEqual;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorEqual;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.comparators.PublisherNameComparatorJaccard;
@@ -56,15 +58,18 @@ public class IR_linear_combination_GList_Pub {
         System.out.println("*\n*\tStart Counting Time\n*");
 
         //create a matching rule
-        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
+        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.9);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
         //add comparators @Anne: PublisherName
-        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 1);
+        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(),1);
+//        matchingRule.addComparator(new PublisherNameComparatorEqual(),1);
+//        matchingRule.addComparator(new PublisherNameComparatorJaccard(),1);
+        
+        
 
         // create a blocker (blocking strategy)
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
-
         Blocker<Game, Attribute, Game, Attribute> blocker = new StandardRecordBlocker<>(new BlockingByPublisherNameGenerator());
         testBlocker(blocker, dataGameList, dataPublisher, matchingRule, gsTrainingPublisherGamelist);
     }
