@@ -58,7 +58,7 @@ public class IR_linear_combination_GList_Pub {
         System.out.println("*\n*\tStart Counting Time\n*");
 
         //create a matching rule
-        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.9);
+        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(1);
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
         //add comparators @Anne: PublisherName
@@ -121,10 +121,6 @@ public class IR_linear_combination_GList_Pub {
                 "Recall: %.4f", perfTest.getRecall()));
         System.out.println(String.format(
                 "F1: %.4f", perfTest.getF1()));
-
-        endTime = System.nanoTime();
-        long totalTime = endTime - startTime;
-        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 
     protected static void testErrorAnalysis(ErrorAnalysis analysis, Processable<Correspondence<Game, Attribute>> correspondences,DataSet<Game, Attribute> ds1, DataSet<Game, Attribute> ds2, MatchingRule<Game, Attribute> rule, MatchingGoldStandard gsTest) throws Exception {
@@ -132,8 +128,5 @@ public class IR_linear_combination_GList_Pub {
     	analysis.printFalseNegatives(ds1, ds2, correspondences, gsTest);
     	analysis.printFalsePositives(correspondences, gsTest);
        
-        endTime = System.nanoTime();
-        long totalTime = endTime - startTime;
-        System.out.println("Execution Time: " + totalTime / 1000000000);
     }
 }
