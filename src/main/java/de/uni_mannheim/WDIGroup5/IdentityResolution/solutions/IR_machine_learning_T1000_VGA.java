@@ -95,10 +95,10 @@ public class IR_machine_learning_T1000_VGA {
 				blocker);
 		
 		// Testing Error Analysis - unfinished
-//		System.out.println("*\n*\tTesting Error Analysis\n*");
-//	    ErrorAnalysis analysis = new ErrorAnalysis();
-//		analysis.printFalseNegatives(dataVgaGames, dataGameList, correspondences, gsTest);
-//	    analysis.printFalsePositives(correspondences, gsTrainTopGamelistTest);
+		System.out.println("*\n*\tTesting Error Analysis\n*");
+	    ErrorAnalysis analysis = new ErrorAnalysis();
+		analysis.printFalseNegatives(dataTop1000JapanSales,dataVgaGames,correspondences, gsTestTop1000Vga);
+	    analysis.printFalsePositives(correspondences, gsTrainingTopVga);
 	       
 		
 		System.out.println("*\n*\tRunning global matching\n*");
@@ -128,11 +128,7 @@ public class IR_machine_learning_T1000_VGA {
 		
 		// write the correspondences to the output file
 		new CSVCorrespondenceFormatter().writeCSV(new File("data/output/machine_learning_T1000_VGA_correspondences.csv"), correspondences);
-		
 
-		
-		
-		
 	    }
 	    
 	    
