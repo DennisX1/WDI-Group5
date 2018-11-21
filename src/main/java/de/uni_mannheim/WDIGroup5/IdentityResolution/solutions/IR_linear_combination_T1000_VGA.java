@@ -66,27 +66,10 @@ public class IR_linear_combination_T1000_VGA {
 		// -1, gsTraining);
 
 		// add comparators
-//		matchingRule.addComparator(new GameTitleComparatorEqual(),0.8);		
-//		matchingRule.addComparator(new GameTitleComparatorJaccard(), 0.2);
-		matchingRule.addComparator(new GameTitleComparatorLevenshtein(), 0.2);
 
-//		matchingRule.addComparator(new GamePlatformComparatorEqual(),0.2);
-//		matchingRule.addComparator(new GamePlatformComparatorJaccard(),0.7);
+		matchingRule.addComparator(new GameTitleComparatorLevenshtein(), 0.2);
 		matchingRule.addComparator(new GamePlatformComparatorLevenshtein(),0.8);
 
-//		matchingRule.addComparator(new PublisherNameComparatorEqual(), 1);
-//		matchingRule.addComparator(new PublisherNameComparatorJaccard(), 1);
-//		matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 0.1);
-
-//		matchingRule.addComparator(new GameReleaseDateComparator2Years(),0.1);
-
-//		matchingRule.addComparator(new SalesJapanSalesComparatorAbsolutDiff(),1);
-//		matchingRule.addComparator(new SalesFirstWeekSalesComparatorAbsolutDiff(),1);
-//		matchingRule.addComparator(new SalesPriceComparatorAbsolutDiff(),1);
-
-//		matchingRule.addComparator(new GameGenreComparatorEqual(),1);
-//		matchingRule.addComparator(new GameGenreComparatorJaccard(),1);
-//		matchingRule.addComparator(new GameGenreComparatorLevenshtein(),1);
 
 		// create a blocker (blocking strategy)
 		System.out.println("*\n*\tStandard Blocker: by title\n*");

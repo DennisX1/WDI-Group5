@@ -62,10 +62,7 @@ public class IR_linear_combination_GList_Pub {
         //  matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTraining);
 
         //add comparators @Anne: PublisherName
-        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(),1);
-//        matchingRule.addComparator(new PublisherNameComparatorEqual(),1);
-//        matchingRule.addComparator(new PublisherNameComparatorJaccard(),1);
-        
+        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(),1);   
         
 
         // create a blocker (blocking strategy)
