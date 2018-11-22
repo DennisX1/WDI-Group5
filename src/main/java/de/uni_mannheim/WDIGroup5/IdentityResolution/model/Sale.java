@@ -16,12 +16,6 @@ public class Sale extends AbstractRecord<Attribute> implements Serializable {
         super(identifier, provenance);
     }
 
-    @Override
-    public boolean hasValue(Attribute attribute) {
-        return false;
-    }
-
-
     public double getJapanSales() {
         return japanSales;
     }
@@ -44,6 +38,26 @@ public class Sale extends AbstractRecord<Attribute> implements Serializable {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+
+
+
+    public static final Attribute JAPANSALES = new Attribute("JapanSales");
+    public static final Attribute FIRSTWEEKSALES = new Attribute("FirstWeekSales");
+    public static final Attribute PRICE = new Attribute("Price");
+
+
+    @Override
+    public boolean hasValue(Attribute attribute) {
+
+        if(attribute==JAPANSALES)
+            return getJapanSales() == 0;
+        else if(attribute==FIRSTWEEKSALES)
+            return getFirstWeekSales()== 0;
+        else if(attribute==PRICE)
+            return getPrice()== 0;
+        return false;
     }
 
 
