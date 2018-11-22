@@ -54,11 +54,11 @@ public class IR_linear_combination_Pub_VGA {
         System.out.println("*\n*\tStart Counting Time\n*");
 
         //create a matching rule
-        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(0.7);
+        LinearCombinationMatchingRule<Game, Attribute> matchingRule = new LinearCombinationMatchingRule<>(1);
         matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", -1, gsTestVgaPublisher);
 
         //add comparators Publisher Name
-        matchingRule.addComparator(new PublisherNameComparatorJaccard(), 1);
+        matchingRule.addComparator(new PublisherNameComparatorLevenshtein(), 1);
 
         // create a blocker (blocking strategy)
         System.out.println("*\n*\tStandard Blocker: by publisher\n*");
