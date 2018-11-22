@@ -19,14 +19,6 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
     }
 
 
-    @Override
-    public boolean hasValue(Attribute attribute) {
-        return false;
-    }
-
-
-
-
     public String getPublisherName() {
         return publisherName;
     }
@@ -65,5 +57,29 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
 
     public void setNotes(String notes) {
         this.notes = notes;
+    }
+
+
+
+
+    public static final Attribute PUBLISHERNAME = new Attribute("PublisherName");
+    public static final Attribute HEADQUARTERS = new Attribute("Headquarters");
+    public static final Attribute ESTABLISHED = new Attribute("Established");
+    public static final Attribute NOTABLEGAMESPUBLISHED = new Attribute("NotableGamesPublished");
+    public static final Attribute NOTES = new Attribute("Notes");
+
+
+    @Override
+    public boolean hasValue(Attribute attribute) {
+
+        if(attribute==PUBLISHERNAME)
+            return getPublisherName()!=null;
+        else if(attribute==HEADQUARTERS)
+            return getHeadQuarters()!=null;
+        else if(attribute==NOTABLEGAMESPUBLISHED)
+            return getNotableGamesPublished()!=null;
+        else if(attribute==NOTES)
+            return getNotes()!=null;
+        return false;
     }
 }
