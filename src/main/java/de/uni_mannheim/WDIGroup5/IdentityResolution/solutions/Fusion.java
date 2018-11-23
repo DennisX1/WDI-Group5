@@ -68,8 +68,12 @@ public class Fusion {
         // load correspondences
         System.out.println("*\n*\tLoading correspondences\n*");
         CorrespondenceSet<Game, Attribute> correspondences = new CorrespondenceSet<>();
-        correspondences.loadCorrespondences(new File("data/correspondences/academy_awards_2_actors_correspondences.csv"),ds1, ds2);
-        correspondences.loadCorrespondences(new File("data/correspondences/actors_2_golden_globes_correspondences.csv"),ds2, ds3);
+        correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds1, ds2);
+        correspondences.loadCorrespondences(new File("data/correspondences/GList_VGA_correspondences.csv"),ds1, ds4);
+        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds1, ds3);
+        correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds2, ds3);
+        correspondences.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds2, ds4);
+        correspondences.loadCorrespondences(new File("data/correspondences/T1000_VGA_correspondences.csv"),ds3, ds4);
 
 
         // write group size distribution
@@ -79,7 +83,7 @@ public class Fusion {
         // load the gold standard
         System.out.println("*\n*\tEvaluating results\n*");
         DataSet<Game, Attribute> gs = new FusibleHashedDataSet<>();
-        new GameXMLReader().loadFromXML(new File("data/goldstandard/gold.xml"), "/Games/Game", gs);
+        new GameXMLReader().loadFromXML(new File("data/goldstandard/gs_fusion.xml"), "/Games/Game", gs);
 
         for(Game m : gs.get()) {
             System.out.println(String.format("gs: %s", m.getIdentifier()));
