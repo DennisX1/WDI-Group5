@@ -52,11 +52,11 @@ public class Sale extends AbstractRecord<Attribute> implements Serializable {
     public boolean hasValue(Attribute attribute) {
 
         if(attribute==JAPANSALES)
-            return getJapanSales() == 0;
+            return getJapanSales() != 0;
         else if(attribute==FIRSTWEEKSALES)
-            return getFirstWeekSales()== 0;
+            return getFirstWeekSales()!= 0;
         else if(attribute==PRICE)
-            return getPrice()== 0;
+            return getPrice()!= 0;
         return false;
     }
 

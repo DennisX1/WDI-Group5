@@ -82,4 +82,5 @@ public class Publisher extends AbstractRecord<Attribute> implements Serializable
             return getNotes()!=null;
         return false;
     }
+
 }
