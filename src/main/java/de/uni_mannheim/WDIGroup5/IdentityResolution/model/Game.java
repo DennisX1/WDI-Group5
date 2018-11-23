@@ -49,6 +49,7 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
 
     public void setGameTitle(String gameTitle) {
         this.gameTitle = gameTitle;
+        System.out.println(this.gameTitle);
     }
 
     public Publisher getPublisher() {
