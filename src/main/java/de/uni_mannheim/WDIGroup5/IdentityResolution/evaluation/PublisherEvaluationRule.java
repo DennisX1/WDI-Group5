@@ -8,15 +8,16 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.SimilarityMeasure;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 
-public class SaleEvaluationRule extends EvaluationRule<Game, Attribute> {
+
+public class PublisherEvaluationRule extends EvaluationRule<Game, Attribute> {
+	
+	SimilarityMeasure<String> sim = new TokenizingJaccardSimilarity();
 
 	@Override
 	public boolean isEqual(Game record1, Game record2, Attribute schemaElement) {
 		// the title is correct if all tokens are there, but the order does not
 		// matter
-		
-		//threshold: 2% deviation from the mean value
-		return ((record1.getSales().getJapanSales() - record2.getSales().getJapanSales()) <= (record1.getSales().getJapanSales() + record2.getSales().getJapanSales()) / 2 * 0.02);
+		return sim.calculate(record1.getPublisher().getPublisherName(), record2.getPublisher().getPublisherName()) == 1.0;
 	}
 
 	/* (non-Javadoc)
