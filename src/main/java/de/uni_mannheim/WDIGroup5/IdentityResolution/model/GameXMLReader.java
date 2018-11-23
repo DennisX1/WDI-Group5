@@ -30,6 +30,14 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 	protected void initialiseDataset(DataSet<Game, Attribute> dataset) {
 		super.initialiseDataset(dataset);
 		
+		dataset.addAttribute(Game.GAMETITLE);
+		dataset.addAttribute(Game.GENRE);
+		dataset.addAttribute(Game.PLATFORM);
+		dataset.addAttribute(Game.RELEASEDATE);
+		dataset.addAttribute(Game.PUBLISHER);
+		dataset.addAttribute(Game.SALE);
+
+		
 	}
 	
 	
