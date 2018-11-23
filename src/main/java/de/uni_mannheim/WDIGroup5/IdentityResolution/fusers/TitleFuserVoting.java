@@ -33,7 +33,7 @@ public class TitleFuserVoting extends AttributeValueFuser<String, Game, Attribut
         //System.out.println(fused);
         //System.out.println(fused.getValue());
     	fusedRecord.setGameTitle(fused.getValue());
-        System.out.println(fusedRecord.getGameTitle());
+        //System.out.println(fusedRecord.getGameTitle());
         fusedRecord.setAttributeProvenance(Game.GAMETITLE, fused.getOriginalIds());
     }
 }
