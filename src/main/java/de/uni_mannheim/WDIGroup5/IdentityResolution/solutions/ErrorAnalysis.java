@@ -88,12 +88,12 @@ public class ErrorAnalysis {
 			if (g1 == null) {
 				logger.info(String.format("\t%s", "null"));	
 			} else {
-				logger.info(String.format("\t%s", g1.getId()+ " / " + g1.getGameTitle()));	
+				logger.info(String.format("\t%s", g1.getIdentifier()+ " / " + g1.getGameTitle()));	
 			}
 			if (g2 == null) {
 				logger.info(String.format("\t%s", "null"));	
 			} else {
-				logger.info(String.format("\t%s", g2.getId() + " / " + g2.getGameTitle()));	
+				logger.info(String.format("\t%s", g2.getIdentifier() + " / " + g2.getGameTitle()));	
 			}
 			
 		}
