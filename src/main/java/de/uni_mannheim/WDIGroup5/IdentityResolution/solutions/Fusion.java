@@ -68,12 +68,13 @@ public class Fusion {
         // load correspondences
         System.out.println("*\n*\tLoading correspondences\n*");
         CorrespondenceSet<Game, Attribute> correspondences = new CorrespondenceSet<>();
-        correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds1, ds2);
-        correspondences.loadCorrespondences(new File("data/correspondences/GList_VGA_correspondences.csv"),ds1, ds4);
-        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds1, ds3);
-        correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds2, ds3);
-        correspondences.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds2, ds4);
-        correspondences.loadCorrespondences(new File("data/correspondences/T1000_VGA_correspondences.csv"),ds3, ds4);
+        System.out.println(ds2.getRecord("publisher_id_804"));
+        //correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds1);
+        //correspondences.loadCorrespondences(new File("data/correspondences/GList_VGA_correspondences.csv"),ds1, ds4);
+        //correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
+        //correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3, ds2);
+        //correspondences.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds4, ds2);
+        //correspondences.loadCorrespondences(new File("data/correspondences/T1000_VGA_correspondences.csv"),ds3, ds4);
 
 
         // write group size distribution
