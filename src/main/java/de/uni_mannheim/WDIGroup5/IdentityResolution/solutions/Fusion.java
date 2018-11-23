@@ -113,8 +113,8 @@ public class Fusion {
         strategy.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
         strategy.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserVoting(),new ReleaseDateEvaluationRule());
         strategy.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
-        //strategy.addAttributeFuser(Game.PUBLISHER, new(),new PublisherEvaluationRule());
-        //strategy.addAttributeFuser(Game.SALE, new(),new SaleEvaluationRule());
+        strategy.addAttributeFuser(Game.PUBLISHER, new PublisherFuserShortestString(),new PublisherEvaluationRule());
+        strategy.addAttributeFuser(Game.SALE, new SaleFuserAverage(),new SaleEvaluationRule());
 
 
         // create the fusion engine

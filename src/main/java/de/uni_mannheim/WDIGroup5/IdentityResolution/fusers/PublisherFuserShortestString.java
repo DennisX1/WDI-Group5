@@ -1,6 +1,7 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.fusers;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
+import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Publisher;
 import de.uni_mannheim.informatik.dws.winter.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.ConflictResolutionFunction;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.ShortestString;
@@ -13,9 +14,8 @@ import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
 public class PublisherFuserShortestString extends AttributeValueFuser<String, Game, Attribute> {
 
-	public PublisherFuserShortestString(ConflictResolutionFunction<String, Game, Attribute> conflictResolution) {
+	public PublisherFuserShortestString() {
         super(new ShortestString<Game, Attribute>());
-
 	}
 
 	  @Override
@@ -25,6 +25,7 @@ public class PublisherFuserShortestString extends AttributeValueFuser<String, Ga
 	        FusedValue<String, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 
 	        // set the value for the fused record
+	        fusedRecord.setPublisher(new Publisher(fusedRecord.getIdentifier(), fusedRecord.getProvenance()));
 	        fusedRecord.getPublisher().setPublisherName(fused.getValue());
 
 	        // add provenance info
