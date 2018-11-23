@@ -36,6 +36,18 @@ public class Fusion {
         FusibleDataSet<Game, Attribute> ds2 = new FusibleHashedDataSet<>();
         new GameXMLReader().loadFromXML(new File("data/input/publisher.xml"), "/Games/Game", ds2);
         ds2.printDataSetDensityReport();
+        
+        /*
+        System.out.println(ds2.getRecord("publisher_id_804"));
+        System.out.println(ds2.getRandomRecord());
+        System.out.println(ds2.getRandomRecord().getIdentifier());
+        System.out.println(ds2.getRandomRecord().getGameTitle());
+        System.out.println(ds2.getRandomRecord().getGenre());
+        System.out.println(ds2.getRandomRecord().getPublisher());
+        System.out.println(ds2.getRandomRecord().getPublisher().getPublisherName());
+        */
+
+
 
         FusibleDataSet<Game, Attribute> ds3 = new FusibleHashedDataSet<>();
         new GameXMLReader().loadFromXML(new File("data/input/top1000.xml"), "/Games/Game", ds3);
@@ -68,8 +80,7 @@ public class Fusion {
         // load correspondences
         System.out.println("*\n*\tLoading correspondences\n*");
         CorrespondenceSet<Game, Attribute> correspondences = new CorrespondenceSet<>();
-        System.out.println(ds2.getRecord("publisher_id_804"));
-        //correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds1);
+        correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds1);
         //correspondences.loadCorrespondences(new File("data/correspondences/GList_VGA_correspondences.csv"),ds1, ds4);
         //correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
         //correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3, ds2);

@@ -97,7 +97,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 		}
         
         
-		//Get Sales DAta
+		//Get Sales Data
 		List<Sale> salesList = getObjectListFromChildElement(node, "Sales",
 					"JapanSales", new SaleXMLReader(), provenanceInfo);
 		if(salesList != null) {

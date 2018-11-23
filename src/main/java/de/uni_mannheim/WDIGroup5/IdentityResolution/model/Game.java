@@ -14,7 +14,7 @@ import java.util.*;
 
 public class Game extends AbstractRecord<Attribute> implements Serializable {
 
-    protected String id;
+    //protected String id;
     private String gameTitle;
     private String genre;
     private String platform;
@@ -35,21 +35,12 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
 
     @Override
     public String getIdentifier() {
-        return this.id;
+        return super.id;
     }
 
     @Override
     public String getProvenance() {
         return null;
-    }
-
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getGameTitle() {

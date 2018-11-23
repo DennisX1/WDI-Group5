@@ -16,7 +16,7 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
         Element game = document.createElement("Game");
         
         //String elements from Game
-        game.appendChild(createTextElement("id",record.getId(), document));
+        game.appendChild(createTextElement("id",record.getIdentifier(), document));
         game.appendChild(createTextElement("GameTitle",record.getGameTitle(), document));
         game.appendChild(createTextElement("Genre",record.getGenre(), document));
         game.appendChild(createTextElement("Platform",record.getPlatform(), document));
