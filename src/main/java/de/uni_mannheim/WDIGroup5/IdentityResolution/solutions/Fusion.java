@@ -52,7 +52,7 @@ public class Fusion {
         ds3.setScore(3.0);
 
 
-//        // Date (e.g. last update)
+          //Date (e.g. last update)
 //        DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 //                .appendPattern("yyyy-MM-dd")
 //                .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
@@ -91,7 +91,7 @@ public class Fusion {
         strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
         // add attribute fusers
-      //  strategy.addAttributeFuser(Game.GAMETITLE, new TitleFuserShortestString(),new TitleEvaluationRule());
+        // strategy.addAttributeFuser(Game.GAMETITLE, new TitleFuserShortestString(),new TitleEvaluationRule());
 
 
         // create the fusion engine
