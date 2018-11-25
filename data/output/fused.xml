@@ -1,2 +1,4746 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Games/>
+<Games>
+  <Game>
+    <id>jpntop_49+vga_games_json324</id>
+    <GameTitle>Monster Hunter: World</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2018-01-26T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>2078079.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6148+Game_List_ID_7014+jpntop_762</id>
+    <GameTitle>Hatsune Miku: Project Diva f</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2012-08-30T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>227075.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3411+jpntop_227+vga_games_json3589</id>
+    <GameTitle>Yakuza 5</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-06-12T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>592264.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_421+jpntop_418+vga_games_json403</id>
+    <GameTitle>Gran Turismo 6</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2013-05-12T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>387553.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6484+jpntop_733+vga_games_json6799</id>
+    <GameTitle>Tales of Innocence</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-06-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>248064.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3474+jpntop_648+vga_games_json3614</id>
+    <GameTitle>Shin Megami Tensei IV</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2013-05-23T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>266946.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1314+jpntop_730+vga_games_json1396</id>
+    <GameTitle>New Play Control! Mario Power Tennis</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>258377.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3207+jpntop_264+vga_games_json3382</id>
+    <GameTitle>Monster Hunter 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-16T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>575361.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2993+jpntop_965</id>
+    <GameTitle>Naruto: Clash of Ninja</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-04T00:00</ReleaseDate>
+    <Publisher>Tomy</Publisher>
+    <Sales>181030.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10149+Game_List_ID_18+Game_List_ID_2131+Game_List_ID_882+jpntop_420+vga_games_json17</id>
+    <GameTitle>Grand Theft Auto: San Andreas</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>387273.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6531+jpntop_869+vga_games_json6848</id>
+    <GameTitle>Hatsune Miku: Project Diva</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-02-07T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>230033.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3724+Game_List_ID_8235+jpntop_423+vga_games_json3900</id>
+    <GameTitle>Dynasty Warriors: Gundam 3</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2010-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>361813.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2369+Game_List_ID_455+jpntop_494+jpntop_53+vga_games_json488</id>
+    <GameTitle>Rhythm Heaven</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-01T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1403078.6666666667</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10008+jpntop_815</id>
+    <GameTitle>Dragon Ball: Origins</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-09-18T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>213493.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5795+jpntop_536+vga_games_json6087</id>
+    <GameTitle>J-League Winning Eleven 2007: Club Championship</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-02-08T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>305665.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10259+Game_List_ID_6556+Game_List_ID_6820+jpntop_700+vga_games_json10679+vga_games_json6846+vga_games_json7066</id>
+    <GameTitle>Samurai Warriors 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-10-21T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>168969.25</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1666+Game_List_ID_5815+jpntop_195+vga_games_json1768</id>
+    <GameTitle>Final Fantasy IV</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2007-12-20T00:00</ReleaseDate>
+    <Publisher>SquareSoft</Publisher>
+    <Sales>639181.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1031+Game_List_ID_11415+Game_List_ID_4453+jpntop_482+vga_games_json762</id>
+    <GameTitle>Dark Souls III</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2016-01-01T00:00</ReleaseDate>
+    <Publisher>From Software</Publisher>
+    <Sales>383736.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2800+Game_List_ID_9544+jpntop_890</id>
+    <GameTitle>Persona 4: Arena</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-01T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>195965.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2051+jpntop_450</id>
+    <GameTitle>Pokemon Conquest</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2012-03-17T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>345374.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3128+jpntop_693+vga_games_json3302</id>
+    <GameTitle>Drakengard</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-09T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>253965.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2494+jpntop_660+vga_games_json2632</id>
+    <GameTitle>Dynasty Warriors 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2000-03-08T00:00</ReleaseDate>
+    <Publisher>THQ</Publisher>
+    <Sales>299388.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_138+vga_games_json438</id>
+    <GameTitle>The Legend of Zelda: Majora's Mask</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2000-04-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>803287.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6961+jpntop_715+vga_games_json5972</id>
+    <GameTitle>Puzzle &amp; Dragons X: God Chapter / Dragon Chapter</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-07-28T00:00</ReleaseDate>
+    <Publisher>GungHo</Publisher>
+    <Sales>280993.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_598+jpntop_129+vga_games_json646</id>
+    <GameTitle>Style Savvy</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2008-10-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>940135.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1081+Game_List_ID_14743+Game_List_ID_351+Game_List_ID_741+jpntop_355+jpntop_785+vga_games_json1149+vga_games_json383</id>
+    <GameTitle>Resident Evil 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>329322.25</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1656+jpntop_946+vga_games_json1762</id>
+    <GameTitle>Golden Sun: The Lost Age</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-04-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>227074.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_338+jpntop_279+vga_games_json364</id>
+    <GameTitle>Super Paper Mario</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-04-09T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>546343.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7855+jpntop_919+vga_games_json8220</id>
+    <GameTitle>Kamen Rider: Battride War</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-05-23T00:00</ReleaseDate>
+    <Publisher>Bandai Namco Games</Publisher>
+    <Sales>189834.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1809+jpntop_308+vga_games_json1910</id>
+    <GameTitle>Hot Shots Golf: Out of Bounds</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-07-26T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>610527.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_602+jpntop_915+vga_games_json650</id>
+    <GameTitle>Ratchet &amp; Clank: Up Your Arsenal</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-11-25T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>250140.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1426+Game_List_ID_2685+Game_List_ID_286+jpntop_923+vga_games_json211+vga_games_json2435</id>
+    <GameTitle>The Witcher 3: Wild Hunt</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Spike Chunsoft</Publisher>
+    <Sales>234295.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_14+jpntop_21+vga_games_json14</id>
+    <GameTitle>Wii Fit</GameTitle>
+    <Genre>HOB</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>3581823.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2795+jpntop_866</id>
+    <GameTitle>Tales of Vesperia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-07-08T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>200885.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_132+Game_List_ID_1762+Game_List_ID_311+Game_List_ID_78+Game_List_ID_913+jpntop_912+vga_games_json140+vga_games_json333</id>
+    <GameTitle>The Elder Scrolls V: Skyrim</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Bethesda Softworks</Publisher>
+    <Sales>220240.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1209+jpntop_557</id>
+    <GameTitle>Pokemon Pinball: Ruby &amp; Sapphire</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2003-01-08T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>291501.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_416+vga_games_json917</id>
+    <GameTitle>Donkey Kong Country Returns 3D</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-06-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>394040.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4034+jpntop_935+vga_games_json4228</id>
+    <GameTitle>Picross 3D</GameTitle>
+    <Genre>PZL</Genre>
+    <Platform/>
+    <ReleaseDate>2009-12-03T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>172688.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_54+jpntop_549+vga_games_json536</id>
+    <GameTitle>Gran Turismo</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-10T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>302936.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2845+jpntop_206+vga_games_json2994</id>
+    <GameTitle>God Eater</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-03-15T00:00</ReleaseDate>
+    <Publisher>D3Publisher</Publisher>
+    <Sales>677322.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1357+Game_List_ID_4110+jpntop_335+vga_games_json1354</id>
+    <GameTitle>Metal Gear Rising: Revengeance</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>434429.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3799+jpntop_354</id>
+    <GameTitle>Inazuma Eleven</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-08-22T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>416471.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7218+jpntop_972+vga_games_json7476</id>
+    <GameTitle>Yu-Gi-Oh! GX: Tag Force 3</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-28T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>180092.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3980+jpntop_555+vga_games_json4190</id>
+    <GameTitle>Picross DS</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2007-07-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>295932.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3167+jpntop_953+vga_games_json3330</id>
+    <GameTitle>New Play Control! Pikmin</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-03-09T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>186471.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12361+Game_List_ID_4975+Game_List_ID_6259+Game_List_ID_9393+jpntop_631</id>
+    <GameTitle>One Piece: Unlimited World Red</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>268235.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3533+jpntop_619+vga_games_json3634</id>
+    <GameTitle>Final Fantasy Explorers</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2016-01-26T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>280436.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_11263+jpntop_523</id>
+    <GameTitle>Samurai Warriors 2: Xtreme Legends</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-08-23T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>305017.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2184+jpntop_233+vga_games_json2323</id>
+    <GameTitle>Yakuza 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-03-15T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>606202.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4223+Game_List_ID_6665+jpntop_736+vga_games_json4451</id>
+    <GameTitle>Final Fantasy Crystal Chronicles: Echoes of Time</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>252191.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7913+Game_List_ID_8174+Game_List_ID_9798+jpntop_713+jpntop_751+vga_games_json7064+vga_games_json7257+vga_games_json9872</id>
+    <GameTitle>Jikkyou Powerful Pro Baseball 2016</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2016-04-28T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>218484.6</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4+jpntop_50+vga_games_json4</id>
+    <GameTitle>Wii Sports Resort</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-07-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2643416.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2802+Game_List_ID_5537+jpntop_888+vga_games_json2955</id>
+    <GameTitle>Resonance of Fate</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2010-01-01T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>218164.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2692+jpntop_595</id>
+    <GameTitle>Pokemon Dash</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2004-02-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>277513.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_64+jpntop_34+vga_games_json2796+vga_games_json56</id>
+    <GameTitle>New Super Mario Bros. 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>0003-11-01T00:00</ReleaseDate>
+    <Publisher>Unknown</Publisher>
+    <Sales>1979436.3333333333</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5027+jpntop_666+vga_games_json5287</id>
+    <GameTitle>SD Gundam G Generation-F</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2000-03-08T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>308301.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3212+jpntop_659+vga_games_json3365</id>
+    <GameTitle>White Knight Chronicles II</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-09-13T00:00</ReleaseDate>
+    <Publisher>D3 Publisher</Publisher>
+    <Sales>264622.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_243+Game_List_ID_385+jpntop_669+vga_games_json419</id>
+    <GameTitle>Mario &amp; Sonic at the Olympic Winter Games</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>262690.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_328+jpntop_453+vga_games_json357</id>
+    <GameTitle>Big Brain Academy: Wii Degree</GameTitle>
+    <Genre>EDU</Genre>
+    <Platform/>
+    <ReleaseDate>2007-04-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>377363.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3531+Game_List_ID_4654+jpntop_380+vga_games_json4620</id>
+    <GameTitle>Tales of Zestiria</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>218846.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1127+jpntop_171+vga_games_json1196</id>
+    <GameTitle>Kirby &amp; the Amazing Mirror</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-04-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>748113.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_796+jpntop_318+vga_games_json756</id>
+    <GameTitle>Mario &amp; Luigi: Dream Team</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2013-08-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>457749.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1617+jpntop_199+vga_games_json1722</id>
+    <GameTitle>Ridge Racer V</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2000-10-25T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>699763.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1943+Game_List_ID_6360+jpntop_343+vga_games_json2006</id>
+    <GameTitle>Lightning Returns: Final Fantasy XIII</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>437177.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_55+jpntop_46+vga_games_json54</id>
+    <GameTitle>Super Mario 3D Land</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2168531.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2740+jpntop_676+vga_games_json2714</id>
+    <GameTitle>Professor Layton and the Azran Legacy</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2013-02-28T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>250797.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3028+jpntop_216+vga_games_json3194</id>
+    <GameTitle>Taiko no Tatsujin Wii</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>643829.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_129+Game_List_ID_915+jpntop_119+vga_games_json139</id>
+    <GameTitle>Donkey Kong Country Returns</GameTitle>
+    <Genre>Platform</Genre>
+    <Platform/>
+    <ReleaseDate>2010-09-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1008196.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1195+jpntop_62+jpntop_81+vga_games_json1269</id>
+    <GameTitle>Dragon Quest V: Hand of the Heavenly Bride</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2004-03-25T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1447373.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_253+jpntop_340+vga_games_json260</id>
+    <GameTitle>Nintendo Land</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2012-08-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>467469.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3157+jpntop_875+vga_games_json3314</id>
+    <GameTitle>Star Ocean: First Departure</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-12-27T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>208904.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3+jpntop_17+vga_games_json3</id>
+    <GameTitle>Mario Kart Wii</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2008-04-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>3791657.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_319+vga_games_json885</id>
+    <GameTitle>1-2-Switch</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2017-03-03T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>457614.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5043+Game_List_ID_9866+jpntop_361+vga_games_json1395+vga_games_json7325</id>
+    <GameTitle>Persona 5</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2017-04-04T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>333893.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6811+jpntop_729+vga_games_json4264</id>
+    <GameTitle>Dragon Ball: Fusions</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2016-04-08T00:00</ReleaseDate>
+    <Publisher>Bandai Namco Games</Publisher>
+    <Sales>238660.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_18+vga_games_json371</id>
+    <GameTitle>Tomodachi Collection</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2009-06-18T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>3703180.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4009+jpntop_507+vga_games_json4225</id>
+    <GameTitle>Monster Hunter</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-09-21T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>297777.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_201+Game_List_ID_90+jpntop_238+jpntop_413+vga_games_json220+vga_games_json98</id>
+    <GameTitle>Mario &amp; Sonic at the Olympic Games</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-06T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>511219.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2789+Game_List_ID_4060+jpntop_902+vga_games_json2936</id>
+    <GameTitle>Ace Combat: Assault Horizon</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>206733.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2036+Game_List_ID_480+jpntop_503+vga_games_json517</id>
+    <GameTitle>Dragon Ball Z: Budokai Tenkaichi 3</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-01T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>538176.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_723+jpntop_376+vga_games_json780</id>
+    <GameTitle>Paper Mario: The Thousand-Year Door</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2004-10-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>430583.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_423+jpntop_147</id>
+    <GameTitle>Professor Layton and the Unwound Future</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-27T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>834149.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3383+jpntop_641+vga_games_json3499</id>
+    <GameTitle>New Play Control! Pikmin 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-06-10T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>302949.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_733+jpntop_128+vga_games_json783</id>
+    <GameTitle>Dissidia: Final Fantasy</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2009-08-25T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>915638.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_310+jpntop_121</id>
+    <GameTitle>Professor Layton and the Diabolical Box</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-29T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>977901.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3574+jpntop_544+vga_games_json3763</id>
+    <GameTitle>Breath of Fire IV</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2000-11-28T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>318756.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5525+jpntop_442+vga_games_json5806</id>
+    <GameTitle>Hatsune Miku: Project Diva Extend</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-10T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>340379.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_82+jpntop_40+vga_games_json86</id>
+    <GameTitle>Wii Party</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2010-08-07T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2465362.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_14065+Game_List_ID_7315+jpntop_809+vga_games_json7654</id>
+    <GameTitle>Jikkyou Powerful Major League</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2006-01-01T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>217545.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3396+jpntop_942+vga_games_json3564</id>
+    <GameTitle>SimCity DS</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2007-02-22T00:00</ReleaseDate>
+    <Publisher>Electronic Arts</Publisher>
+    <Sales>197277.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10080+Game_List_ID_1395+Game_List_ID_394+Game_List_ID_809+jpntop_109+vga_games_json868</id>
+    <GameTitle>Final Fantasy III</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-14T00:00</ReleaseDate>
+    <Publisher>SquareSoft</Publisher>
+    <Sales>1061441.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1646+jpntop_203+vga_games_json1697</id>
+    <GameTitle>Tales of Xillia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-08-09T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>654124.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13953+Game_List_ID_25+jpntop_348+vga_games_json25</id>
+    <GameTitle>Grand Theft Auto: Vice City</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2002-10-28T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>444990.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7259+jpntop_770+vga_games_json7594</id>
+    <GameTitle>Tales of Graces</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-10-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>221833.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_897+vga_games_json70</id>
+    <GameTitle>Uncharted 4: A Thief's End</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2016-05-10T00:00</ReleaseDate>
+    <Publisher>Sony Interactive Entertainment</Publisher>
+    <Sales>197237.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_439+jpntop_154+vga_games_json468</id>
+    <GameTitle>Crisis Core: Final Fantasy VII</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-09-13T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>799574.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2138+jpntop_382+vga_games_json2207</id>
+    <GameTitle>Mario Tennis Open</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-05-24T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>378302.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1+jpntop_19+vga_games_json1</id>
+    <GameTitle>Wii Sports</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>3737734.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3358+Game_List_ID_8811+jpntop_499+vga_games_json3486</id>
+    <GameTitle>Dynasty Warriors 8</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>330140.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12097+Game_List_ID_3425+jpntop_332+vga_games_json3611</id>
+    <GameTitle>Tales of Rebirth</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-16T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>510691.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1782+jpntop_327+vga_games_json1893</id>
+    <GameTitle>Donkey Konga</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-12-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>447241.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_714+jpntop_230+vga_games_json774</id>
+    <GameTitle>Kirby: Nightmare in Dream Land</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2002-10-25T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>747850.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_162+vga_games_json358</id>
+    <GameTitle>Mario &amp; Luigi: Bowser's Inside Story</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-09-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>785584.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7930+jpntop_908+vga_games_json8192</id>
+    <GameTitle>Taiko no Tatsujin: Wii U Version!</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-21T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>190710.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2919+jpntop_534+vga_games_json3076</id>
+    <GameTitle>Ace Attorney Investigations: Miles Edgeworth</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2009-05-28T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>300767.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1679+Game_List_ID_2242+jpntop_819+vga_games_json1776</id>
+    <GameTitle>Bayonetta</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>211314.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_886+jpntop_91+vga_games_json959</id>
+    <GameTitle>Kirby Squeak Squad</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1097245.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2346+jpntop_734+vga_games_json2475</id>
+    <GameTitle>Fire Emblem: The Sacred Stones</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2004-07-10T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>267966.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8190+jpntop_993+vga_games_json8577</id>
+    <GameTitle>Mobile Suit Gundam Seed Destiny: Generation of C.E.</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-08-25T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>178127.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_177+Game_List_ID_766+jpntop_55+vga_games_json190</id>
+    <GameTitle>Final Fantasy XIII</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2010-03-09T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1891685.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4193+jpntop_891</id>
+    <GameTitle>Art Academy: Lessons for Everyone</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-09-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>195881.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10508+jpntop_820+vga_games_json7583</id>
+    <GameTitle>Sumikko Gurashi: Mura o Tsukurundesu</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2016-07-21T00:00</ReleaseDate>
+    <Publisher>Nippon Columbia</Publisher>
+    <Sales>216217.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4913+Game_List_ID_7365+jpntop_766+vga_games_json5127</id>
+    <GameTitle>Armored Core V</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>232587.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2326+jpntop_248+vga_games_json2452</id>
+    <GameTitle>Hot Shots Tennis</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-09-14T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>548091.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5717+jpntop_765+vga_games_json6004</id>
+    <GameTitle>Quiz Magic Academy DS</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2008-09-12T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>272967.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_985+vga_games_json7007</id>
+    <GameTitle>Gundam Versus</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2017-09-29T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>178917.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_925+vga_games_json3254</id>
+    <GameTitle>Octopath Traveler</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2018-07-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>194119.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2373+Game_List_ID_37+Game_List_ID_57+jpntop_699+vga_games_json2503+vga_games_json62</id>
+    <GameTitle>Call of Duty: Modern Warfare 2</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Activision</Publisher>
+    <Sales>312955.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_211+vga_games_json3348</id>
+    <GameTitle>Taiko no Tatsujin: Chibi Dragon to Fushigi na Orb</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>633223.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_762+jpntop_321+vga_games_json819</id>
+    <GameTitle>Mario &amp; Luigi: Superstar Saga</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-21T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>457002.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13939+Game_List_ID_1793+jpntop_886+vga_games_json1906</id>
+    <GameTitle>Shadow of the Colossus</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-10-27T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>198217.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_443+jpntop_524+vga_games_json477</id>
+    <GameTitle>Animal Crossing</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2001-12-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>647456.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_763+vga_games_json7264</id>
+    <GameTitle>Dragon Ball Heroes: Ultimate Mission X</GameTitle>
+    <Genre>TBL</Genre>
+    <Platform/>
+    <ReleaseDate>2017-04-27T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>233336.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_138+jpntop_258+vga_games_json149</id>
+    <GameTitle>Super Mario Sunshine</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2002-08-25T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>699750.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5065+jpntop_383+vga_games_json5326</id>
+    <GameTitle>Taiko no Tatsujin Portable DX</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-07-14T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>387430.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1410+jpntop_185+vga_games_json1505</id>
+    <GameTitle>Paper Mario</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2000-11-08T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>635915.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10246+Game_List_ID_4531+jpntop_425+vga_games_json10436+vga_games_json4750</id>
+    <GameTitle>God Eater 2: Rage Burst</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>283559.3333333333</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1648+jpntop_445+vga_games_json1752</id>
+    <GameTitle>Mario Power Tennis</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-10-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>405151.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_111+Game_List_ID_1172+jpntop_244+vga_games_json118</id>
+    <GameTitle>The Legend of Zelda: Twilight Princess</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2006-01-01T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>580480.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6534+jpntop_857+vga_games_json6851</id>
+    <GameTitle>Sengoku Basara: Battle Heroes</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-04-09T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>232651.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2266+jpntop_570+vga_games_json2315</id>
+    <GameTitle>Harvest Moon 3D: A New Beginning</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-11-06T00:00</ReleaseDate>
+    <Publisher>Natsume</Publisher>
+    <Sales>298606.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4341+Game_List_ID_6015+Game_List_ID_7075+jpntop_391+vga_games_json4577+vga_games_json6296</id>
+    <GameTitle>Dynasty Warriors: Strikeforce</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>278298.6666666667</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_16271+Game_List_ID_40+jpntop_518+vga_games_json42</id>
+    <GameTitle>Grand Theft Auto III</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-09-25T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>303854.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3662+jpntop_249+vga_games_json3861</id>
+    <GameTitle>Derby Stallion 04</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2004-04-22T00:00</ReleaseDate>
+    <Publisher>Enterbrain</Publisher>
+    <Sales>547806.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6337+jpntop_698+vga_games_json6602</id>
+    <GameTitle>Sengoku Basara 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-23T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>258221.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5320+Game_List_ID_8180+jpntop_725</id>
+    <GameTitle>Toukiden: The Age of Demons</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>238541.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1876+Game_List_ID_3835+jpntop_397+jpntop_504+vga_games_json1993</id>
+    <GameTitle>Tales of Symphonia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2004-07-14T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>336081.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7699+jpntop_879+vga_games_json7862</id>
+    <GameTitle>Kan Colle Kai</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-02-18T00:00</ReleaseDate>
+    <Publisher>Kadokawa Games</Publisher>
+    <Sales>203606.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_83+jpntop_70+vga_games_json89</id>
+    <GameTitle>Mario Party 8</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2007-05-29T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1544067.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6091+jpntop_563+vga_games_json6388</id>
+    <GameTitle>Final Fantasy X-2: International + Last Mission</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2004-02-19T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>289744.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2019+jpntop_874+vga_games_json2142</id>
+    <GameTitle>Super Princess Peach</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>204309.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_389+jpntop_22+vga_games_json422</id>
+    <GameTitle>Monster Hunter 4</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-09-14T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>3409227.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12778+Game_List_ID_6097+Game_List_ID_9635+jpntop_353+jpntop_723+vga_games_json6378</id>
+    <GameTitle>Warriors Orochi 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>291920.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5681+jpntop_590+vga_games_json5961</id>
+    <GameTitle>Derby Stallion DS</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2008-06-26T00:00</ReleaseDate>
+    <Publisher>Enterbrain</Publisher>
+    <Sales>299269.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2205+jpntop_189+vga_games_json2300</id>
+    <GameTitle>Phantasy Star Portable</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-07-31T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>650539.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_49+jpntop_113+vga_games_json51</id>
+    <GameTitle>Gran Turismo 4</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-28T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>1066690.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1055+jpntop_551+vga_games_json1120</id>
+    <GameTitle>Ace Combat 5: The Unsung War</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2004-10-25T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>307645.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4476+jpntop_578+vga_games_json4705</id>
+    <GameTitle>Samurai Warriors 3</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-03-12T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>301903.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13026+Game_List_ID_14253+Game_List_ID_5877+jpntop_598+vga_games_json6172</id>
+    <GameTitle>Puyo Puyo 7</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>288370.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13802+Game_List_ID_2383+Game_List_ID_2784+Game_List_ID_6583+Game_List_ID_7703+jpntop_527+vga_games_json2484</id>
+    <GameTitle>Resident Evil: Revelations</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>301896.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6256+jpntop_842</id>
+    <GameTitle>Pokemon Box: Ruby &amp; Sapphire</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2003-05-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>207651.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3327+jpntop_754+vga_games_json3503</id>
+    <GameTitle>Final Fantasy IV Advance</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-12-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>224412.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5519+jpntop_892+vga_games_json5802</id>
+    <GameTitle>Way of the Samurai 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-09-10T00:00</ReleaseDate>
+    <Publisher>Spike</Publisher>
+    <Sales>212932.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3354+jpntop_344+vga_games_json3505</id>
+    <GameTitle>Yakuza: Dead Souls</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2012-03-13T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>421856.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1260+Game_List_ID_251+jpntop_16</id>
+    <GameTitle>Dragon Quest VII: Warriors of Eden</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2000-08-26T00:00</ReleaseDate>
+    <Publisher>Enix</Publisher>
+    <Sales>3874141.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1556+jpntop_299</id>
+    <GameTitle>Pokemon Mystery Dungeon: Gates to Infinity</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2012-11-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>473181.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13970+Game_List_ID_1734+Game_List_ID_2674+jpntop_463+vga_games_json1835</id>
+    <GameTitle>Resident Evil: Operation Raccoon City</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>349444.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5156+jpntop_937+vga_games_json4840</id>
+    <GameTitle>Fossil Fighters: Frontier</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2014-02-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>207569.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5286+Game_List_ID_8928+jpntop_657+vga_games_json5524</id>
+    <GameTitle>Earth Defense Force 2025</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>D3Publisher</Publisher>
+    <Sales>264879.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7+jpntop_2+vga_games_json7</id>
+    <GameTitle>New Super Mario Bros.</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-05-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>6436982.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_824+jpntop_149+vga_games_json876</id>
+    <GameTitle>Metal Gear Solid: Peace Walker</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2010-04-29T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>895303.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3078+jpntop_224+vga_games_json3250</id>
+    <GameTitle>Dragon Quest Monsters: Caravan Heart</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>1920-12-31T00:00</ReleaseDate>
+    <Publisher>Enix</Publisher>
+    <Sales>620553.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_427+jpntop_394+vga_games_json460</id>
+    <GameTitle>Wii Music</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2008-10-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>421626.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2386+Game_List_ID_53+Game_List_ID_59+jpntop_661+vga_games_json2536+vga_games_json63</id>
+    <GameTitle>Grand Theft Auto IV</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>348824.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5920+Game_List_ID_9825+jpntop_574+vga_games_json6154</id>
+    <GameTitle>Sword Art Online: Hollow Fragment</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2014-04-24T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>293165.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_327+jpntop_132+vga_games_json354</id>
+    <GameTitle>Flash Focus: Vision Training in Minutes a Day</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2007-10-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>983398.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7321+jpntop_856+vga_games_json7662</id>
+    <GameTitle>J-League Winning Eleven 2008: Club Championship</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-08-21T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>212706.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8218+jpntop_909+vga_games_json8604</id>
+    <GameTitle>Tales of the Tempest</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-10-26T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>185634.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1603+jpntop_781</id>
+    <GameTitle>Pokemon XD: Gale of Darkness</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-04-08T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>221648.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_157+Game_List_ID_1644+Game_List_ID_17+Game_List_ID_24+Game_List_ID_38+jpntop_157+jpntop_855+vga_games_json19+vga_games_json21</id>
+    <GameTitle>Grand Theft Auto V</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>Rockstar Games</Publisher>
+    <Sales>645721.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_113+jpntop_71+vga_games_json121</id>
+    <GameTitle>Super Smash Bros. Melee</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2001-11-21T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1443707.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_566+vga_games_json858</id>
+    <GameTitle>Devil May Cry 3: Dante's Awakening</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>289268.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2249+jpntop_688+vga_games_json2367</id>
+    <GameTitle>Kingdom Hearts Re:coded</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-07-10T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>259756.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6176+jpntop_579+vga_games_json6479</id>
+    <GameTitle>Tales of the World: Radiant Mythology 3</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-02-10T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>281598.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1037+jpntop_373+vga_games_json999</id>
+    <GameTitle>Knack</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-15T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>412353.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_102+vga_games_json192</id>
+    <GameTitle>Luigi's Mansion: Dark Moon</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-03-24T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1129256.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6483+jpntop_680+vga_games_json6798</id>
+    <GameTitle>Love Plus</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2009-03-09T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>255340.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_784+jpntop_293+vga_games_json2494+vga_games_json839</id>
+    <GameTitle>Final Fantasy Tactics Advance</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-09-08T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>754142.6666666666</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4909+jpntop_642+vga_games_json5160</id>
+    <GameTitle>Mobile Suit Gundam: Lost War Chronicles</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2002-01-08T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>327850.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_84+vga_games_json1243</id>
+    <GameTitle>Dragon Quest VII: Fragments of the Forgotten Past</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2013-07-02T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1282813.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_935+jpntop_974+vga_games_json1001</id>
+    <GameTitle>Star Fox Adventures</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2002-09-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>239900.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_203+jpntop_133+vga_games_json221</id>
+    <GameTitle>The Legend of Zelda: Phantom Hourglass</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-06-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>928910.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_508+jpntop_197+vga_games_json552</id>
+    <GameTitle>WarioWare: Smooth Moves</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>691222.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1719+Game_List_ID_336+jpntop_719+jpntop_798+vga_games_json1808+vga_games_json365</id>
+    <GameTitle>Mario &amp; Sonic at the London 2012 Olympic Games</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-02-14T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>249444.75</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2481+Game_List_ID_3518+jpntop_232+vga_games_json3711</id>
+    <GameTitle>Tales of the Abyss</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2005-12-15T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>577645.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1057+jpntop_64+vga_games_json1122</id>
+    <GameTitle>Kanshuu Nippon Joushikiryoku Kentei Kyoukai: Imasara Hito ni wa Kikenai Otona no Joushikiryoku Training DS</GameTitle>
+    <Genre>EDU</Genre>
+    <Platform/>
+    <ReleaseDate>2006-10-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1677045.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1887+jpntop_257+vga_games_json2001</id>
+    <GameTitle>Yakuza 2</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2006-07-12T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>684882.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_201+vga_games_json3232</id>
+    <GameTitle>Taiko no Tatsujin Wii: Super Deluxe Edition</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-11-29T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>651538.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5943+jpntop_498+vga_games_json6239</id>
+    <GameTitle>Power Pro Kun Pocket 10</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-06-12T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>310161.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8747+jpntop_980+vga_games_json8892</id>
+    <GameTitle>Sumikko Gurashi: Omise Hajimerundesu</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2015-11-19T00:00</ReleaseDate>
+    <Publisher>Nippon Columbia</Publisher>
+    <Sales>174250.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_95+vga_games_json1689+vga_games_json67</id>
+    <GameTitle>Super Mario 64 DS</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-11-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1206890.3333333333</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_807+vga_games_json3058</id>
+    <GameTitle>Monster Hunter 3 Ultimate</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-08-12T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>217642.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1194+jpntop_322+vga_games_json1271</id>
+    <GameTitle>Mario Party 7</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2005-10-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>450900.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_155+jpntop_11+vga_games_json168</id>
+    <GameTitle>Dragon Quest IX: Sentinels of the Starry Skies</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-07-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>4246874.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4670+jpntop_501</id>
+    <GameTitle>Attack on Titan: Humanity in Chains</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-05-12T00:00</ReleaseDate>
+    <Publisher>Screenlife</Publisher>
+    <Sales>319498.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2632+jpntop_630+vga_games_json2615</id>
+    <GameTitle>Mario &amp; Luigi: Paper Jam</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2015-03-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>269128.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3633+jpntop_790+vga_games_json3768</id>
+    <GameTitle>Final Fantasy IV: The Complete Collection</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-03-24T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>244469.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7183+jpntop_768+vga_games_json7503</id>
+    <GameTitle>Hatsune Miku: Project Mirai 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-28T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>226928.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8062+jpntop_922+vga_games_json8440</id>
+    <GameTitle>Nep League DS</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2007-06-12T00:00</ReleaseDate>
+    <Publisher>Jaleco</Publisher>
+    <Sales>184480.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_560+jpntop_231+vga_games_json605</id>
+    <GameTitle>Onimusha: Warlords</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2001-03-13T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>837759.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6506+jpntop_663+vga_games_json6816</id>
+    <GameTitle>Sengoku Basara 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2006-07-27T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>258659.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3090+jpntop_525+vga_games_json3268</id>
+    <GameTitle>Suikoden IV</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-11T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>302436.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_939+vga_games_json6893</id>
+    <GameTitle>What Did I Do to Deserve This, My Lord!? 2</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-05-04T00:00</ReleaseDate>
+    <Publisher>NIS America</Publisher>
+    <Sales>182515.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_998+jpntop_72+vga_games_json1066</id>
+    <GameTitle>Dragon Quest Monsters: Joker</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-12-28T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1488489.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_271+jpntop_155+vga_games_json295</id>
+    <GameTitle>Metal Gear Solid 3: Snake Eater</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-16T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>810259.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5217+jpntop_419+vga_games_json5471</id>
+    <GameTitle>One Piece: Gigant Battle!</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2010-09-09T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>362416.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2070+Game_List_ID_9223+jpntop_709+vga_games_json2206</id>
+    <GameTitle>Dead or Alive 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2000-03-30T00:00</ReleaseDate>
+    <Publisher>Tecmo</Publisher>
+    <Sales>312269.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3947+jpntop_955+vga_games_json4154</id>
+    <GameTitle>Dragon Ball Z: Supersonic Warriors</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2004-03-26T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>182766.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7004+Game_List_ID_9723+jpntop_750+vga_games_json3321+vga_games_json9862</id>
+    <GameTitle>Tales of Berseria</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2016-08-18T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>206899.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_30+vga_games_json397</id>
+    <GameTitle>Monster Hunter Generations</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2016-07-15T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>2808151.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_41+jpntop_27+vga_games_json34</id>
+    <GameTitle>Mario Kart 7</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2931720.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1789+jpntop_476</id>
+    <GameTitle>Persona 4: Golden</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2012-06-14T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>332003.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_702+vga_games_json320</id>
+    <GameTitle>Tom Clancy's Rainbow Six: Siege</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2015-10-12T00:00</ReleaseDate>
+    <Publisher>Ubisoft</Publisher>
+    <Sales>292888.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1614+Game_List_ID_264+jpntop_110+vga_games_json284</id>
+    <GameTitle>Kingdom Hearts II</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2006-03-28T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1215439.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1996+Game_List_ID_3841+jpntop_412+vga_games_json4038</id>
+    <GameTitle>Tales of Destiny</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-30T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>445309.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_220+jpntop_9+vga_games_json241</id>
+    <GameTitle>Monster Hunter Freedom 3</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-01-12T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>4701278.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_93+vga_games_json99</id>
+    <GameTitle>The Legend of Zelda: Breath of the Wild</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2017-03-03T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1132094.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1795+jpntop_457</id>
+    <GameTitle>Pokemon Rumble Blast</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-08T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>341351.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3341+jpntop_609</id>
+    <GameTitle>Naruto: Ultimate Ninja</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2003-10-23T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>273715.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2188+jpntop_378+vga_games_json2327</id>
+    <GameTitle>Kessen</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2000-11-13T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>404839.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_31+vga_games_json164</id>
+    <GameTitle>Splatoon 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2017-07-21T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2701872.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_234+jpntop_83+vga_games_json258</id>
+    <GameTitle>Animal Crossing: City Folk</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1290098.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2967+Game_List_ID_459+jpntop_242+vga_games_json493</id>
+    <GameTitle>Dragon Ball Z: Budokai</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2003-02-13T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>556456.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_140+vga_games_json226</id>
+    <GameTitle>Super Smash Bros. for Wii U</GameTitle>
+    <Genre>FTG</Genre>
+    <Platform/>
+    <ReleaseDate>2014-06-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>855787.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_207+Game_List_ID_8496+Game_List_ID_9682+jpntop_834+vga_games_json1462</id>
+    <GameTitle>Resident Evil</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2002-04-30T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>279686.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_51+jpntop_115+vga_games_json53</id>
+    <GameTitle>Super Mario Galaxy</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1109301.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1843+jpntop_268+vga_games_json1947</id>
+    <GameTitle>Yakuza 3</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-02-26T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>568125.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_218+vga_games_json202+vga_games_json925</id>
+    <GameTitle>The Legend of Zelda: Ocarina of Time 3D</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2011-06-19T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>607776.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_812+jpntop_188+vga_games_json871</id>
+    <GameTitle>Mario Party 5</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>701176.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1432+Game_List_ID_354+Game_List_ID_379+Game_List_ID_381+Game_List_ID_848+jpntop_646+vga_games_json1494+vga_games_json340+vga_games_json378</id>
+    <GameTitle>Battlefield 4</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Electronic Arts</Publisher>
+    <Sales>238039.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1563+Game_List_ID_16754+Game_List_ID_3427+Game_List_ID_6079+Game_List_ID_9145+jpntop_673+vga_games_json1795+vga_games_json3593</id>
+    <GameTitle>Metal Gear Solid V: Ground Zeroes</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>233996.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_618+jpntop_481+vga_games_json666</id>
+    <GameTitle>Art Academy</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2010-10-25T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>328888.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_100+vga_games_json589</id>
+    <GameTitle>Yoshi's Island DS</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1096288.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_11706+Game_List_ID_14849+Game_List_ID_3300+jpntop_241+vga_games_json3479</id>
+    <GameTitle>Samurai Warriors 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2006-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>567109.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2769+jpntop_547+vga_games_json2927</id>
+    <GameTitle>Final Fantasy Tactics A2: Grimoire of the Rift</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-06-24T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>298161.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3044+jpntop_489+vga_games_json3204</id>
+    <GameTitle>Fossil Fighters: Champions</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>331259.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_599+vga_games_json6233</id>
+    <GameTitle>Fist of the North Star: Ken's Rage 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-12-20T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>288280.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3112+jpntop_509+vga_games_json3277</id>
+    <GameTitle>Wario: Master of Disguise</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-03-05T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>321652.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2366+jpntop_623+vga_games_json2489</id>
+    <GameTitle>Fossil Fighters</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-08-10T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>270104.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2631+jpntop_880+vga_games_json2778</id>
+    <GameTitle>Star Ocean: The Last Hope</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-02-24T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>203573.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12422+jpntop_761</id>
+    <GameTitle>Mobile Suit Gundam Seed: Never Ending Tomorrow</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2004-07-10T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>227300.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8422+jpntop_918+vga_games_json8807</id>
+    <GameTitle>Naruto Shippuden: Ultimate Ninja 5</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2009-11-27T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>179919.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5269+jpntop_975+vga_games_json5530</id>
+    <GameTitle>Toriko: Gourmet Survival!</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-04-08T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>269885.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_11571+Game_List_ID_11834+Game_List_ID_7082+jpntop_721+vga_games_json12095+vga_games_json12399+vga_games_json7427</id>
+    <GameTitle>AKB1/149: Love Election</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2012-12-20T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>154817.75</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_75+vga_games_json1446</id>
+    <GameTitle>Dragon Quest XI: Echoes of an Elusive Age</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2017-07-29T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1399396.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_313+vga_games_json860</id>
+    <GameTitle>Kirby's Epic Yarn</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-10-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>452465.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_154+Game_List_ID_364+Game_List_ID_7244+jpntop_881+vga_games_json87</id>
+    <GameTitle>Call of Duty: Infinite Warfare</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2016-01-01T00:00</ReleaseDate>
+    <Publisher>Activision</Publisher>
+    <Sales>193442.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_58+vga_games_json81</id>
+    <GameTitle>Mario Kart 8 Deluxe</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2017-04-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1808509.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3939+Game_List_ID_6297+jpntop_541+vga_games_json4140</id>
+    <GameTitle>Dynasty Warriors</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-16T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>299297.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_873+jpntop_326+vga_games_json942</id>
+    <GameTitle>Devil May Cry 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-01-30T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>472713.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3331+Game_List_ID_4868+jpntop_542+vga_games_json3090</id>
+    <GameTitle>Mario &amp; Sonic at the Rio 2016 Olympic Games</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-01-01T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>289031.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7425+jpntop_786+vga_games_json7786</id>
+    <GameTitle>Front Mission 5: Scars of the War</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-12-29T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>215120.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_993+jpntop_126+vga_games_json1063</id>
+    <GameTitle>Kirby 64: The Crystal Shards</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2000-06-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>978634.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_442+jpntop_73+vga_games_json437</id>
+    <GameTitle>Animal Crossing: Happy Home Designer</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2015-07-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1448477.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4082+jpntop_491</id>
+    <GameTitle>One Piece: Grand Battle!</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2001-03-15T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>322358.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4079+jpntop_402+vga_games_json3688</id>
+    <GameTitle>Disney Magic World 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-10-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>304626.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_146+jpntop_164+vga_games_json158</id>
+    <GameTitle>Metal Gear Solid 2: Sons of Liberty</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2001-11-12T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>813974.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2601+Game_List_ID_6132+jpntop_341+vga_games_json2752</id>
+    <GameTitle>Dragon Ball Z: Budokai Tenkaichi 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2006-01-01T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>424546.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1467+jpntop_183+vga_games_json1555</id>
+    <GameTitle>Monster Hunter Freedom</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-12T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>858418.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2695+jpntop_531</id>
+    <GameTitle>Final Fantasy X/X-2 HD Remaster</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2013-12-26T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>302257.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1417+jpntop_265+vga_games_json1515</id>
+    <GameTitle>Final Fantasy XII: Revenant Wings</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-04-26T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>530029.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1462+Game_List_ID_695+jpntop_274+vga_games_json1558</id>
+    <GameTitle>Chrono Trigger</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-25T00:00</ReleaseDate>
+    <Publisher>SquareSoft</Publisher>
+    <Sales>500047.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10052+Game_List_ID_2575+jpntop_517+vga_games_json2725</id>
+    <GameTitle>Yakuza</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-08-12T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>524115.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10006+Game_List_ID_2596+jpntop_270+vga_games_json2748</id>
+    <GameTitle>Tales of Destiny 2</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2002-11-28T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>657900.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1538+jpntop_334+vga_games_json1637</id>
+    <GameTitle>Mario &amp; Luigi: Partners in Time</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-11-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>429901.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4379+jpntop_490+vga_games_json4617</id>
+    <GameTitle>Samurai Warriors: Xtreme Legends</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-11-09T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>341201.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4516+jpntop_812+vga_games_json4757</id>
+    <GameTitle>Master of Illusion</GameTitle>
+    <Genre>PZL</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>236991.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2795+Game_List_ID_4302+jpntop_356+jpntop_866+vga_games_json2954+vga_games_json4499</id>
+    <GameTitle>Tales of Vesperia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-09-17T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>316232.75</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2609+Game_List_ID_4448+Game_List_ID_5837+Game_List_ID_9122+jpntop_945</id>
+    <GameTitle>DmC: Devil May Cry</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>184167.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_106+jpntop_78+vga_games_json105</id>
+    <GameTitle>Mario Kart 8</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2014-05-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1367599.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5014+jpntop_837+vga_games_json5258</id>
+    <GameTitle>Yoshi Touch &amp; Go</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>208976.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3108+jpntop_638+vga_games_json3282</id>
+    <GameTitle>Radiata Stories</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-27T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>278191.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2114+jpntop_429+vga_games_json2235</id>
+    <GameTitle>Tales of Graces f</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-02-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>404291.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2084+jpntop_207+vga_games_json2223</id>
+    <GameTitle>Dynasty Warriors 3: Xtreme Legends</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2002-08-29T00:00</ReleaseDate>
+    <Publisher>KOEI</Publisher>
+    <Sales>685950.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13461+jpntop_746+vga_games_json14169</id>
+    <GameTitle>Taiko no Tatsujin Portable 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-07-09T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>141293.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3898+jpntop_686+vga_games_json4070</id>
+    <GameTitle>The 3rd Birthday</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-03-29T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>259873.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6247+jpntop_610</id>
+    <GameTitle>Dynasty Warriors: Gundam</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-03T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>273655.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8091+jpntop_853+vga_games_json8469</id>
+    <GameTitle>Hatsune Miku and Future Stars: Project Mirai</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-03-08T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>192919.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_29+jpntop_87+vga_games_json33</id>
+    <GameTitle>Gran Turismo 3: A-Spec</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2001-04-28T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>1545264.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_141+vga_games_json778</id>
+    <GameTitle>Onimusha 2: Samurai's Destiny</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2002-08-28T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>960568.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10917+jpntop_564+vga_games_json6664</id>
+    <GameTitle>Brain Age: Concentration Training</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>279621.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_760+vga_games_json10733+vga_games_json7285</id>
+    <GameTitle>Jikkyou Powerful Pro Baseball 2018</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2018-04-26T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>192617.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_11817+Game_List_ID_938+jpntop_178+vga_games_json1005</id>
+    <GameTitle>Dynasty Warriors 3</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2001-11-26T00:00</ReleaseDate>
+    <Publisher>THQ</Publisher>
+    <Sales>890619.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7168+jpntop_758+vga_games_json7518</id>
+    <GameTitle>Sword Art Online: Infinity Moment</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2013-03-14T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>224060.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10575+Game_List_ID_12977+Game_List_ID_13735+Game_List_ID_457+Game_List_ID_878+jpntop_143+vga_games_json489</id>
+    <GameTitle>Resident Evil 6</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>865283.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7310+jpntop_934</id>
+    <GameTitle>Naruto: Ninja Council</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-01-05T00:00</ReleaseDate>
+    <Publisher>Tomy</Publisher>
+    <Sales>186282.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_42+jpntop_37+vga_games_json44</id>
+    <GameTitle>Super Smash Bros. Brawl</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-31T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2589733.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3736+jpntop_816+vga_games_json3924</id>
+    <GameTitle>Hotel Dusk: Room 215</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-25T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>216604.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2940+jpntop_497+vga_games_json3107</id>
+    <GameTitle>Mobile Suit Gundam: Journey to Jaburo</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2001-08-06T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>340249.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3537+jpntop_916+vga_games_json2543</id>
+    <GameTitle>Mario Party: Star Rush</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2016-10-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>194969.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1205+jpntop_362</id>
+    <GameTitle>Pokemon Mystery Dungeon: Explorers of Sky</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-04-18T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>411649.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_179+jpntop_36+vga_games_json195</id>
+    <GameTitle>Final Fantasy IX</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2000-11-13T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>2654018.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_168+jpntop_41+vga_games_json182</id>
+    <GameTitle>Monster Hunter Freedom Unite</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-03-27T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>3277660.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1081+Game_List_ID_741+jpntop_785</id>
+    <GameTitle>Resident Evil 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-27T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>221002.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1689+jpntop_310+vga_games_json1796</id>
+    <GameTitle>Pikmin 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-08-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>509814.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_802+vga_games_json431</id>
+    <GameTitle>Gran Turismo Sport</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2017-10-19T00:00</ReleaseDate>
+    <Publisher>Sony Interactive Entertainment</Publisher>
+    <Sales>223021.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6154+jpntop_584+vga_games_json6454</id>
+    <GameTitle>Final Fantasy VI Advance</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>280515.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1818+jpntop_960+vga_games_json1522</id>
+    <GameTitle>Pokken Tournament</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2016-03-18T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>180764.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6055+jpntop_627+vga_games_json6322</id>
+    <GameTitle>Just Dance Wii 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>279713.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3968+Game_List_ID_605+jpntop_63+vga_games_json647</id>
+    <GameTitle>Monster Hunter Freedom 2</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2007-08-29T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>1710613.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5556+jpntop_468+vga_games_json5720</id>
+    <GameTitle>Dragon Ball Heroes: Ultimate Mission 2</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2014-07-08T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>338043.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12081+Game_List_ID_1449+jpntop_107+vga_games_json1549</id>
+    <GameTitle>Samurai Warriors</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2004-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>1058277.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_391+jpntop_821+vga_games_json426</id>
+    <GameTitle>Tekken 4</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2002-03-28T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>270902.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1618+Game_List_ID_420+jpntop_120+vga_games_json424</id>
+    <GameTitle>Super Mario Maker</GameTitle>
+    <Genre>Platform</Genre>
+    <Platform/>
+    <ReleaseDate>2015-09-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1007110.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2117+jpntop_614+vga_games_json2256</id>
+    <GameTitle>Mario Party Advance</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>276149.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_851+jpntop_287+vga_games_json854</id>
+    <GameTitle>Fire Emblem: Awakening</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2013-02-04T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>529486.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10889+Game_List_ID_6461+jpntop_628+vga_games_json11391+vga_games_json6776</id>
+    <GameTitle>Gundam Breaker</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-06-27T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>209444.66666666666</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5121+jpntop_379+vga_games_json5373</id>
+    <GameTitle>Phantasy Star Portable 2: Infinity</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-02-24T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>384297.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_9+jpntop_8+vga_games_json9</id>
+    <GameTitle>New Super Mario Bros. Wii</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-11-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>4671643.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_99+jpntop_106+vga_games_json108</id>
+    <GameTitle>Super Mario Galaxy 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-05-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1019042.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10871+Game_List_ID_1185+Game_List_ID_13816+Game_List_ID_1459+jpntop_496+vga_games_json1260</id>
+    <GameTitle>Devil May Cry 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>330297.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5478+jpntop_472+vga_games_json5758</id>
+    <GameTitle>Tales of the World: Radiant Mythology 2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-29T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>331590.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2273+jpntop_990+vga_games_json2395</id>
+    <GameTitle>Wii Play: Motion</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2011-06-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>178296.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_88+jpntop_59+vga_games_json95</id>
+    <GameTitle>Final Fantasy X</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2001-07-19T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>2253164.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_867+vga_games_json5314</id>
+    <GameTitle>Phantasy Star 0</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-11-10T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>200309.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1227+Game_List_ID_1884+Game_List_ID_2722+jpntop_594+vga_games_json2780</id>
+    <GameTitle>Final Fantasy XIV: A Realm Reborn</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2014-04-14T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>178789.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8174+jpntop_713</id>
+    <GameTitle>Jikkyou Powerful Pro Baseball 2016</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2016-04-28T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>242166.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2909+jpntop_262+vga_games_json3071</id>
+    <GameTitle>Dragon Quest Swords: The Masked Queen and the Tower of Mirrors</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-12-07T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>510634.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3640+Game_List_ID_6124+jpntop_561+jpntop_850+vga_games_json3622+vga_games_json6420</id>
+    <GameTitle>Hot Shots Golf: World Invitational</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-11-22T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>258947.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3496+jpntop_678+vga_games_json3253</id>
+    <GameTitle>Rune Factory 4</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-19T00:00</ReleaseDate>
+    <Publisher>Xseed Games</Publisher>
+    <Sales>235539.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_44+jpntop_5+vga_games_json47</id>
+    <GameTitle>Animal Crossing: Wild World</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2005-11-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>5307359.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4048+jpntop_492+vga_games_json4260</id>
+    <GameTitle>Dragon Ball Z: Supersonic Warriors 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-12T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>321066.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_157+Game_List_ID_1644+Game_List_ID_24+Game_List_ID_38+jpntop_157</id>
+    <GameTitle>Grand Theft Auto V</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>Take-Two Interactive</Publisher>
+    <Sales>787233.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7362+jpntop_851+vga_games_json7709</id>
+    <GameTitle>Dorabase DS: Dramatic Stadium</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-12-20T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>208005.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4092+jpntop_436+vga_games_json4310</id>
+    <GameTitle>Tales of Legendia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-08-25T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>351688.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6587+jpntop_795+vga_games_json6908</id>
+    <GameTitle>Tokyo Jungle</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>1920-12-31T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>239140.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_14837+jpntop_861</id>
+    <GameTitle>Teddy Together</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2013-06-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>202116.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_16+jpntop_39+vga_games_json16</id>
+    <GameTitle>Wii Fit Plus</GameTitle>
+    <Genre>HOB</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-10T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2499231.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_77+jpntop_48+vga_games_json82</id>
+    <GameTitle>Mario Party DS</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2007-08-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2014936.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2420+Game_List_ID_7637+Game_List_ID_7748+jpntop_219+vga_games_json2549+vga_games_json8003</id>
+    <GameTitle>Warriors Orochi</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>476609.6666666667</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_191+jpntop_111+vga_games_json207</id>
+    <GameTitle>Professor Layton and the Curious Village</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2007-02-15T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>1032678.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_500+jpntop_89+vga_games_json538</id>
+    <GameTitle>Kirby Super Star Ultra</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-06-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1187511.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1148+jpntop_427+vga_games_json1220</id>
+    <GameTitle>Kirby Air Ride</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2003-10-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>404805.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_445+jpntop_161+vga_games_json467</id>
+    <GameTitle>Mario Party 9</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2012-04-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>765599.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3536+jpntop_387+vga_games_json3729</id>
+    <GameTitle>Naruto: Ultimate Ninja 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2004-09-30T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>390916.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_306+vga_games_json677</id>
+    <GameTitle>The Legend of Zelda: Majora's Mask 3D</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2015-02-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>472837.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1178+jpntop_434+vga_games_json1240</id>
+    <GameTitle>Kingdom Hearts 3D: Dream Drop Distance</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-31T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>347568.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_652+vga_games_json1312</id>
+    <GameTitle>Pokken Tournament DX</GameTitle>
+    <Genre>FTG</Genre>
+    <Platform/>
+    <ReleaseDate>2017-09-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>276435.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_189+Game_List_ID_2416+jpntop_139+jpntop_23+vga_games_json1901+vga_games_json204</id>
+    <GameTitle>Dragon Quest VIII: Journey of the Cursed King</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-11-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2168482.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6106+jpntop_539+vga_games_json6403</id>
+    <GameTitle>Power Pro Kun Pocket 11</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-12-18T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>294609.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_9530+jpntop_949</id>
+    <GameTitle>Drakengard 2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2005-06-16T00:00</ReleaseDate>
+    <Publisher>Ubisoft</Publisher>
+    <Sales>183486.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6863+Game_List_ID_9797+jpntop_739+vga_games_json7206</id>
+    <GameTitle>Summon Night 3</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2003-07-08T00:00</ReleaseDate>
+    <Publisher>Banpresto</Publisher>
+    <Sales>236761.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_58+jpntop_131</id>
+    <GameTitle>Super Mario All-Stars</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-10-21T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>917590.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_163+vga_games_json205+vga_games_json206</id>
+    <GameTitle>Super Mario Advance 4: Super Mario Bros. 3</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-10-21T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>806184.3333333334</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2298+Game_List_ID_6866+jpntop_309+vga_games_json2416</id>
+    <GameTitle>Dynasty Warriors 7</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>459904.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1765+jpntop_553+vga_games_json1866</id>
+    <GameTitle>Final Fantasy Tactics: The War of the Lions</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-10-09T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>296550.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7615+jpntop_996+vga_games_json7979</id>
+    <GameTitle>7th Dragon 2020</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-23T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>187997.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_56+jpntop_215+vga_games_json60</id>
+    <GameTitle>Gran Turismo 5</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2010-11-24T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>716288.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_738+vga_games_json4447</id>
+    <GameTitle>Story of Seasons: Trio of Towns</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2017-02-28T00:00</ReleaseDate>
+    <Publisher>Marvelous</Publisher>
+    <Sales>226964.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1184+jpntop_901+vga_games_json2087</id>
+    <GameTitle>Donkey Kong Country: Tropical Freeze</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2018-03-05T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>211854.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_957+vga_games_json8001</id>
+    <GameTitle>The Legend of Heroes: Ao no Kiseki</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2011-09-29T00:00</ReleaseDate>
+    <Publisher>Nihon Falcom</Publisher>
+    <Sales>191015.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1321+jpntop_196+vga_games_json1410</id>
+    <GameTitle>Onimusha 3: Demon Siege</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2004-02-26T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>597028.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13172+jpntop_779+vga_games_json2035</id>
+    <GameTitle>Miitopia</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2017-07-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>241205.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_13908+Game_List_ID_8003+jpntop_933+vga_games_json8372</id>
+    <GameTitle>Samurai Warriors 2: Empires</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-02-27T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>188244.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_239+Game_List_ID_940+jpntop_174+vga_games_json263</id>
+    <GameTitle>The Legend of Zelda: The Wind Waker</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2002-12-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>807450.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3936+jpntop_926+vga_games_json4141</id>
+    <GameTitle>Ace Combat Zero: The Belkan War</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2006-04-25T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>193754.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7382+jpntop_825+vga_games_json7733</id>
+    <GameTitle>Gekijouban Macross F: Itsuwarino Utahime - Hybrid Pack</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2010-07-10T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>210683.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2796+jpntop_400+vga_games_json2919</id>
+    <GameTitle>Style Savvy: Trendsetters</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2012-09-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>460710.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1020+Game_List_ID_134+jpntop_237+vga_games_json145</id>
+    <GameTitle>Kingdom Hearts</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2002-03-28T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>1032201.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_404+Game_List_ID_4152+jpntop_117+vga_games_json236</id>
+    <GameTitle>Final Fantasy XV</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2016-11-29T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>1026877.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_585+vga_games_json1191</id>
+    <GameTitle>Yoshi's New Island</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2014-03-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>285470.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12257+Game_List_ID_202+Game_List_ID_376+jpntop_290+vga_games_json218</id>
+    <GameTitle>Resident Evil 5</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-01T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>786768.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_125+jpntop_61+vga_games_json133</id>
+    <GameTitle>Big Brain Academy</GameTitle>
+    <Genre>EDU</Genre>
+    <Platform/>
+    <ReleaseDate>2005-06-30T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1649064.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12+jpntop_13+vga_games_json12</id>
+    <GameTitle>Mario Kart DS</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2005-11-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>4049682.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2951+jpntop_385+vga_games_json3119</id>
+    <GameTitle>Metal Gear Solid: Portable Ops Plus</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-13T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>326963.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2419+jpntop_828+vga_games_json2548</id>
+    <GameTitle>Vagrant Story</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2000-05-15T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>255154.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_313+jpntop_35+vga_games_json337</id>
+    <GameTitle>Monster Hunter 4 Ultimate</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2015-02-13T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>2594593.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_242+jpntop_65+vga_games_json253</id>
+    <GameTitle>Splatoon</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2015-05-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1581496.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1175+jpntop_315</id>
+    <GameTitle>Pokemon Battle Revolution</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2006-12-14T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>453642.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5032+jpntop_406+vga_games_json5291</id>
+    <GameTitle>Phoenix Wright: Ace Attorney - Dual Destinies</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2013-07-25T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>377155.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1374+jpntop_86+vga_games_json1464</id>
+    <GameTitle>Dragon Quest Monsters: Joker 2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-04-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1240885.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2903+Game_List_ID_5926+Game_List_ID_6758+jpntop_349+vga_games_json3063</id>
+    <GameTitle>Dynasty Warriors 6</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>414843.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_438+vga_games_json1827</id>
+    <GameTitle>Mario Tennis Aces</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2018-06-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>351535.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7808+jpntop_854</id>
+    <GameTitle>Great Phoenix Wright: Ace Attorney - Naruhodou Ryuunosuke no Bouken</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2015-09-07T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>205711.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_569+jpntop_180</id>
+    <GameTitle>Professor Layton and the Last Specter</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2009-11-26T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>696275.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_877+vga_games_json3150</id>
+    <GameTitle>Fire Emblem Echoes: Shadows of Valentia</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2017-04-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>203672.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7780+jpntop_941+vga_games_json8145</id>
+    <GameTitle>Kouchuu Ouja Mushi King: Greatest Champion e no Michi DS</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-08-12T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>187344.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_917+jpntop_145+vga_games_json982</id>
+    <GameTitle>Mario Party 3</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2000-07-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>927256.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1588+jpntop_757+jpntop_96+vga_games_json1688</id>
+    <GameTitle>Tamagotchi Connection: Corner Shop</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2005-09-15T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>821287.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4548+jpntop_568+vga_games_json4700</id>
+    <GameTitle>Story of Seasons</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2015-03-31T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>283792.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3855+jpntop_832+vga_games_json4044</id>
+    <GameTitle>Tales of Symphonia: Dawn of the New World</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2008-06-26T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>225021.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_426+vga_games_json3565</id>
+    <GameTitle>Yakuza 6: The Song of Life</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2016-08-12T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>369881.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5680+jpntop_995+vga_games_json5884</id>
+    <GameTitle>Drakengard 3</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2014-05-20T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>183038.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4059+jpntop_924+vga_games_json4278</id>
+    <GameTitle>Grandia III</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-14T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>214268.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_149+jpntop_177+vga_games_json162</id>
+    <GameTitle>Metal Gear Solid 4: Guns of the Patriots</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-06-12T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>772122.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5042+jpntop_588+vga_games_json5299</id>
+    <GameTitle>Tamagotchi Connection: Corner Shop 3</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2007-09-27T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>294668.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6552+jpntop_664+vga_games_json6869</id>
+    <GameTitle>SD Gundam G Generation: Cross Drive</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2007-09-08T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>258446.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3093+Game_List_ID_9759+jpntop_347+vga_games_json10235+vga_games_json3258</id>
+    <GameTitle>One Piece: Pirate Warriors 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-03-20T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>320172.6666666667</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1016+Game_List_ID_355+Game_List_ID_7060+jpntop_767</id>
+    <GameTitle>Star Wars: Battlefront</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2004-01-01T00:00</ReleaseDate>
+    <Publisher>LucasArts</Publisher>
+    <Sales>224649.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4183+jpntop_408+vga_games_json4416</id>
+    <GameTitle>Valkyrie Profile 2: Silmeria</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-09-26T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>381071.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5974+Game_List_ID_7686+jpntop_711+vga_games_json8047</id>
+    <GameTitle>Grandia II</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2000-03-08T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>221772.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_150+jpntop_45+vga_games_json163</id>
+    <GameTitle>Final Fantasy XII</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-10-31T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>2291213.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1559+jpntop_462+vga_games_json1650</id>
+    <GameTitle>Kid Icarus: Uprising</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-03-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>354486.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2920+Game_List_ID_5749+jpntop_943+vga_games_json3067</id>
+    <GameTitle>Catherine</GameTitle>
+    <Genre>Adventure</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>192214.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5961+jpntop_461+vga_games_json3300</id>
+    <GameTitle>Monster Hunter Stories</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-08-10T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>359827.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12245+Game_List_ID_15413+Game_List_ID_1722+Game_List_ID_691+jpntop_105+vga_games_json750</id>
+    <GameTitle>Mario Tennis</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2000-01-01T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1062734.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2134+jpntop_151+vga_games_json2271</id>
+    <GameTitle>Tamagotchi Connection: Corner Shop 2</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-14T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>835432.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_185+jpntop_127+vga_games_json198</id>
+    <GameTitle>Donkey Kong 64</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>1999-10-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1008417.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_862+vga_games_json510</id>
+    <GameTitle>Tom Clancy's Ghost Recon Wildlands</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2017-03-07T00:00</ReleaseDate>
+    <Publisher>Ubisoft</Publisher>
+    <Sales>211049.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1287+jpntop_291+vga_games_json1372+vga_games_json2273</id>
+    <GameTitle>Dirge of Cerberus: Final Fantasy VII</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2006-08-15T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>507231.3333333333</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1231+jpntop_410+vga_games_json1298</id>
+    <GameTitle>Go Vacation</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2011-10-11T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>350672.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_387+jpntop_182+vga_games_json421</id>
+    <GameTitle>Clubhouse Games</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>711808.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_914+vga_games_json125</id>
+    <GameTitle>Uncharted 3: Drake's Deception</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2011-02-11T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>190227.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_57+vga_games_json71</id>
+    <GameTitle>Super Mario Odyssey</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2017-10-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1869364.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2030+jpntop_214+vga_games_json1605</id>
+    <GameTitle>Kirby: Planet Robobot</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2016-04-28T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>626410.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2869+jpntop_222+vga_games_json3027</id>
+    <GameTitle>Mobile Suit Gundam: Encounters in Space</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-04-09T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>608166.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2459+jpntop_312+vga_games_json2535</id>
+    <GameTitle>Tales of Xillia 2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-11T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>452509.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_90+vga_games_json1480</id>
+    <GameTitle>Inazuma Eleven 2: Blizzard / Firestorm</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-01-10T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>1178522.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_8+jpntop_29+vga_games_json8</id>
+    <GameTitle>Wii Play</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>2877992.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3497+jpntop_849+vga_games_json3672</id>
+    <GameTitle>Final Fantasy: The 4 Heroes of Light</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-10-29T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>218138.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_180+Game_List_ID_3776+Game_List_ID_392+jpntop_569+vga_games_json115+vga_games_json2869</id>
+    <GameTitle>Battlefield 1</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2016-10-21T00:00</ReleaseDate>
+    <Publisher>Electronic Arts</Publisher>
+    <Sales>288721.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6481+jpntop_198+jpntop_887+vga_games_json6766</id>
+    <GameTitle>Tales of Eternia</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2000-11-30T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>365636.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12993+Game_List_ID_1402+jpntop_135+vga_games_json1495</id>
+    <GameTitle>Dynasty Warriors 5</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-01T00:00</ReleaseDate>
+    <Publisher>KOEI</Publisher>
+    <Sales>898312.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_997+jpntop_724+vga_games_json1002</id>
+    <GameTitle>Wii Party U</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2013-10-31T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>539320.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6509+jpntop_620+vga_games_json6818</id>
+    <GameTitle>Final Fantasy V Advance</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-12-10T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>265430.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1726+jpntop_150</id>
+    <GameTitle>One Piece: Pirate Warriors</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2012-01-03T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>828150.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_623+jpntop_580+vga_games_json671</id>
+    <GameTitle>Deca Sports</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-05-13T00:00</ReleaseDate>
+    <Publisher>Hudson</Publisher>
+    <Sales>286514.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_505+vga_games_json5123</id>
+    <GameTitle>Momotaro Dentetsu 2017: Tachiagare Nippon!!</GameTitle>
+    <Genre>TBL</Genre>
+    <Platform/>
+    <ReleaseDate>2016-12-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>358072.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2480+jpntop_428+vga_games_json2617</id>
+    <GameTitle>Rogue Galaxy</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-01-30T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>374592.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1119+jpntop_283+vga_games_json1188</id>
+    <GameTitle>Mario Party 6</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-06T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>549777.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2295+Game_List_ID_3519+jpntop_884+vga_games_json2405</id>
+    <GameTitle>Xenoblade Chronicles</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2010-10-06T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>178312.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_794+Game_List_ID_8595+jpntop_92+vga_games_json850</id>
+    <GameTitle>Dynasty Warriors 4</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-01-01T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>1135449.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3304+jpntop_607+vga_games_json3474</id>
+    <GameTitle>Fire Emblem: Shadow Dragon</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2008-07-08T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>272393.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_10441+Game_List_ID_11875+Game_List_ID_14042+Game_List_ID_3275+Game_List_ID_8596+Game_List_ID_8915+jpntop_393+vga_games_json10952+vga_games_json3433</id>
+    <GameTitle>Warriors Orochi 3</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>354696.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_167+vga_games_json2739</id>
+    <GameTitle>Rhythm Heaven Megamix</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2016-06-15T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>736449.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_12300+Game_List_ID_2105+Game_List_ID_856+jpntop_424+vga_games_json902</id>
+    <GameTitle>Dark Souls</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>450914.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6086+jpntop_559+vga_games_json6382</id>
+    <GameTitle>Dragon Ball Heroes: Ultimate Mission</GameTitle>
+    <Genre>Misc</Genre>
+    <Platform/>
+    <ReleaseDate>2013-02-28T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>290137.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_951+jpntop_502+vga_games_json1020</id>
+    <GameTitle>Kingdom Hearts: Chain of Memories</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2004-11-11T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>333410.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_298+vga_games_json4006</id>
+    <GameTitle>Magician's Quest: Mysterious Times</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2008-11-13T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>476678.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4763+jpntop_346+vga_games_json5021</id>
+    <GameTitle>Hatsune Miku: Project Diva 2nd</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-07-29T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>416073.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6321+jpntop_644+vga_games_json6634</id>
+    <GameTitle>SD Gundam G Generation Portable</GameTitle>
+    <Genre>Strategy</Genre>
+    <Platform/>
+    <ReleaseDate>2006-03-08T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>267632.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_181+jpntop_192+vga_games_json174</id>
+    <GameTitle>New Super Mario Bros. U</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-08-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>990153.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4035+Game_List_ID_5453+Game_List_ID_7802+jpntop_511+jpntop_624+vga_games_json4253+vga_games_json5729</id>
+    <GameTitle>Dynasty Warriors: Gundam 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2008-01-01T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>287761.25</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_631+jpntop_156+vga_games_json685</id>
+    <GameTitle>Mario Party 4</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2002-08-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>854100.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6775+jpntop_714</id>
+    <GameTitle>Monster Hunter G</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-04-23T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>242129.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_969+vga_games_json7972</id>
+    <GameTitle>Black Panther 2: Yakuza Ashura Chapter</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2012-03-22T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>190180.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_780+vga_games_json7334</id>
+    <GameTitle>Earth Defense Force 5</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2017-07-12T00:00</ReleaseDate>
+    <Publisher>D3 Publisher</Publisher>
+    <Sales>225947.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4347+jpntop_748</id>
+    <GameTitle>God Eater 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-14T00:00</ReleaseDate>
+    <Publisher>Bandai Namco Games</Publisher>
+    <Sales>231834.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1325+jpntop_437</id>
+    <GameTitle>Resident Evil: Outbreak</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-12T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>353319.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1672+jpntop_616+vga_games_json1779</id>
+    <GameTitle>Dino Crisis 2</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2000-09-13T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>275691.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1716+jpntop_401+vga_games_json1813</id>
+    <GameTitle>Metal Gear Solid: Portable Ops</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2006-12-05T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>379833.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2825+jpntop_655+vga_games_json2881</id>
+    <GameTitle>Persona Q: Shadow of the Labyrinth</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2014-11-25T00:00</ReleaseDate>
+    <Publisher>Atlus</Publisher>
+    <Sales>265608.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6775+Game_List_ID_7022+jpntop_714+jpntop_775+vga_games_json7117+vga_games_json7376</id>
+    <GameTitle>Monster Hunter G</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2009-04-23T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>236288.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2818+Game_List_ID_583+jpntop_142+vga_games_json622</id>
+    <GameTitle>Final Fantasy XIII-2</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>874883.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3882+jpntop_253+vga_games_json4088</id>
+    <GameTitle>Kenkou Ouen Recipe 1000: DS Kondate Zenshuu</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2006-07-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>529154.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_710+jpntop_193</id>
+    <GameTitle>Pokemon Ranger: Shadows of Almia</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-03-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>660005.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6417+jpntop_593+vga_games_json6723</id>
+    <GameTitle>Initial D: Special Stage</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2003-06-26T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>273877.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_301+jpntop_375+vga_games_json328</id>
+    <GameTitle>Tekken Tag Tournament</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2000-03-30T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>455773.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_183+jpntop_52+vga_games_json197</id>
+    <GameTitle>Final Fantasy X-2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-03-13T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>2042497.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_114+jpntop_152+vga_games_json122</id>
+    <GameTitle>Mario Kart: Double Dash!!</GameTitle>
+    <Genre>RCE</Genre>
+    <Platform/>
+    <ReleaseDate>2003-07-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>838720.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_816+jpntop_202+vga_games_json874</id>
+    <GameTitle>Mario Sports Mix</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-11-25T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>634474.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_103+Game_List_ID_1442+Game_List_ID_259+jpntop_753+vga_games_json1498+vga_games_json88</id>
+    <GameTitle>Fallout 4</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Bethesda Softworks</Publisher>
+    <Sales>249448.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7225+jpntop_792+vga_games_json7565</id>
+    <GameTitle>Mobile Suit Gundam Seed</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-07-31T00:00</ReleaseDate>
+    <Publisher>Bandai</Publisher>
+    <Sales>219324.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2102+jpntop_284+vga_games_json2238</id>
+    <GameTitle>Apollo Justice: Ace Attorney</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2007-12-04T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>569677.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5290+jpntop_948+vga_games_json5552</id>
+    <GameTitle>Suikoden V</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-02-23T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>186826.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_567+vga_games_json6287</id>
+    <GameTitle>Black Panther: Yakuza New Chapter</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2010-09-22T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>288850.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2000+jpntop_360</id>
+    <GameTitle>Naruto: Clash of Ninja 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2003-04-12T00:00</ReleaseDate>
+    <Publisher>Tomy</Publisher>
+    <Sales>412926.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_601+jpntop_797+vga_games_json519</id>
+    <GameTitle>Bloodborne</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2015-03-26T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>248860.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_247+vga_games_json3263</id>
+    <GameTitle>Fist of the North Star: Ken's Rage</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-03-25T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>549658.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4347+Game_List_ID_6954+jpntop_345+jpntop_748+vga_games_json4551+vga_games_json7275</id>
+    <GameTitle>God Eater 2</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-14T00:00</ReleaseDate>
+    <Publisher>Bandai Namco Games</Publisher>
+    <Sales>336342.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4440+jpntop_735</id>
+    <GameTitle>Dragon Quest Heroes: Rocket Slime</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-11-14T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>235266.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1590+jpntop_898+vga_games_json1487</id>
+    <GameTitle>Captain Toad: Treasure Tracker</GameTitle>
+    <Genre>Puzzle</Genre>
+    <Platform/>
+    <ReleaseDate>2014-11-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>197214.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_73+jpntop_12+vga_games_json61</id>
+    <GameTitle>Animal Crossing: New Leaf</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2012-08-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>4493455.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_533+vga_games_json3875</id>
+    <GameTitle>Kingdom Hearts: Final Mix</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2002-12-26T00:00</ReleaseDate>
+    <Publisher>Square</Publisher>
+    <Sales>425850.0</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_986+vga_games_json1560</id>
+    <GameTitle>Super Street Fighter IV</GameTitle>
+    <Genre>FTG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-04-28T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>178791.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2898+Game_List_ID_3780+jpntop_615+vga_games_json3946</id>
+    <GameTitle>Tactics Ogre: Let Us Cling Together</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2011-02-15T00:00</ReleaseDate>
+    <Publisher>Quest</Publisher>
+    <Sales>270848.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2063+jpntop_112+vga_games_json2191</id>
+    <GameTitle>Oshare Majo Love and Berry: DS Collection</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-11-22T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>1022388.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7011+Game_List_ID_9680+jpntop_772</id>
+    <GameTitle>Dynasty Warriors: Gundam Reborn</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-01-01T00:00</ReleaseDate>
+    <Publisher>Tecmo Koei</Publisher>
+    <Sales>223464.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4078+jpntop_235+vga_games_json4293</id>
+    <GameTitle>Taiko no Tatsujin: Appare Sandaime</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-10-30T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>534745.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_875+jpntop_357+vga_games_json944</id>
+    <GameTitle>Hot Shots Golf: Open Tee</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-12-12T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>521974.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6293+Game_List_ID_652+jpntop_261+vga_games_json703</id>
+    <GameTitle>Dragon Ball Z: Budokai 2</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2003-12-04T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>517141.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_629+vga_games_json3140</id>
+    <GameTitle>Kirby's Dream Collection: Special Edition</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-07-19T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>299137.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3912+jpntop_677+vga_games_json3771</id>
+    <GameTitle>Soul Sacrifice</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-04-30T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>235587.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_175+jpntop_56+vga_games_json169</id>
+    <GameTitle>Tomodachi Life</GameTitle>
+    <Genre>Simulation</Genre>
+    <Platform/>
+    <ReleaseDate>2014-06-06T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1922754.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_798+jpntop_74+vga_games_json849</id>
+    <GameTitle>Tetris DS</GameTitle>
+    <Genre>PZL</Genre>
+    <Platform/>
+    <ReleaseDate>2006-04-27T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>1371956.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_309+jpntop_430+vga_games_json336</id>
+    <GameTitle>The Legend of Zelda: Skyward Sword</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-11-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>363687.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_772+jpntop_170</id>
+    <GameTitle>Pokemon Ranger</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2006-03-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>737174.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_448+jpntop_320+vga_games_json415</id>
+    <GameTitle>The Legend of Zelda: A Link Between Worlds</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-12-26T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>457315.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_104+Game_List_ID_109+Game_List_ID_546+jpntop_662+vga_games_json114+vga_games_json592</id>
+    <GameTitle>Battlefield 3</GameTitle>
+    <Genre>Shooter</Genre>
+    <Platform/>
+    <ReleaseDate>2011-01-01T00:00</ReleaseDate>
+    <Publisher>Electronic Arts</Publisher>
+    <Sales>303813.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2100+Game_List_ID_2557+Game_List_ID_6574+jpntop_158+vga_games_json2703</id>
+    <GameTitle>Final Fantasy Type-0</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Unknown</Publisher>
+    <Sales>793910.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6524+jpntop_788+vga_games_json6843</id>
+    <GameTitle>Power Pro Kun Pocket 5</GameTitle>
+    <Genre>SLG</Genre>
+    <Platform/>
+    <ReleaseDate>2003-01-23T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>234862.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2995+jpntop_740+vga_games_json3152</id>
+    <GameTitle>Hot Shots Golf: Open Tee 2</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2007-06-12T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>256640.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4285+jpntop_883+vga_games_json4516</id>
+    <GameTitle>Mega Man Star Force 3: Black Ace / Red Joker</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-06-30T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>208350.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_151+Game_List_ID_206+jpntop_650+vga_games_json152</id>
+    <GameTitle>The Last of Us</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2013-06-14T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>276712.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5078+jpntop_983+vga_games_json5275</id>
+    <GameTitle>Naruto Shippuden: Ultimate Ninja Heroes 3</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2009-10-12T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>183973.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4563+jpntop_674+vga_games_json4807</id>
+    <GameTitle>Tales of the World: Radiant Mythology</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2006-12-21T00:00</ReleaseDate>
+    <Publisher>Ubisoft</Publisher>
+    <Sales>240970.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_633+vga_games_json2647+vga_games_json7148</id>
+    <GameTitle>Style Savvy: Fashion Forward</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2016-08-19T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>179142.33333333334</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2404+jpntop_229+vga_games_json2511</id>
+    <GameTitle>Phantasy Star Portable 2</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-09-14T00:00</ReleaseDate>
+    <Publisher>Sega</Publisher>
+    <Sales>604966.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_522+vga_games_json5878</id>
+    <GameTitle>One Piece: Romance Dawn</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2012-12-20T00:00</ReleaseDate>
+    <Publisher>Namco Bandai Games</Publisher>
+    <Sales>313243.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1240+jpntop_692+vga_games_json1311</id>
+    <GameTitle>Resident Evil: The Umbrella Chronicles</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-15T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>269110.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6831+jpntop_104</id>
+    <GameTitle>World Soccer Winning Eleven 7</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-07-08T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>1076628.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1102+jpntop_685+vga_games_json934</id>
+    <GameTitle>Mario Party 10</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2015-03-20T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>269917.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2441+jpntop_282+vga_games_json2572</id>
+    <GameTitle>Dynasty Warriors 4: Xtreme Legends</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2003-09-25T00:00</ReleaseDate>
+    <Publisher>KOEI</Publisher>
+    <Sales>505559.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6726+jpntop_668+vga_games_json7091</id>
+    <GameTitle>Karaoke Joysound Wii</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2008-12-18T00:00</ReleaseDate>
+    <Publisher>Hudson</Publisher>
+    <Sales>252871.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1507+jpntop_475</id>
+    <GameTitle>Pokemon Super Mystery Dungeon</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>332131.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3544+jpntop_451+vga_games_json3738</id>
+    <GameTitle>Dynasty Warriors 5: Xtreme Legends</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-09-15T00:00</ReleaseDate>
+    <Publisher>Koei</Publisher>
+    <Sales>347632.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_830+jpntop_160+vga_games_json877</id>
+    <GameTitle>Kingdom Hearts: Birth by Sleep</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-09-07T00:00</ReleaseDate>
+    <Publisher>Square Enix</Publisher>
+    <Sales>759360.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3100+jpntop_554+vga_games_json3260</id>
+    <GameTitle>Freedom Wars</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2014-10-28T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>306164.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_895+jpntop_194+vga_games_json967</id>
+    <GameTitle>Dragon Ball Z: Budokai 3</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2005-10-02T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>654987.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7738+jpntop_460+vga_games_json8108</id>
+    <GameTitle>DS Kageyama Method: Dennou Hanpuku - Masu x Masu Hyaku Masu Keisan</GameTitle>
+    <Genre>EDU</Genre>
+    <Platform/>
+    <ReleaseDate>2006-07-12T00:00</ReleaseDate>
+    <Publisher>Shogakukan</Publisher>
+    <Sales>270129.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_250+jpntop_165+vga_games_json231</id>
+    <GameTitle>Super Mario 3D World</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>772201.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1828+jpntop_603+vga_games_json2003</id>
+    <GameTitle>Fantasy Life</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2012-12-27T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>322810.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1151+jpntop_101+jpntop_80+vga_games_json1223</id>
+    <GameTitle>Dragon Quest IV: Chapters of the Chosen</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2007-11-22T00:00</ReleaseDate>
+    <Publisher>Enix</Publisher>
+    <Sales>1224896.6666666667</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_414+jpntop_179+vga_games_json447</id>
+    <GameTitle>The Legend of Zelda: Spirit Tracks</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2009-12-23T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>718439.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7162+jpntop_905+vga_games_json7511</id>
+    <GameTitle>Gekijouban Macross F: Sayonara no Tsubasa - Hybrid Pack</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-10-20T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>206177.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2746+jpntop_550+vga_games_json13630</id>
+    <GameTitle>PokePark 2: Wonders Beyond</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2011-12-11T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>162658.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1549+Game_List_ID_2765+Game_List_ID_3264+Game_List_ID_7030+Game_List_ID_8144+jpntop_459+vga_games_json1640</id>
+    <GameTitle>Dark Souls II</GameTitle>
+    <Genre>Role-Playing</Genre>
+    <Platform/>
+    <ReleaseDate>2014-01-01T00:00</ReleaseDate>
+    <Publisher>From Software</Publisher>
+    <Sales>375540.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_7484+jpntop_927+vga_games_json7840</id>
+    <GameTitle>Tales of Phantasia: Narikiri Dungeon X</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2010-05-08T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>198749.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_5218+jpntop_882+vga_games_json5460</id>
+    <GameTitle>Dragon Ball Z: Attack of the Saiyans</GameTitle>
+    <Genre>RPG</Genre>
+    <Platform/>
+    <ReleaseDate>2009-04-29T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>203429.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_2827+jpntop_191+vga_games_json2984</id>
+    <GameTitle>Just Dance Wii</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-10-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>695804.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_9556+jpntop_978</id>
+    <GameTitle>Ape Escape 3</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-07-14T00:00</ReleaseDate>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Sales>178724.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4486+jpntop_458</id>
+    <GameTitle>Naruto: Ultimate Ninja 3</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2005-12-22T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>341344.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1815+jpntop_528+vga_games_json1749</id>
+    <GameTitle>Pikmin 3</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2013-07-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>296881.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3116+jpntop_773+vga_games_json3291</id>
+    <GameTitle>Yoshi Topsy-Turvy</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2004-09-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>261582.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_840+jpntop_239+vga_games_json737</id>
+    <GameTitle>Mario Party: Island Tour</GameTitle>
+    <Genre>ETC</Genre>
+    <Platform/>
+    <ReleaseDate>2013-11-22T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>564890.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_11529+Game_List_ID_2558+Game_List_ID_3117+Game_List_ID_393+Game_List_ID_7858+jpntop_302+jpntop_840+vga_games_json508</id>
+    <GameTitle>Metal Gear Solid V: The Phantom Pain</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2015-01-01T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>392105.3333333333</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4655+jpntop_305+vga_games_json4907</id>
+    <GameTitle>Taiko no Tatsujin DS: Dororon! Youkai Daikessen!!</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2010-01-07T00:00</ReleaseDate>
+    <Publisher>Namco Bandai</Publisher>
+    <Sales>443002.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_6530+jpntop_839+vga_games_json6834</id>
+    <GameTitle>Inazuma Eleven Strikers</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2011-07-16T00:00</ReleaseDate>
+    <Publisher>Level 5</Publisher>
+    <Sales>229407.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_688+jpntop_223+vga_games_json711</id>
+    <GameTitle>Paper Mario: Sticker Star</GameTitle>
+    <Genre>ADV</Genre>
+    <Platform/>
+    <ReleaseDate>2012-06-12T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>622699.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1115+jpntop_263+vga_games_json1185</id>
+    <GameTitle>Dragon Ball Z: Budokai Tenkaichi</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2005-06-10T00:00</ReleaseDate>
+    <Publisher>Atari</Publisher>
+    <Sales>530528.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_303+vga_games_json1068</id>
+    <GameTitle>Dragon's Dogma</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-05-24T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>593687.5</Sales>
+  </Game>
+  <Game>
+    <id>jpntop_175+vga_games_json2476</id>
+    <GameTitle>Rhythm Heaven Fever</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2012-02-13T00:00</ReleaseDate>
+    <Publisher>Nintendo</Publisher>
+    <Sales>745623.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_3174+jpntop_483+vga_games_json3347</id>
+    <GameTitle>Onimusha: Dawn of Dreams</GameTitle>
+    <Genre>Action</Genre>
+    <Platform/>
+    <ReleaseDate>2006-01-26T00:00</ReleaseDate>
+    <Publisher>Capcom</Publisher>
+    <Sales>333295.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_1792+jpntop_691+vga_games_json1905</id>
+    <GameTitle>Tenchu: Wrath of Heaven</GameTitle>
+    <Genre>ACT</Genre>
+    <Platform/>
+    <ReleaseDate>2003-04-24T00:00</ReleaseDate>
+    <Publisher>Activision</Publisher>
+    <Sales>249188.0</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_297+Game_List_ID_4413+jpntop_137+vga_games_json325</id>
+    <GameTitle>World Soccer Winning Eleven 9</GameTitle>
+    <Genre>Sports</Genre>
+    <Platform/>
+    <ReleaseDate>2005-01-01T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>888673.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_4211+jpntop_368+vga_games_json4448</id>
+    <GameTitle>World Soccer Winning Eleven 8: Liveware Evolution</GameTitle>
+    <Genre>SPT</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-24T00:00</ReleaseDate>
+    <Publisher>Konami</Publisher>
+    <Sales>439110.5</Sales>
+  </Game>
+  <Game>
+    <id>Game_List_ID_319+jpntop_556+vga_games_json348</id>
+    <GameTitle>Tekken 5</GameTitle>
+    <Genre>Fighting</Genre>
+    <Platform/>
+    <ReleaseDate>2005-03-31T00:00</ReleaseDate>
+    <Publisher>Namco</Publisher>
+    <Sales>300755.5</Sales>
+  </Game>
+</Games>

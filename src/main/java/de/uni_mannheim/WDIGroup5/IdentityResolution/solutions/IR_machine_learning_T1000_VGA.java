@@ -50,7 +50,7 @@ public class IR_machine_learning_T1000_VGA {
 	    String options[] = new String[]{"-S"};
 	    String modelType = "SimpleLogistic"; // use a logistic regression
 	    WekaMatchingRule<Game, Attribute> matchingRule = new WekaMatchingRule<>(0.7, modelType, options);
-//	    matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000);
+	    matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000);
 	    
 	    
 	    matchingRule.addComparator(new GameTitleComparatorEqual());
@@ -64,10 +64,6 @@ public class IR_machine_learning_T1000_VGA {
 	    matchingRule.addComparator(new PublisherNameComparatorJaccard());
 	    matchingRule.addComparator(new PublisherNameComparatorLevenshtein());
 		
-		matchingRule.addComparator(new SalesJapanSalesComparatorAbsolutDiff());
-		matchingRule.addComparator(new SalesFirstWeekSalesComparatorAbsolutDiff());
-		matchingRule.addComparator(new SalesPriceComparatorAbsolutDiff());
-	    
 	    System.out.println("*\n*\tLoading gold standard\n*");
 	    MatchingGoldStandard gsTrainingTopVga = new MatchingGoldStandard();
 		gsTrainingTopVga.loadFromCSVFile(new File("data/goldstandard/gold_standard_top1000_vga_train.csv"));
@@ -95,10 +91,10 @@ public class IR_machine_learning_T1000_VGA {
 				blocker);
 		
 		// Testing Error Analysis - unfinished
-		System.out.println("*\n*\tTesting Error Analysis\n*");
-	    ErrorAnalysis analysis = new ErrorAnalysis();
-		analysis.printFalseNegatives(dataTop1000JapanSales,dataVgaGames,correspondences, gsTestTop1000Vga);
-	    analysis.printFalsePositives(correspondences, gsTrainingTopVga);
+//		System.out.println("*\n*\tTesting Error Analysis\n*");
+//	    ErrorAnalysis analysis = new ErrorAnalysis();
+//		analysis.printFalseNegatives(dataTop1000JapanSales,dataVgaGames,correspondences, gsTestTop1000Vga);
+//	    analysis.printFalsePositives(correspondences, gsTrainingTopVga);
 	       
 		
 		System.out.println("*\n*\tRunning global matching\n*");
