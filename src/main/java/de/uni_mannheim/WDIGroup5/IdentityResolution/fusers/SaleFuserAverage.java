@@ -1,6 +1,8 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.fusers;
 
+import java.awt.List;
 import java.time.LocalDateTime;
+import java.util.Collection;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Sale;
@@ -33,12 +35,19 @@ public class SaleFuserAverage extends AttributeValueFuser<Double, Game, Attribut
     @Override
     public void fuse(RecordGroup<Game, Attribute> group, Game fusedRecord, Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
         FusedValue<Double, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
-        System.out.println(fused);
-        System.out.println(fused.getValue());
-        System.out.println(fused.getOriginalIds());
         fusedRecord.setSales(new Sale(fusedRecord.getIdentifier(), fusedRecord.getProvenance()));
-        fusedRecord.getSales().setJapanSales(fused.getValue());
-        fusedRecord.setAttributeProvenance(Game.SALE, fused.getOriginalIds());
+        if(fused.getValue() != null) {
+            fusedRecord.getSales().setJapanSales(fused.getValue());
+        }
+        else {
+            fusedRecord.getSales().setJapanSales(0.0);
+
+        }
+        
+        if(fused.getOriginalIds() != null) {
+        	fusedRecord.setAttributeProvenance(Game.SALE, fused.getOriginalIds());        
+        }
+        //fusedRecord.setAttributeProvenance(Game.SALE, fused.getOriginalIds());
     }	
 	
 }
