@@ -22,12 +22,13 @@ public class ReleaseDateEvaluationRule extends EvaluationRule <Game, Attribute>{
 		else {
 			//Returns only true, if Year, Month and Day is equal! (Sometimes date and month are switched)
 			
+			/*
 			System.out.println(("" + record1.getIdentifier()));
 			System.out.println(("" + record2.getIdentifier()));
 			System.out.println(("" + record1.getReleaseDate().getYear() + "  " + record2.getReleaseDate().getYear()));
 			System.out.println(("" + record1.getReleaseDate().getMonthValue() + "  " + record2.getReleaseDate().getMonthValue()));
 			System.out.println(("" + record1.getReleaseDate().getDayOfMonth() + "  " + record2.getReleaseDate().getDayOfMonth()));
-
+			 */
 			
 			return (
 					(record1.getReleaseDate().getYear() == record2.getReleaseDate().getYear()) 
