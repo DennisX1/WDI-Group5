@@ -16,8 +16,15 @@ public class GenreEvaluationRule extends EvaluationRule<Game, Attribute> {
 
 	@Override
 	public boolean isEqual(Game record1, Game record2, Attribute schemaElement) {
-		
-		return sim.calculate(record1.getGenre(), record2.getGenre()) == 1.0;
+		//System.out.println(record1.getGenre());
+		//System.out.println(record2.getGenre());
+		if(record1.getGenre()==null && record2.getGenre()==null)
+			return true;
+		else if(record1.getGenre()==null ^ record2.getGenre()==null)
+			return true;
+		else {
+			return sim.calculate(record1.getGenre(), record2.getGenre()) == 1.0;
+		}
 	}
 
 	@Override

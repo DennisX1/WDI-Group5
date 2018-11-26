@@ -29,7 +29,7 @@ public class PlatformFuserVoting extends AttributeValueFuser<String, Game, Attri
     @Override
     public void fuse(RecordGroup<Game, Attribute> group, Game fusedRecord, Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
         FusedValue<String, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
-        fusedRecord.setGenre(fused.getValue());
+        fusedRecord.setPlatform(fused.getValue());
         fusedRecord.setAttributeProvenance(Game.PLATFORM, fused.getOriginalIds());
     }
 }

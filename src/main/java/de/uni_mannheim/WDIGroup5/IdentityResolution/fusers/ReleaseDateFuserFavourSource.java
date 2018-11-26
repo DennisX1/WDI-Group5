@@ -31,7 +31,7 @@ public class ReleaseDateFuserFavourSource extends AttributeValueFuser<LocalDateT
 
     @Override
     public void fuse(RecordGroup<Game, Attribute> group, Game fusedRecord, Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
-        FusedValue<LocalDateTime, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
+    	FusedValue<LocalDateTime, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
         fusedRecord.setReleaseDate(fused.getValue());
         fusedRecord.setAttributeProvenance(Game.RELEASEDATE, fused.getOriginalIds());
     }

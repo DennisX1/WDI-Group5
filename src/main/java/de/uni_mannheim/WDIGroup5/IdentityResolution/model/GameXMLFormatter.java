@@ -27,8 +27,10 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
         game.appendChild(createTextElementWithProvenance("GameTitle",record.getGameTitle(), record.getMergedAttributeProvenance(Game.GAMETITLE), document));
         game.appendChild(createTextElementWithProvenance("Genre",record.getGenre(), record.getMergedAttributeProvenance(Game.GENRE), document));
         game.appendChild(createTextElementWithProvenance("Platform",record.getPlatform(), record.getMergedAttributeProvenance(Game.PLATFORM), document));
-        game.appendChild(createTextElementWithProvenance("ReleaseDate",record.getReleaseDate().toString(), record.getMergedAttributeProvenance(Game.RELEASEDATE), document));
-        
+		if(record.getReleaseDate()!=null) {
+			game.appendChild(createTextElementWithProvenance("ReleaseDate",record.getReleaseDate().toString(), record.getMergedAttributeProvenance(Game.RELEASEDATE), document));
+		}
+			
         game.appendChild(createPublisherElement(record, document));
         game.appendChild(createSaleElement(record, document));
 

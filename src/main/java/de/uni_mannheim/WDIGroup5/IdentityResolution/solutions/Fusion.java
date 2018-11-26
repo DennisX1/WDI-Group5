@@ -60,10 +60,10 @@ public class Fusion {
 
         // Maintain Provenance
         // Scores (e.g. from rating)
-        ds1.setScore(1.0);
-        ds2.setScore(2.0);
-        ds3.setScore(3.0);
-        ds4.setScore(4.0);
+        //ds1.setScore(2.0);
+        //ds2.setScore(2.0);
+        ds3.setScore(1.0);
+        //ds4.setScore(2.0);
 
 
           //Date (e.g. last update)
@@ -83,11 +83,11 @@ public class Fusion {
         System.out.println("*\n*\tLoading correspondences\n*");
         CorrespondenceSet<Game, Attribute> correspondences = new CorrespondenceSet<>();
         //correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds1);
-        //correspondences.loadCorrespondences(new File("data/correspondences/GList_VGA_correspondences.csv"),ds1, ds4);
         correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
         //correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3, ds2);
         //correspondences.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds4, ds2);
         correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_T1000_VGA_correspondences.csv"),ds3, ds4);
+        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_VGA_correspondences.csv"),ds4, ds1);
 
 
         // write group size distribution
@@ -111,7 +111,7 @@ public class Fusion {
         // add attribute fusers
         strategy.addAttributeFuser(Game.GAMETITLE, new TitleFuserVoting(),new GameTitleEvaluationRule());
         strategy.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
-        strategy.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserVoting(),new ReleaseDateEvaluationRule());
+        strategy.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserFavourSource(),new ReleaseDateEvaluationRule());
         strategy.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
         strategy.addAttributeFuser(Game.PUBLISHER, new PublisherFuserShortestString(),new PublisherEvaluationRule());
         strategy.addAttributeFuser(Game.SALES, new SaleFuserAverage(),new SaleEvaluationRule());

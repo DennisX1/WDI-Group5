@@ -139,7 +139,7 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
         else if (attribute == RELEASEDATE)
             return getReleaseDate() != null;
         else if (attribute == PLATFORM)
-            return getPlatform() != null && getPlatform().isEmpty();
+            return getPlatform() != null && !getPlatform().isEmpty();
         else if (attribute == PUBLISHER)
             return getPublisher() != null && !getPublisher().getPublisherName().isEmpty();
         else if (attribute == SALES)

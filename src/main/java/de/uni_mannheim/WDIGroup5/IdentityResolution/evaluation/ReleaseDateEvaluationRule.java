@@ -19,21 +19,30 @@ public class ReleaseDateEvaluationRule extends EvaluationRule <Game, Attribute>{
 			return true;
 		else if(record1.getReleaseDate()==null ^ record2.getReleaseDate()==null)
 			return false;
-		else
-			//Returns only true, if Year, Month and Day is equal!
+		else {
+			//Returns only true, if Year, Month and Day is equal! (Sometimes date and month are switched)
+			
+			System.out.println(("" + record1.getIdentifier()));
+			System.out.println(("" + record2.getIdentifier()));
+			System.out.println(("" + record1.getReleaseDate().getYear() + "  " + record2.getReleaseDate().getYear()));
+			System.out.println(("" + record1.getReleaseDate().getMonthValue() + "  " + record2.getReleaseDate().getMonthValue()));
+			System.out.println(("" + record1.getReleaseDate().getDayOfMonth() + "  " + record2.getReleaseDate().getDayOfMonth()));
+
+			
 			return (
 					(record1.getReleaseDate().getYear() == record2.getReleaseDate().getYear()) 
-				   && (record1.getReleaseDate().getMonth() == record2.getReleaseDate().getMonth())
-				   && (record1.getReleaseDate().getDayOfMonth() == record2.getReleaseDate().getDayOfMonth())			
-			);
-			
-		
+				   && (record1.getReleaseDate().getMonthValue() == record2.getReleaseDate().getMonthValue())
+				   && (record1.getReleaseDate().getDayOfMonth() == record2.getReleaseDate().getDayOfMonth())	
+				   || (record1.getReleaseDate().getYear() == record2.getReleaseDate().getYear()) 
+				   && (record1.getReleaseDate().getMonthValue() == record2.getReleaseDate().getDayOfMonth())
+				   && (record1.getReleaseDate().getDayOfMonth() == record2.getReleaseDate().getMonthValue())
+			);		
+		}
 	}
 
 	@Override
 	public boolean isEqual(Game record1, Game record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		// TODO Auto-generated method stub
-		return false;
+		return isEqual(record1, record2, (Attribute)null);
 	}
 
 	
