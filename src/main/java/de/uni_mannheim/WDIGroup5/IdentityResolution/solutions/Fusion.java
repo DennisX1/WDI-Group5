@@ -114,7 +114,7 @@ public class Fusion {
         strategy.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserVoting(),new ReleaseDateEvaluationRule());
         strategy.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
         strategy.addAttributeFuser(Game.PUBLISHER, new PublisherFuserShortestString(),new PublisherEvaluationRule());
-        strategy.addAttributeFuser(Game.SALE, new SaleFuserAverage(),new SaleEvaluationRule());
+        strategy.addAttributeFuser(Game.SALES, new SaleFuserAverage(),new SaleEvaluationRule());
 
 
         // create the fusion engine
@@ -130,6 +130,7 @@ public class Fusion {
         System.out.println("*\n*\tRunning data fusion\n*");
         FusibleDataSet<Game, Attribute> fusedDataSet = engine.run(correspondences, null);
 
+        /*
         System.out.println(fusedDataSet.getRandomRecord());
         System.out.println(fusedDataSet.getRandomRecord().getGameTitle());
         System.out.println(fusedDataSet.getRandomRecord().getPublisher().getPublisherName());
@@ -137,7 +138,7 @@ public class Fusion {
         System.out.println(fusedDataSet.getRandomRecord().getReleaseDate());
         System.out.println(fusedDataSet.getRandomRecord().getSales().getJapanSales());
         System.out.println(fusedDataSet.getRandomRecord().getPlatform());
-
+        */
       
         // write the result
         new GameXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);

@@ -35,7 +35,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 		dataset.addAttribute(Game.PLATFORM);
 		dataset.addAttribute(Game.RELEASEDATE);
 		dataset.addAttribute(Game.PUBLISHER);
-		dataset.addAttribute(Game.SALE);
+		dataset.addAttribute(Game.SALES);
 
 		
 	}

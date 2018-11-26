@@ -24,7 +24,7 @@ public class SaleFuserAverage extends AttributeValueFuser<Double, Game, Attribut
 
     @Override
     public boolean hasValue(Game record, Correspondence<Attribute, Matchable> correspondence) {
-        return record.hasValue(Game.SALE);
+        return record.hasValue(Game.SALES);
     }
 
     @Override
@@ -34,7 +34,7 @@ public class SaleFuserAverage extends AttributeValueFuser<Double, Game, Attribut
 
     @Override
     public void fuse(RecordGroup<Game, Attribute> group, Game fusedRecord, Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
-        FusedValue<Double, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
+    	FusedValue<Double, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
         fusedRecord.setSales(new Sale(fusedRecord.getIdentifier(), fusedRecord.getProvenance()));
         if(fused.getValue() != null) {
             fusedRecord.getSales().setJapanSales(fused.getValue());
@@ -44,10 +44,8 @@ public class SaleFuserAverage extends AttributeValueFuser<Double, Game, Attribut
 
         }
         
-        if(fused.getOriginalIds() != null) {
-        	fusedRecord.setAttributeProvenance(Game.SALE, fused.getOriginalIds());        
-        }
-        //fusedRecord.setAttributeProvenance(Game.SALE, fused.getOriginalIds());
+    	fusedRecord.setAttributeProvenance(Game.SALES, group.getRecordIds());
+
     }	
 	
 }

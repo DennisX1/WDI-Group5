@@ -127,7 +127,7 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
     public static final Attribute PLATFORM = new Attribute("Platform");
     public static final Attribute RELEASEDATE = new Attribute("ReleaseDate");
     public static final Attribute PUBLISHER = new Attribute("Publisher");
-    public static final Attribute SALE = new Attribute("Sale");
+    public static final Attribute SALES = new Attribute("Sales");
 
 
     @Override
@@ -142,7 +142,7 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
             return getPlatform() != null && getPlatform().isEmpty();
         else if (attribute == PUBLISHER)
             return getPublisher() != null && !getPublisher().getPublisherName().isEmpty();
-        else if (attribute == SALE)
+        else if (attribute == SALES)
             return getSales() != null && getSales().getJapanSales() != 0;
         else
             return false;
