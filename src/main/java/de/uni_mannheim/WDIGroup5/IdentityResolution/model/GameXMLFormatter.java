@@ -1,6 +1,12 @@
 package de.uni_mannheim.WDIGroup5.IdentityResolution.model;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
+
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.temporal.ChronoField;
+import java.util.Locale;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -18,6 +24,13 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
     public Element createElementFromRecord(Game record, Document document) {
         Element game = document.createElement("Game");
         
+        DateTimeFormatter formatter = new DateTimeFormatterBuilder()
+                .appendPattern("yyyy-MM-dd")
+                .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
+                .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
+                .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
+                .toFormatter(Locale.ENGLISH);
+        
         //String elements from Game
         //System.out.println(record);
         //System.out.println(record.getGameTitle());
@@ -28,7 +41,7 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
         game.appendChild(createTextElementWithProvenance("Genre",record.getGenre(), record.getMergedAttributeProvenance(Game.GENRE), document));
         game.appendChild(createTextElementWithProvenance("Platform",record.getPlatform(), record.getMergedAttributeProvenance(Game.PLATFORM), document));
 		if(record.getReleaseDate()!=null) {
-			game.appendChild(createTextElementWithProvenance("ReleaseDate",record.getReleaseDate().toString(), record.getMergedAttributeProvenance(Game.RELEASEDATE), document));
+			game.appendChild(createTextElementWithProvenance("ReleaseDate",record.getReleaseDate().format(formatter), record.getMergedAttributeProvenance(Game.RELEASEDATE), document));
 		}
 			
         game.appendChild(createPublisherElement(record, document));
