@@ -35,13 +35,12 @@ public class SaleFuserAverage extends AttributeValueFuser<Double, Game, Attribut
     @Override
     public void fuse(RecordGroup<Game, Attribute> group, Game fusedRecord, Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
     	FusedValue<Double, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
-        fusedRecord.setSales(new Sale(fusedRecord.getIdentifier(), fusedRecord.getProvenance()));
-        if(fused.getValue() != null) {
+        //fusedRecord.setSales(new Sale(fusedRecord.getIdentifier(), fusedRecord.getProvenance()));
+        if(fused.getValue() != null && fusedRecord.getSales()!=null) {
             fusedRecord.getSales().setJapanSales(fused.getValue());
         }
         else {
-            fusedRecord.getSales().setJapanSales(0.0);
-
+            //fusedRecord.getSales().setJapanSales(0.0);
         }
         
     	fusedRecord.setAttributeProvenance(Game.SALES, group.getRecordIds());

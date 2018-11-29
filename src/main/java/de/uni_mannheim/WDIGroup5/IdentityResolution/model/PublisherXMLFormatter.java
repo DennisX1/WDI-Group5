@@ -20,21 +20,25 @@ public class PublisherXMLFormatter extends XMLFormatter<Publisher> {
 
         //Strings
         //publisher.appendChild(createTextElement("PublisherName",record.getPublisherName(),document));
-        publisher.appendChild(createTextElement("PublisherName",record.getPublisherName(),document));
-		if(record.getHeadQuarters()!=null) {
-			publisher.appendChild(createTextElement("HeadQuarters",record.getHeadQuarters(),document));
-		}
-		if(record.getNotableGamesPublished()!=null) {
-			publisher.appendChild(createTextElement("NotableGamesPublished",record.getNotableGamesPublished(),document));
-		}
-		if(record.getNotes()!=null) {
-			publisher.appendChild(createTextElement("Notes",record.getNotes(),document));
-		}
-		
-        //double
-		if(record.getEstablished()!=0) {
-			publisher.appendChild(createTextElement("Established", ((Integer) record.getEstablished()).toString(),document));
-		}
+		if(record != null) {
+	    	if(record.getPublisherName()!=null) {
+				publisher.appendChild(createTextElement("PublisherName",record.getPublisherName(),document));
+			}
+			if(record.getHeadQuarters()!=null) {
+				publisher.appendChild(createTextElement("HeadQuarters",record.getHeadQuarters(),document));
+			}
+			if(record.getNotableGamesPublished()!=null) {
+				publisher.appendChild(createTextElement("NotableGamesPublished",record.getNotableGamesPublished(),document));
+			}
+			if(record.getNotes()!=null) {
+				publisher.appendChild(createTextElement("Notes",record.getNotes(),document));
+			}
+			
+	        //double
+			if(record.getEstablished()!=0) {
+				publisher.appendChild(createTextElement("Established", ((Integer) record.getEstablished()).toString(),document));
+			}
+		}	
 			
         return publisher;
     }

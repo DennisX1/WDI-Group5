@@ -23,6 +23,7 @@ import java.util.Locale;
 
 
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 
@@ -45,9 +46,14 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 	@Override
     public Game createModelFromElement(Node node, String provenanceInfo) {
 
+		
+		// get all child nodes
+		NodeList children = node.getChildNodes();
+		
         String id = getValueFromChildElement(node, "ID");
-
+              
         Game game = new Game(id,provenanceInfo);
+        
         
         //Fill String attribute        
         game.setGameTitle(getValueFromChildElement(node,"GameTitle"));
@@ -64,6 +70,9 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
                     .parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
                     .parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
                     .toFormatter(Locale.ENGLISH);
+            if(date.endsWith("T00:00")) {
+            	date = date.replace("T00:00","");
+            }
             LocalDateTime dt = LocalDateTime.parse(date, formatter);
             game.setReleaseDate(dt);
         }
@@ -100,7 +109,7 @@ public class GameXMLReader extends XMLMatchableReader<Game, Attribute> {
 		//Get Sales Data
 		List<Sale> salesList = getObjectListFromChildElement(node, "Sales",
 					"JapanSales", new SaleXMLReader(), provenanceInfo);
-		if(salesList != null) {
+		if(salesList != null && !salesList.isEmpty()) {
 			game.setSales(salesList.get(0));
 
 		}		

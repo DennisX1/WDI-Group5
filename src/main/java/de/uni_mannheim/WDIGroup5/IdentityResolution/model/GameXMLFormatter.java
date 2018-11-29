@@ -36,7 +36,7 @@ public class GameXMLFormatter extends XMLFormatter<Game> {
         //System.out.println(record.getGameTitle());
         //System.out.println(record.getPublisher().getPublisherName());
         //System.out.println(record.getReleaseDate());
-        game.appendChild(createTextElement("id",record.getIdentifier(), document));
+        game.appendChild(createTextElement("ID",record.getIdentifier(), document));
         game.appendChild(createTextElementWithProvenance("GameTitle",record.getGameTitle(), record.getMergedAttributeProvenance(Game.GAMETITLE), document));
         game.appendChild(createTextElementWithProvenance("Genre",record.getGenre(), record.getMergedAttributeProvenance(Game.GENRE), document));
         game.appendChild(createTextElementWithProvenance("Platform",record.getPlatform(), record.getMergedAttributeProvenance(Game.PLATFORM), document));

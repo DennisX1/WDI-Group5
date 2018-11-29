@@ -81,18 +81,15 @@ public class Fusion {
 
         // load correspondences
         System.out.println("*\n*\tLoading correspondences\n*");
-        CorrespondenceSet<Game, Attribute> correspondences = new CorrespondenceSet<>();
-        //correspondences.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds1);
-        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
-        //correspondences.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3, ds2);
-        //correspondences.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds4, ds2);
-        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_T1000_VGA_correspondences.csv"),ds3, ds4);
-        correspondences.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_VGA_correspondences.csv"),ds4, ds1);
+        CorrespondenceSet<Game, Attribute> correspondences_game = new CorrespondenceSet<>();
+        correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
+        correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_T1000_VGA_correspondences.csv"),ds3, ds4);
+        correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_VGA_correspondences.csv"),ds4, ds1);
+        //correspondences_game.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds2);
 
-
+        
         // write group size distribution
-        correspondences.printGroupSizeDistribution();
-
+        correspondences_game.printGroupSizeDistribution();
 
         // load the gold standard
         System.out.println("*\n*\tEvaluating results\n*");
@@ -104,31 +101,33 @@ public class Fusion {
         }
 
         // define the fusion strategy
-        DataFusionStrategy<Game, Attribute> strategy = new DataFusionStrategy<>(new FusibleGameFactory());
+        DataFusionStrategy<Game, Attribute> strategy_game = new DataFusionStrategy<>(new FusibleGameFactory());
         // write debug results to file
-        strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
+        strategy_game.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
         // add attribute fusers
-        strategy.addAttributeFuser(Game.GAMETITLE, new TitleFuserVoting(),new GameTitleEvaluationRule());
-        strategy.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
-        strategy.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserFavourSource(),new ReleaseDateEvaluationRule());
-        strategy.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
-        strategy.addAttributeFuser(Game.PUBLISHER, new PublisherFuserShortestString(),new PublisherEvaluationRule());
-        strategy.addAttributeFuser(Game.SALES, new SaleFuserAverage(),new SaleEvaluationRule());
+        strategy_game.addAttributeFuser(Game.GAMETITLE, new TitleFuserVoting(),new GameTitleEvaluationRule());
+        strategy_game.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
+        strategy_game.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserFavourSource(),new ReleaseDateEvaluationRule());
+        strategy_game.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
+        strategy_game.addAttributeFuser(Game.SALES, new SaleFuserVotingAverage(),new SaleEvaluationRule());
+        strategy_game.addAttributeFuser(Game.PUBLISHER, new PublisherFuserFavorSource(),new PublisherEvaluationRule());
 
-
+        
         // create the fusion engine
-        DataFusionEngine<Game, Attribute> engine = new DataFusionEngine<>(strategy);
+        DataFusionEngine<Game, Attribute> engine_game = new DataFusionEngine<>(strategy_game);
 
+        
         // print consistency report
-        engine.printClusterConsistencyReport(correspondences, null);
+        engine_game.printClusterConsistencyReport(correspondences_game, null);
 
         // print record groups sorted by consistency
-        engine.writeRecordGroupsByConsistency(new File("data/output/recordGroupConsistencies.csv"), correspondences, null);
+        engine_game.writeRecordGroupsByConsistency(new File("data/output/recordGroupConsistencies_Game.csv"), correspondences_game, null);
 
+        
         // run the fusion
         System.out.println("*\n*\tRunning data fusion\n*");
-        FusibleDataSet<Game, Attribute> fusedDataSet = engine.run(correspondences, null);
+        FusibleDataSet<Game, Attribute> fusedDataSet_game = engine_game.run(correspondences_game, null);
 
         /*
         System.out.println(fusedDataSet.getRandomRecord());
@@ -141,15 +140,97 @@ public class Fusion {
         */
       
         // write the result
-        new GameXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);
+        new GameXMLFormatter().writeXML(new File("data/output/fused_game.xml"), fusedDataSet_game);
 
+        
         // evaluate
-        DataFusionEvaluator<Game, Attribute> evaluator = new DataFusionEvaluator<>(strategy);
+        DataFusionEvaluator<Game, Attribute> evaluator_game = new DataFusionEvaluator<>(strategy_game);
 
-        double accuracy = evaluator.evaluate(fusedDataSet, gs, null);
+        
+        double accuracy_game = evaluator_game.evaluate(fusedDataSet_game, gs, null);
 
-        System.out.println(String.format("Accuracy: %.2f", accuracy));
+        System.out.println(String.format("Accuracy: %.2f", accuracy_game));
 
+        
+        /*
 
+        
+        FusibleDataSet<Game, Attribute> ds_fused = new FusibleHashedDataSet<>();
+        new GameXMLReader().loadFromXML(new File("data/output/fused_game.xml"), "/Games/Game", ds_fused);
+        
+        FusibleDataSet<Game, Attribute> ds_fused_jpn = new FusibleHashedDataSet<>();
+        FusibleDataSet<Game, Attribute> ds_fused_gamelist = new FusibleHashedDataSet<>();
+        FusibleDataSet<Game, Attribute> ds_fused_vga = new FusibleHashedDataSet<>();
+
+        int counter = 0;
+        for(Game record : ds_fused.get()) {
+        	if(record.getIdentifier().contains("+")) {
+        		record.setIdentifier(record.getIdentifier().split("\\+")[0]);
+        	}
+        	else {
+                System.out.println(record.getIdentifier());
+        	}
+        	if(record.getIdentifier().contains("jpntop")) {
+        		ds_fused_jpn.add(record);
+        	}
+        	else if(record.getIdentifier().contains("Game_List")) {
+        		ds_fused_gamelist.add(record);
+        	}
+        	else if(record.getIdentifier().contains("vga")) {
+        		ds_fused_vga.add(record);
+        	}
+        	else {
+                System.out.println(record.getIdentifier());
+        	}
+        }
+
+      
+        CorrespondenceSet<Game, Attribute> correspondences_publisher = new CorrespondenceSet<>();
+        
+        if(ds_fused_jpn.size() != 0) {
+            System.out.println(ds_fused_jpn.size());
+            System.out.println(ds_fused_jpn.getRandomRecord());
+            System.out.println(ds_fused_jpn.getRandomRecord().getGameTitle());
+            System.out.println(ds_fused_jpn.getRandomRecord().getIdentifier());
+            //System.out.println(ds_fused_jpn.getNumberOfValues(ds_fused_jpn.getRandomRecord()));
+            //ds_fused_jpn.printDataSetDensityReport();
+            correspondences_publisher.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds_fused_jpn, ds2);
+        }
+        
+        if(ds_fused_gamelist.size() != 0) {
+            System.out.println(ds_fused_gamelist.size());
+            //ds_fused_gamelist.printDataSetDensityReport();
+            correspondences_publisher.loadCorrespondences(new File("data/correspondences/GList_Publisher_correspondences.csv"),ds2, ds_fused_gamelist);
+        }
+        
+        if(ds_fused_vga.size() != 0) {
+            System.out.println(ds_fused_vga.size());
+            //ds_fused_vga.printDataSetDensityReport();
+            correspondences_publisher.loadCorrespondences(new File("data/correspondences/Pub_VGA_correspondences.csv"),ds_fused_vga, ds2);
+        }   
+        
+        correspondences_publisher.printGroupSizeDistribution();
+
+        DataFusionStrategy<Game, Attribute> strategy_publisher = new DataFusionStrategy<>(new FusibleGameFactory());
+        strategy_publisher.addAttributeFuser(Game.PUBLISHER, new PublisherFuserFavorSource(),new PublisherEvaluationRule());
+
+        DataFusionEngine<Game, Attribute> engine_publisher = new DataFusionEngine<>(strategy_publisher);
+        engine_publisher.printClusterConsistencyReport(correspondences_publisher, null);
+        engine_publisher.writeRecordGroupsByConsistency(new File("data/output/recordGroupConsistencies_Publisher.csv"), correspondences_publisher, null);
+   
+        FusibleDataSet<Game, Attribute> fusedDataSet_publisher = engine_publisher.run(correspondences_publisher, null);
+        new GameXMLFormatter().writeXML(new File("data/output/fused_with_publisher.xml"), fusedDataSet_publisher);
+        
+        DataFusionEvaluator<Game, Attribute> evaluator_publisher = new DataFusionEvaluator<>(strategy_publisher);
+        double accuracy_publisher = evaluator_publisher.evaluate(fusedDataSet_publisher, gs, null);
+
+        System.out.println(String.format("Accuracy: %.2f", accuracy_publisher));
+      
+        //System.out.println(ds_fused.size());
+        //System.out.println(ds_fused_jpn.size());
+        //System.out.println(ds_fused_gamelist.size());
+        //System.out.println(ds_fused_vga.size());
+        */
+        
     }
 }

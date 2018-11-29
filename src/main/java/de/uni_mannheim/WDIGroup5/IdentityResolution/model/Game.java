@@ -37,6 +37,10 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
     public String getIdentifier() {
         return super.id;
     }
+    
+    public void setIdentifier(String identifier) {
+        super.id = identifier;
+    }
 
     @Override
     public String getProvenance() {
@@ -141,7 +145,7 @@ public class Game extends AbstractRecord<Attribute> implements Serializable {
         else if (attribute == PLATFORM)
             return getPlatform() != null && !getPlatform().isEmpty();
         else if (attribute == PUBLISHER)
-            return getPublisher() != null && !getPublisher().getPublisherName().isEmpty();
+            return getPublisher() != null && getPublisher().getPublisherName() != null;
         else if (attribute == SALES)
             return getSales() != null && getSales().getJapanSales() != 0;
         else

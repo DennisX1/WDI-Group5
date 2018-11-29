@@ -13,16 +13,18 @@ public class SaleXMLFormatter extends XMLFormatter<Sale> {
 
     public Element createElementFromRecord(Element sale, Sale record, Document document) {
         //Element sale = document.createElement("Sales");
-        
-		if(record.getJapanSales()!=0) {
-			sale.appendChild(createTextElement("JapanSales", ("" + record.getJapanSales()), document));
-		}
-		if(record.getFirstWeekSales()!=0) {
-			sale.appendChild(createTextElement("FirstWeekSales", ("" + record.getFirstWeekSales()), document));
-		}
-		if(record.getPrice()!=0) {
-			sale.appendChild(createTextElement("Price", ("" + record.getPrice()), document));
-		}
+       
+    	if(record != null) {
+			if(record.getJapanSales()!=0) {
+				sale.appendChild(createTextElement("JapanSales", ("" + record.getJapanSales()), document));
+			}
+			if(record.getFirstWeekSales()!=0) {
+				sale.appendChild(createTextElement("FirstWeekSales", ("" + record.getFirstWeekSales()), document));
+			}
+			if(record.getPrice()!=0) {
+				sale.appendChild(createTextElement("Price", ("" + record.getPrice()), document));
+			}
+    	}
 
     	
     	return sale;
