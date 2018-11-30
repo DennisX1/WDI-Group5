@@ -85,8 +85,8 @@ public class Fusion {
         correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_T1000_correspondences.csv"),ds3, ds1);
         correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_T1000_VGA_correspondences.csv"),ds3, ds4);
         correspondences_game.loadCorrespondences(new File("data/correspondences/machine_learning_GLIST_VGA_correspondences.csv"),ds4, ds1);
-        //correspondences_game.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds2);
-
+        //correspondences_game.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3);
+        //correspondences_game.loadCorrespondences(new File("data/correspondences/Pub_T1000_correspondences.csv"),ds3, ds2);
         
         // write group size distribution
         correspondences_game.printGroupSizeDistribution();
@@ -109,7 +109,7 @@ public class Fusion {
         strategy_game.addAttributeFuser(Game.GAMETITLE, new TitleFuserVoting(),new GameTitleEvaluationRule());
         strategy_game.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
         strategy_game.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserFavourSource(),new ReleaseDateEvaluationRule());
-        strategy_game.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
+        strategy_game.addAttributeFuser(Game.PLATFORM, new PlatformFuserLongestString(),new PlatformEvaluationRule());
         strategy_game.addAttributeFuser(Game.SALES, new SaleFuserVotingAverage(),new SaleEvaluationRule());
         strategy_game.addAttributeFuser(Game.PUBLISHER, new PublisherFuserFavorSource(),new PublisherEvaluationRule());
 
@@ -151,9 +151,7 @@ public class Fusion {
 
         System.out.println(String.format("Accuracy: %.2f", accuracy_game));
 
-        
         /*
-
         
         FusibleDataSet<Game, Attribute> ds_fused = new FusibleHashedDataSet<>();
         new GameXMLReader().loadFromXML(new File("data/output/fused_game.xml"), "/Games/Game", ds_fused);
@@ -162,7 +160,6 @@ public class Fusion {
         FusibleDataSet<Game, Attribute> ds_fused_gamelist = new FusibleHashedDataSet<>();
         FusibleDataSet<Game, Attribute> ds_fused_vga = new FusibleHashedDataSet<>();
 
-        int counter = 0;
         for(Game record : ds_fused.get()) {
         	if(record.getIdentifier().contains("+")) {
         		record.setIdentifier(record.getIdentifier().split("\\+")[0]);
@@ -212,8 +209,13 @@ public class Fusion {
         correspondences_publisher.printGroupSizeDistribution();
 
         DataFusionStrategy<Game, Attribute> strategy_publisher = new DataFusionStrategy<>(new FusibleGameFactory());
+        strategy_publisher.addAttributeFuser(Game.GAMETITLE, new TitleFuserVoting(),new GameTitleEvaluationRule());
+        strategy_publisher.addAttributeFuser(Game.GENRE, new GenreFuserVoting(),new GenreEvaluationRule());
+        strategy_publisher.addAttributeFuser(Game.RELEASEDATE, new ReleaseDateFuserFavourSource(),new ReleaseDateEvaluationRule());
+        strategy_publisher.addAttributeFuser(Game.PLATFORM, new PlatformFuserVoting(),new PlatformEvaluationRule());
+        strategy_publisher.addAttributeFuser(Game.SALES, new SaleFuserVotingAverage(),new SaleEvaluationRule());
         strategy_publisher.addAttributeFuser(Game.PUBLISHER, new PublisherFuserFavorSource(),new PublisherEvaluationRule());
-
+        
         DataFusionEngine<Game, Attribute> engine_publisher = new DataFusionEngine<>(strategy_publisher);
         engine_publisher.printClusterConsistencyReport(correspondences_publisher, null);
         engine_publisher.writeRecordGroupsByConsistency(new File("data/output/recordGroupConsistencies_Publisher.csv"), correspondences_publisher, null);

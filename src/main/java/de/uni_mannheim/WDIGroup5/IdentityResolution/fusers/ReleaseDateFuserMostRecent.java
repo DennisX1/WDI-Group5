@@ -15,7 +15,6 @@ import java.time.LocalDateTime;
 public class ReleaseDateFuserMostRecent extends AttributeValueFuser<LocalDateTime, Game, Attribute> {
 
     public ReleaseDateFuserMostRecent() {
-
         super(new MostRecent<LocalDateTime, Game, Attribute>());
     }
 

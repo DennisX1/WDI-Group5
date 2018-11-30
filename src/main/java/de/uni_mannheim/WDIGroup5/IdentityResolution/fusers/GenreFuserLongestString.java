@@ -2,6 +2,7 @@ package de.uni_mannheim.WDIGroup5.IdentityResolution.fusers;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.datafusion.AttributeValueFuser;
+import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.LongestString;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.ShortestString;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.FusedValue;
@@ -10,10 +11,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-public class PlatformFuserShortestString extends AttributeValueFuser<String, Game, Attribute> {
+public class GenreFuserLongestString extends
+        AttributeValueFuser<String, Game, Attribute> {
 
-    public PlatformFuserShortestString() {
-        super(new ShortestString<Game, Attribute>());
+    public GenreFuserLongestString() {
+        super(new LongestString<Game, Attribute>());
     }
 
     @Override
@@ -23,19 +25,19 @@ public class PlatformFuserShortestString extends AttributeValueFuser<String, Gam
         FusedValue<String, Game, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 
         // set the value for the fused record
-        fusedRecord.setPlatform(fused.getValue());
+        fusedRecord.setGenre(fused.getValue());
 
         // add provenance info
-        fusedRecord.setAttributeProvenance(Game.PLATFORM, fused.getOriginalIds());
+        fusedRecord.setAttributeProvenance(Game.GENRE, fused.getOriginalIds());
     }
 
     @Override
     public boolean hasValue(Game record, Correspondence<Attribute, Matchable> correspondence) {
-        return record.hasValue(Game.PLATFORM);
+        return record.hasValue(Game.GENRE);
     }
 
     @Override
     public String getValue(Game record, Correspondence<Attribute, Matchable> correspondence) {
-        return record.getPlatform();
+        return record.getGenre();
     }
 }

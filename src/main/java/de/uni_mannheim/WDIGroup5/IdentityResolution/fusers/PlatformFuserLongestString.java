@@ -2,6 +2,7 @@ package de.uni_mannheim.WDIGroup5.IdentityResolution.fusers;
 
 import de.uni_mannheim.WDIGroup5.IdentityResolution.model.Game;
 import de.uni_mannheim.informatik.dws.winter.datafusion.AttributeValueFuser;
+import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.LongestString;
 import de.uni_mannheim.informatik.dws.winter.datafusion.conflictresolution.string.ShortestString;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.FusedValue;
@@ -10,10 +11,10 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 
-public class PlatformFuserShortestString extends AttributeValueFuser<String, Game, Attribute> {
+public class PlatformFuserLongestString extends AttributeValueFuser<String, Game, Attribute> {
 
-    public PlatformFuserShortestString() {
-        super(new ShortestString<Game, Attribute>());
+    public PlatformFuserLongestString() {
+        super(new LongestString<Game, Attribute>());
     }
 
     @Override

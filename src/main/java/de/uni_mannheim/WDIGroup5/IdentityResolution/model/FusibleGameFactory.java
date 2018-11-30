@@ -16,6 +16,8 @@ public class FusibleGameFactory implements FusibleFactory <Game,Attribute> {
 
         List<String> ids = new LinkedList<>();
 
+        
+        
         for (Game g : cluster.getRecords()) {
             ids.add(g.getIdentifier());
         }
