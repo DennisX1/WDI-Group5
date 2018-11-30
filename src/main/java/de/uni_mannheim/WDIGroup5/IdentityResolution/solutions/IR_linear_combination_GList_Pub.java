@@ -84,22 +84,8 @@ public class IR_linear_combination_GList_Pub {
         // Execute the matching
         System.out.println("*\n*\tRunning identity resolution\n*");
         Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);       
-       
-        // Testing Error Analysis ***** Does not work correctly!
-        // ErrorAnalysis analysis = new ErrorAnalysis();
-		// testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
-		
-        
-        // Optional!????
+	
 
-//        // Create a top-1 global matching
-//        //  correspondences = engine.getTopKInstanceCorrespondences(correspondences, 1, 0.0);
-//
-//        // Alternative: Create a maximum-weight, bipartite matching
-//        // MaximumBipartiteMatchingAlgorithm<Movie,Attribute> maxWeight = new MaximumBipartiteMatchingAlgorithm<>(correspondences);
-//        // maxWeight.run();
-//        // correspondences = maxWeight.getResult();
-//
 //        // write the correspondences to the output file
         new CSVCorrespondenceFormatter().writeCSV(new File("data/output/GList_Publisher_correspondences.csv"), correspondences);
 //

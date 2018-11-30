@@ -59,8 +59,8 @@ public class IR_linear_combination_GList_T1000 {
         //add comparators, Game Title, Publisher, JapanSales, GamePlatform, GameReleaseDate
         matchingRule.addComparator(new GameTitleComparatorJaccard(), 1.0);
         //matchingRule.addComparator(new GamePlatformComparatorEqual(), 0.2);
+       
         // create a blocker (blocking strategy)
-
         System.out.println("*\n*\tStandard Blocker: by title\n*");
 
         StandardRecordBlocker<Game, Attribute> blocker = new StandardRecordBlocker<Game, Attribute>(new BlockingByGameTitleGenerator());

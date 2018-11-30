@@ -33,8 +33,19 @@ public class ErrorAnalysis {
 				
 				// print both records to the console
 				logger.info("[Incorrect Correspondence]");
-				logger.info(String.format("\t%s", g1));	
-				logger.info(String.format("\t%s", g2));	
+			
+				if (g1 == null) {
+					logger.info(String.format("\t%s", "null"));	
+				} else {
+					logger.info(String.format("\t%s", g1.getIdentifier()+ " / " + g1.getGameTitle()));	
+				}
+				if (g2 == null) {
+					logger.info(String.format("\t%s", "null"));	
+				} else {
+					logger.info(String.format("\t%s", g2.getIdentifier() + " / " + g2.getGameTitle()));	
+				}
+			
+			
 			}
 		}		
 	}
@@ -73,8 +84,9 @@ public class ErrorAnalysis {
 			// get the first record
 			Game g1 = ds1.getRecord(p.getFirst());
 			if(g1==null) {
-				g1 = ds2.getRecord("publisher_id_2");
+				g1 = ds2.getRecord(p.getFirst());
 			}
+			
 			
 			// get the second record
 			Game g2 = ds1.getRecord(p.getSecond());
@@ -95,6 +107,7 @@ public class ErrorAnalysis {
 			} else {
 				logger.info(String.format("\t%s", g2.getIdentifier() + " / " + g2.getGameTitle()));	
 			}
+
 			
 		}
 	}

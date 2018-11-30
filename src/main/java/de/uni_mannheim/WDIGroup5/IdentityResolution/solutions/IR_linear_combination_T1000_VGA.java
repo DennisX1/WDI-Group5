@@ -106,9 +106,9 @@ public class IR_linear_combination_T1000_VGA {
 		Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null,
 				rule, blocker);
 
-		// Testing Error Analysis ***** Does not work correctly!
-//		ErrorAnalysis analysis = new ErrorAnalysis();
-//		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
+		// Testing Error Analysis 
+		ErrorAnalysis analysis = new ErrorAnalysis();
+		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
 
 		// Optional!????
 

@@ -82,10 +82,6 @@ public class IR_linear_combination_Pub_VGA {
         System.out.println("*\n*\tRunning identity resolution\n*");
         Processable<Correspondence<Game, Attribute>> correspondences = engine.runIdentityResolution(ds1, ds2, null, rule, blocker);
 
-     // Testing Error Analysis ***** Does not work correctly!
-//         ErrorAnalysis analysis = new ErrorAnalysis();
-//  		testErrorAnalysis(analysis, correspondences, ds1, ds2, rule, gsTest);
-
         // Optional!????
 
 //        // Create a top-1 global matching
