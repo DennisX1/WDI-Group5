@@ -25,18 +25,18 @@ public class PublisherXMLFormatter extends XMLFormatter<Publisher> {
 				publisher.appendChild(createTextElement("PublisherName",record.getPublisherName(),document));
 			}
 			if(record.getHeadQuarters()!=null) {
-				publisher.appendChild(createTextElement("HeadQuarters",record.getHeadQuarters(),document));
+				//publisher.appendChild(createTextElement("HeadQuarters",record.getHeadQuarters(),document));
 			}
 			if(record.getNotableGamesPublished()!=null) {
-				publisher.appendChild(createTextElement("NotableGamesPublished",record.getNotableGamesPublished(),document));
+				//publisher.appendChild(createTextElement("NotableGamesPublished",record.getNotableGamesPublished(),document));
 			}
 			if(record.getNotes()!=null) {
-				publisher.appendChild(createTextElement("Notes",record.getNotes(),document));
+				//publisher.appendChild(createTextElement("Notes",record.getNotes(),document));
 			}
 			
 	        //double
 			if(record.getEstablished()!=0) {
-				publisher.appendChild(createTextElement("Established", ((Integer) record.getEstablished()).toString(),document));
+				//publisher.appendChild(createTextElement("Established", ((Integer) record.getEstablished()).toString(),document));
 			}
 		}	
 			
